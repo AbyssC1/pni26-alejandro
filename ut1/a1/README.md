@@ -23,37 +23,24 @@
      Ventajas de Topología anillo
       
      *Simplicidad de arquitectura. 
-     
      *Facilidad de configuración. 
-     
      *Facilidad de fluidez de datos.
-    
+     
       Ventajas de Topología en estrella
-      
      *Tiene los medios para prevenir problemas. 
-     
      *Si una PC se desconecta o se rompe el cable solo queda fuera de la red esa PC. 
-     
      *Fácil de agregar, reconfigurar arquitectura PC. 
-     
      *Fácil de prevenir daños o conflictos. 
-     
      *Permite que todos los nodos se comuniquen entre sí de manera conveniente.
-     
      *El mantenimiento resulta más económico y fácil que la topología.
      
      Ventajas de Topología en malla
      
      *Es posible llevar los mensajes de un nodo a otro por diferentes caminos. 
-     
      *No puede existir absolutamente ninguna interrupción en las comunicaciones.
-     
      *Cada servidor tiene sus propias comunicaciones con todos los demás servidores.
-     
      *Si falla un cable el otro se hará cargo del trafico. 
-     
      *No requiere un nodo o servidor central lo que reduce el mantenimiento. 
-     
      *Si un nodo desaparece o falla no afecta en absoluto a los demás nodos.
      
 
