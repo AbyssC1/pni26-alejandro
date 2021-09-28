@@ -12,7 +12,7 @@
 
 7. Para cada tipo de topología de red, indique las implicaciones de que exista un fallo de un único cable.
 
-8. ¿Qué es una internet? ¿Qué es Internet?
+8. ¿Qué es una intranet? ¿Qué es Internet?
 
 9. ¿Qué topología necesita un controlador central o un concentrador?
 
