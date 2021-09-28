@@ -46,6 +46,21 @@
      
 
 3. ¿Cuáles son los factores que determinan que un sistema de comunicación sea una LAN, MAN o WAN?
+     Red LAN
+     
+     Se trata de un tipo de red muy común y muy usado que conecta un grupo de ordenadores o dispositivos ubicados en una misma estancia para compartir información      y recursos.
+     
+     Red MAN
+     
+     Son redes más grandes y que abarcan más que las LAN y que las CAN. Este tipo de redes abarcan un área geográfica determinada, normalmente un pueblo o ciudad
+     Su mantenimiento e instalación corre a cargo de una empresa o del propio ayuntamiento.
+     
+     Red WAN
+     
+     Las redes WAN son las que conectan los ordenadores que se encuentran a distancias físicas considerables
+     Permiten que los dispositivos se conecten de forma remota entre sí a través de una gran red para comunicarse incluso cuando están a kilómetros de distancia
+     Internet es el ejemplo más básico de una WAN, que conecta todos los dispositivos con acceso a él a lo largo y ancho del mundo.
+     
 
 4. Enumere las cinco topologías básicas de red.
 
