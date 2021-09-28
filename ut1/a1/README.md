@@ -6,12 +6,18 @@
 
    *Una conexión dúplex total es una conexión en la que los datos fluyen simultáneamente en ambas direcciones. Así, cada extremo de la conexión puede transmitir y     recibir al mismo tiempo; esto significa que el ancho de banda se divide en dos para cada dirección de la transmisión de datos si es que se está utilizando el     mismo medio de transmisión para ambas direcciones de la transmisión.
 
-2. Indique las ventajas de cada tipo de topología de red.
+2. Indique las ventajas de cada tipo de topología de red. 
       Ventajas de Topología de Árbol 
-    * El Hub central al retransmitir las señales amplifica la potencia e incrementa la distancia a la que puede viajar la señ                                         * Se permite conectar más dispositivos gracias a la inclusión de concentradores secundarios. 
-    * Permite priorizar y aislar las comunicaciones de distintas computadoras. 
-    * Cableado punto a punto para segmentos individuales. 
-    * Soportado por multitud de vendedores de software y de hardware.                                             
+      
+     *El Hub central al retransmitir las señales amplifica la potencia e incrementa la distancia a la que puede viajar la señ                                          *Se permite conectar más dispositivos gracias a la inclusión de concentradores secundarios. 
+     *Permite priorizar y aislar las comunicaciones de distintas computadoras. 
+     *Cableado punto a punto para segmentos individuales. 
+     *Soportado por multitud de vendedores de software y de hardware.
+     
+      Ventajas de Topología bus
+      
+    * Facilidad de implementación y crecimiento. 
+    * Simplicidad en la arquitectura. 
   
 
 3. ¿Cuáles son los factores que determinan que un sistema de comunicación sea una LAN, MAN o WAN?
