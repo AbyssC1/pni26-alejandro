@@ -1,5 +1,11 @@
 1. Defina los tres modos de transmisión.
 
+*Una conexión simple, es una conexión en la que los datos fluyen en una sola dirección, desde el transmisor hacia el receptor. Este tipo de conexión es útil si los datos no necesitan fluir en ambas direcciones (por ejemplo: desde el equipo hacia la impresora o desde el ratón hacia el equipo.).
+
+*Una conexión semidúplex (a veces denominada una conexión alternativa o semi-dúplex) es una conexión en la que los datos fluyen en una u otra dirección, pero no las dos al mismo tiempo. Con este tipo de conexión, cada extremo de la conexión transmite uno después del otro. Este tipo de conexión hace posible tener una comunicación bidireccional utilizando toda la capacidad de la línea.
+
+*Una conexión dúplex total es una conexión en la que los datos fluyen simultáneamente en ambas direcciones. Así, cada extremo de la conexión puede transmitir y recibir al mismo tiempo; esto significa que el ancho de banda se divide en dos para cada dirección de la transmisión de datos si es que se está utilizando el mismo medio de transmisión para ambas direcciones de la transmisión.
+
 2. Indique las ventajas de cada tipo de topología de red.
 
 3. ¿Cuáles son los factores que determinan que un sistema de comunicación sea una LAN, MAN o WAN?
