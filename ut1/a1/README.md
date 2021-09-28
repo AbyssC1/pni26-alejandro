@@ -16,8 +16,8 @@
      
       Ventajas de Topología bus
       
-    * Facilidad de implementación y crecimiento. 
-    * Simplicidad en la arquitectura. 
+     *Facilidad de implementación y crecimiento. 
+     *Simplicidad en la arquitectura. 
   
 
 3. ¿Cuáles son los factores que determinan que un sistema de comunicación sea una LAN, MAN o WAN?
