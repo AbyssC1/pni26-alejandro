@@ -91,9 +91,30 @@
       
       6)Desventaja de topología Hibrida: La cantidad de cableado requerido es superior a cualquier otra topología.
 
-6. Para una red con un dispositivos, ¿cuál es el número de enlaces de cable necesarios para una malla, un anillo, un bus y una topología en estrella?
+6. Para una red con n dispositivos, ¿cuál es el número de enlaces de cable necesarios para una malla, un anillo, un bus y una topología en estrella?
+   
+      El número de enlaces para cada uno de los siguientes tipos de red es: 
+      
+      1)Bus: Un cable que actúa como red troncal (backbone) and n líneas de 
+      conexión (drop lines) que conectan el dispositivo al cable principal.
+      
+      2)Malla: n (n – 1) / 2
+      
+      3)Estrella: n 
+      
+      4)Anillo: n 
 
 7. Para cada tipo de topología de red, indique las implicaciones de que exista un fallo de un único cable.
+
+      1)Bus: Un fallo o rotura en el cable interrumpe todas las transmisiones. 
+
+      2)Malla: Si falla un cable no afecta la conexión con los demás dispositivos. 
+
+      3)Estrella: Si falla un cable solamente ese enlace se verá afectado. 
+
+      4)Anillo: Los fallos se pueden aislar de forma sencilla.
+
+      5)Árbol: Si falla un enlace puede dañar a varios dispositivos.
 
 8. ¿Qué es una intranet? ¿Qué es Internet?
 
