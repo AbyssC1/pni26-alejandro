@@ -28,16 +28,16 @@
      
       Ventajas de Topología en estrella
       
-     ºTiene los medios para prevenir problemas. 
-     ºSi una PC se desconecta o se rompe el cable solo queda fuera de la red esa PC. 
-     ºFácil de agregar, reconfigurar arquitectura PC. 
-     ºFácil de prevenir daños o conflictos. 
-     ºPermite que todos los nodos se comuniquen entre sí de manera conveniente.
+     ºTiene los medios para prevenir problemas.  
+     ºSi una PC se desconecta o se rompe el cable solo queda fuera de la red esa     
+     ºFácil de agregar, reconfigurar arquitectura PC.     
+     ºFácil de prevenir daños o conflictos.     
+     ºPermite que todos los nodos se comuniquen entre sí de manera conveniente.  
      ºEl mantenimiento resulta más económico y fácil que la topología.
      
      Ventajas de Topología en malla
      
-     ºEs posible llevar los mensajes de un nodo a otro por diferentes caminos. 
+     ºEs posible llevar los mensajes de un nodo a otro por diferentes caminos.
      ºNo puede existir absolutamente ninguna interrupción en las comunicaciones.
      ºCada servidor tiene sus propias comunicaciones con todos los demás servidores.
      ºSi falla un cable el otro se hará cargo del trafico. 
@@ -80,10 +80,15 @@
 5. Indique una desventaja de cada tipo de topología de red.
       
       1)Desventaja de topología Bus: Un problema en el canal usualmente degrada toda la red.
+      
       2)Desventaja de topología Arbol: Si se llegara a desconectar un nodo, todos los que están conectados a él se desconectan también.
+      
       3)Desventaja de topología Anillo: Es que la ruptura en la conexión de un dispositivo, tira toda la red.
+      
       4)Desventaja de topología Estrella:Si el hub (repetidor) o switch central falla, toda la red deja de transmitir.
+      
       5)Desventaja de topología Malla: Es que el costo de la red puede verse aumentado si esta se utiliza de forma inalámbrica, dado que en este caso se necesitan       muchos más recursos para que sea una vía comunicacional eficaz.
+      
       6)Desventaja de topología Hibrida: La cantidad de cableado requerido es superior a cualquier otra topología.
 
 6. Para una red con n dispositivos, ¿cuál es el número de enlaces de cable necesarios para una malla, un anillo, un bus y una topología en estrella?
