@@ -70,9 +70,20 @@
       
       3)Topología en anillo: Es un tipo de topología de red simple, en donde las estaciones de trabajo o computadoras, se encuentran conectadas entre sí en forma       de un anillo, es decir, forman un círculo entre ellas. La información viaja en un solo sentido, por lo tanto, que si un nodo deja de funcionar se cae la red       o deja de abastecer información a las demás computadoras que se encuentran dentro del anillo, por lo tanto, es poco eficaz.
       
-      4)Topología en estrella: 
+      4)Topología en estrella: Es una red de computadoras donde las estaciones están conectadas directamente a un punto central y todas las comunicaciones se           hacen necesariamente a través de ese punto (conmutador, repetidor o concentrador). Los dispositivos no están directamente conectados entre sí, además de que       no se permite tanto tráfico de información. Dada su transmisión, una red en estrella activa tiene un nodo central “activo” que normalmente tiene los medios       para prevenir problemas relacionados con el eco. 
+      
+      5)Topología en Malla: Es definida como topología de trama. Se trata de un arreglo de interconexión de nodos (terminales) entre sí, realizando la figura de         una malla o trama. Es una topología muy utilizada entre las redes WAN o de área amplia. Su importancia radica en que la información puede viajar en               diferentes caminos, de manera que si llegara a fallar un nodo, se puede seguir intercambiando información sin inconveniente alguno entre los nodos.
+      
+      6)Topologìa hibrida: Es una combinación de dos o más topologías de red diferentes, para adaptar la red a las necesidades del cliente. De este modo, podemos       combinar las topologías que deseemos, obteniendo infinitas variedades, las cuales, deben ajustarse a la estructura física del lugar en donde estará la red y       los equipos que estarán conectados en dicha red.
 
 5. Indique una desventaja de cada tipo de topología de red.
+      
+      1)Desventaja de topología Bus: Un problema en el canal usualmente degrada toda la red.
+      2)Desventaja de topología Arbol: Si se llegara a desconectar un nodo, todos los que están conectados a él se desconectan también.
+      3)Desventaja de topología Anillo: Es que la ruptura en la conexión de un dispositivo, tira toda la red.
+      4)Desventaja de topología Estrella:Si el hub (repetidor) o switch central falla, toda la red deja de transmitir.
+      5)Desventaja de topología Malla: Es que el costo de la red puede verse aumentado si esta se utiliza de forma inalámbrica, dado que en este caso se necesitan       muchos más recursos para que sea una vía comunicacional eficaz.
+      6)Desventaja de topología Hibrida: La cantidad de cableado requerido es superior a cualquier otra topología.
 
 6. Para una red con n dispositivos, ¿cuál es el número de enlaces de cable necesarios para una malla, un anillo, un bus y una topología en estrella?
 
