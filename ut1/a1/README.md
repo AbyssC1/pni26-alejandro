@@ -22,9 +22,9 @@
       
      Ventajas de Topología anillo
       
-     ºSimplicidad de arquitectura. 
-     ºFacilidad de configuración. 
-     ºFacilidad de fluidez de datos.
+     ºSimplicidad de arquitectura.                                                                                                                
+     ºFacilidad de configuración.                         
+     ºFacilidad de fluidez de datos.         
      
       Ventajas de Topología en estrella
       
@@ -46,7 +46,7 @@
      
 
 3. ¿Cuáles son los factores que determinan que un sistema de comunicación sea una LAN, MAN o WAN?
-4. 
+ 
      Red LAN
      
      Se trata de un tipo de red muy común y muy usado que conecta un grupo de ordenadores o dispositivos ubicados en una misma estancia para compartir información      y recursos.
@@ -91,7 +91,7 @@
       
       6)Desventaja de topología Hibrida: La cantidad de cableado requerido es superior a cualquier otra topología.
 
-6. Para una red con n dispositivos, ¿cuál es el número de enlaces de cable necesarios para una malla, un anillo, un bus y una topología en estrella?
+6. Para una red con un dispositivos, ¿cuál es el número de enlaces de cable necesarios para una malla, un anillo, un bus y una topología en estrella?
 
 7. Para cada tipo de topología de red, indique las implicaciones de que exista un fallo de un único cable.
 
