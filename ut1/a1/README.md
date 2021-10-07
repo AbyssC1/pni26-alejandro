@@ -1,4 +1,4 @@
-1. Defina los tres modos de transmisión.
+1. Defina los tres modos de transmisión
 
    ºUna conexión simple, es una conexión en la que los datos fluyen en una sola dirección, desde el transmisor hacia el receptor. Este tipo de conexión es útil si     los datos no necesitan fluir en ambas direcciones (por ejemplo: desde el equipo hacia la impresora o desde el ratón hacia el equipo.).
 
@@ -6,7 +6,7 @@
 
    ºUna conexión dúplex total es una conexión en la que los datos fluyen simultáneamente en ambas direcciones. Así, cada extremo de la conexión puede transmitir y     recibir al mismo tiempo; esto significa que el ancho de banda se divide en dos para cada dirección de la transmisión de datos si es que se está utilizando el     mismo medio de transmisión para ambas direcciones de la transmisión.
 
-2. Indique las ventajas de cada tipo de topología de red. 
+2. Indique las ventajas de cada tipo de topología de red
      
      Ventajas de Topología de Árbol 
       
@@ -118,9 +118,15 @@
 
 8. ¿Qué es una intranet? ¿Qué es Internet?
 
+      Intranet: Es un mecanismo de comunicación pero a un rango más corto, muy similar a la de internet que abarca el mundo entero; esta herramienta no solo sirve       para estimular la comunicación en la organización, además es implementada por los gerentes para verificar el desenvolvimiento de cada departamento.
+      
+      Internet: Es una red de redes que permite la interconexión descentralizada de computadoras a través de un conjunto de protocolos denominado TCP/IP. Tuvo sus       orígenes en 1969, cuando una agencia del Departamento de Defensa de los Estados Unidos comenzó a buscar alternativas ante una eventual guerra atómica que         pudiera incomunicar a las personas. 
+
 9. ¿Qué topología necesita un controlador central o un concentrador?
 
-10. La comunicación entre una computadora y un teclado implica una transmisión _________
+      La Topología en Estrella
+      
+10. La comunicación entre una computadora y un teclado implica una transmisión SIMPLEX
 
 11. En una red con 25 computadoras, ¿qué topología necesitaría el cableado más extenso?
 
