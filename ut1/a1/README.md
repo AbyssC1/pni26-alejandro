@@ -66,9 +66,11 @@
   
       1)Topología Bus: Es un multipunto. Un cable largo actúa como una red troncal que conecta todos los dispositivos en la red. Este cable provee un camino para       las señales eléctricas que es común para todos los dispositivos conectados y transporta todas las transmisiones entre los dispositivos.
      
-      2)Topología Arbol:Es una topología de red en la que los nodos están colocados en forma de árbol. la conexión en árbol es parecida a una serie de redes en         estrella interconectadas salvo en que no tiene un nodo central.
+      2)Topología Arbol: Es una topología de red en la que los nodos están colocados en forma de árbol. la conexión en árbol es parecida a una serie de redes en         estrella interconectadas salvo en que no tiene un nodo central.
       
-      3)
+      3)Topología en anillo: Es un tipo de topología de red simple, en donde las estaciones de trabajo o computadoras, se encuentran conectadas entre sí en forma       de un anillo, es decir, forman un círculo entre ellas. La información viaja en un solo sentido, por lo tanto, que si un nodo deja de funcionar se cae la red       o deja de abastecer información a las demás computadoras que se encuentran dentro del anillo, por lo tanto, es poco eficaz.
+      
+      4)Topología en estrella: 
 
 5. Indique una desventaja de cada tipo de topología de red.
 
