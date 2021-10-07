@@ -126,19 +126,21 @@
 
       La Topología en Estrella
       
-10. La comunicación entre una computadora y un teclado implica una transmisión SIMPLEX
+10. La comunicación entre una computadora y un teclado implica una transmisión SIMPLEX.
 
 11. En una red con 25 computadoras, ¿qué topología necesitaría el cableado más extenso?
+   
+      La Topología en Malla 
 
-12. Una topología en árbol es una variación de una topología en _____________
+12. Una topología en árbol es una variación de una topología en ESTRELLA.
 
-13. Una conexión ___________   proporciona un enlace dedicado entre dos dispositivos.
+13. Una conexión PUNTO A PUNTO  proporciona un enlace dedicado entre dos dispositivos.
 
-14.En la transmisión__________________   , la capacidad del canal es siempre compartida por los dos dispositivos que se comunican.
+14.En la transmisión FULL-DUPEX  , la capacidad del canal es siempre compartida por los dos dispositivos que se comunican.
 
-15. Una rotura de cable en una topología en _______________   detiene toda la transmisión.
+15. Una rotura de cable en una topología en BUS  detiene toda la transmisión.
 
-16. Una red que contiene múltiples concentradores está configurada muy probablemente como una topología en____________
+16. Una red que contiene múltiples concentradores está configurada muy probablemente como una topología en ARBOL.
 
 17. Defina el tipo de topología de las siguientes figuras:
 https://www3.gobiernodecanarias.org/medusa/eforma/campus/pluginfile.php/5335040/mod_assign/intro/CleanShot%202021-09-09%20at%2019.43.58.png
