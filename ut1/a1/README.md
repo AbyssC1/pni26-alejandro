@@ -1,48 +1,48 @@
 1. Defina los tres modos de transmisión
 
-   ºUna conexión simple, es una conexión en la que los datos fluyen en una sola dirección, desde el transmisor hacia el receptor. Este tipo de conexión es útil si     los datos no necesitan fluir en ambas direcciones (por ejemplo: desde el equipo hacia la impresora o desde el ratón hacia el equipo.).
+   *Una conexión simple, es una conexión en la que los datos fluyen en una sola dirección, desde el transmisor hacia el receptor. Este tipo de conexión es útil si     los datos no necesitan fluir en ambas direcciones (por ejemplo: desde el equipo hacia la impresora o desde el ratón hacia el equipo.).
 
-   ºUna conexión semidúplex (a veces denominada una conexión alternativa o semi-dúplex) es una conexión en la que los datos fluyen en una u otra dirección, pero       no las dos al mismo tiempo. Con este tipo de conexión, cada extremo de la conexión transmite uno después del otro. Este tipo de conexión hace posible tener       una comunicación bidireccional utilizando toda la capacidad de la línea.
+   *Una conexión semidúplex (a veces denominada una conexión alternativa o semi-dúplex) es una conexión en la que los datos fluyen en una u otra dirección, pero       no las dos al mismo tiempo. Con este tipo de conexión, cada extremo de la conexión transmite uno después del otro. Este tipo de conexión hace posible tener       una comunicación bidireccional utilizando toda la capacidad de la línea.
 
-   ºUna conexión dúplex total es una conexión en la que los datos fluyen simultáneamente en ambas direcciones. Así, cada extremo de la conexión puede transmitir y     recibir al mismo tiempo; esto significa que el ancho de banda se divide en dos para cada dirección de la transmisión de datos si es que se está utilizando el     mismo medio de transmisión para ambas direcciones de la transmisión.
+   *Una conexión dúplex total es una conexión en la que los datos fluyen simultáneamente en ambas direcciones. Así, cada extremo de la conexión puede transmitir y     recibir al mismo tiempo; esto significa que el ancho de banda se divide en dos para cada dirección de la transmisión de datos si es que se está utilizando el     mismo medio de transmisión para ambas direcciones de la transmisión.
 
 2. Indique las ventajas de cada tipo de topología de red
      
      Ventajas de Topología de Árbol 
       
-     ºEl Hub central al retransmitir las señales amplifica la potencia e incrementa la distancia a la que puede viajar la señ                                          ºSe permite conectar más dispositivos gracias a la inclusión de concentradores secundarios. 
-     ºPermite priorizar y aislar las comunicaciones de distintas computadoras. 
-     ºCableado punto a punto para segmentos individuales. 
-     ºSoportado por multitud de vendedores de software y de hardware.
+     *El Hub central al retransmitir las señales amplifica la potencia e incrementa la distancia a la que puede viajar la señ                                          *Se permite conectar más dispositivos gracias a la inclusión de concentradores secundarios. 
+     *Permite priorizar y aislar las comunicaciones de distintas computadoras. 
+     *Cableado punto a punto para segmentos individuales. 
+     *Soportado por multitud de vendedores de software y de hardware.
      
      Ventajas de Topología bus
       
-     ºFacilidad de implementación y crecimiento.
-     ºSimplicidad en la arquitectura.
+     *Facilidad de implementación y crecimiento.
+     *Simplicidad en la arquitectura.
       
      Ventajas de Topología anillo
       
-     ºSimplicidad de arquitectura.                                                                                                                
-     ºFacilidad de configuración.                         
-     ºFacilidad de fluidez de datos.         
+     *Simplicidad de arquitectura.                                                                                                                
+     *Facilidad de configuración.                         
+     *Facilidad de fluidez de datos.         
      
       Ventajas de Topología en estrella
       
-     ºTiene los medios para prevenir problemas.  
-     ºSi una PC se desconecta o se rompe el cable solo queda fuera de la red esa     
-     ºFácil de agregar, reconfigurar arquitectura PC.     
-     ºFácil de prevenir daños o conflictos.     
-     ºPermite que todos los nodos se comuniquen entre sí de manera conveniente.  
-     ºEl mantenimiento resulta más económico y fácil que la topología.
+     *Tiene los medios para prevenir problemas.  
+     *Si una PC se desconecta o se rompe el cable solo queda fuera de la red esa     
+     *Fácil de agregar, reconfigurar arquitectura PC.     
+     *Fácil de prevenir daños o conflictos.     
+     *Permite que todos los nodos se comuniquen entre sí de manera conveniente.  
+     *El mantenimiento resulta más económico y fácil que la topología.
      
      Ventajas de Topología en malla
      
-     ºEs posible llevar los mensajes de un nodo a otro por diferentes caminos.
-     ºNo puede existir absolutamente ninguna interrupción en las comunicaciones.
-     ºCada servidor tiene sus propias comunicaciones con todos los demás servidores.
-     ºSi falla un cable el otro se hará cargo del trafico. 
-     ºNo requiere un nodo o servidor central lo que reduce el mantenimiento. 
-     ºSi un nodo desaparece o falla no afecta en absoluto a los demás nodos.
+     *Es posible llevar los mensajes de un nodo a otro por diferentes caminos.
+     *No puede existir absolutamente ninguna interrupción en las comunicaciones.
+     *Cada servidor tiene sus propias comunicaciones con todos los demás servidores.
+     *Si falla un cable el otro se hará cargo del trafico. 
+     *No requiere un nodo o servidor central lo que reduce el mantenimiento. 
+     *Si un nodo desaparece o falla no afecta en absoluto a los demás nodos.
      
 
 3. ¿Cuáles son los factores que determinan que un sistema de comunicación sea una LAN, MAN o WAN?
