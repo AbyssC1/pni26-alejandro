@@ -164,7 +164,8 @@
 17. Defina el tipo de topología de las siguientes figuras:
 https://www3.gobiernodecanarias.org/medusa/eforma/campus/pluginfile.php/5335040/mod_assign/intro/CleanShot%202021-09-09%20at%2019.43.58.png
 
-1)
+1)Topología de Arbol
+2)
 
 18. Relacione los conceptos siguientes con una topología de red (cada uno se puede aplicar a más de una topología):
 
