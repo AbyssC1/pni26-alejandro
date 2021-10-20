@@ -103,7 +103,7 @@ d. entre -2 y 2
 
 15. Una onda seno completa 1.000 ciclos en un segundo. ¿Cuál es su periodo?
 
-a. 1 ms
+a. Respuesta: >>> 1 ms <<<
 
 b. 10 ms
 
