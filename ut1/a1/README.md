@@ -1,33 +1,33 @@
 1. Defina los tres modos de transmisión
 
-<<<<<<< HEAD
-    *Una conexión simple, es una conexión en la que los datos fluyen en una sola dirección, desde el transmisor hacia el receptor. Este tipo de conexión es útil si     los datos no necesitan fluir en ambas direcciones (por ejemplo: desde el equipo hacia la impresora o desde el ratón hacia el equipo.).
+
+    *Una conexión simple, es una conexión en la que los datos fluyen en una sola dirección, desde el transmisor hacia el receptor. Este tipo de conexión es útil      los datos no necesitan fluir en ambas direcciones (por ejemplo: desde el equipo hacia la impresora o desde el ratón hacia el equipo.).
 
     *Una conexión semidúplex (a veces denominada una conexión alternativa o semi-dúplex) es una conexión en la que los datos fluyen en una u otra dirección, pero       no las dos al mismo tiempo. Con este tipo de conexión, cada extremo de la conexión transmite uno después del otro. Este tipo de conexión hace posible tener       una comunicación bidireccional utilizando toda la capacidad de la línea.
 
-    *Una conexión dúplex total es una conexión en la que los datos fluyen simultáneamente en ambas direcciones. Así, cada extremo de la conexión puede transmitir y     recibir al mismo tiempo; esto significa que el ancho de banda se divide en dos para cada dirección de la transmisión de datos si es que se está utilizando el     mismo medio de transmisión para ambas direcciones de la transmisión.
-=======
+    *Una conexión dúplex total es una conexión en la que los datos fluyen simultáneamente en ambas direcciones. Así, cada extremo de la conexión puede transmitir   y recibir al mismo tiempo; esto significa que el ancho de banda se divide en dos para cada dirección de la transmisión de datos si es que se está utilizando el     mismo medio de transmisión para ambas direcciones de la transmisión.
+
    *Una conexión simple, es una conexión en la que los datos fluyen en una sola dirección, desde el transmisor hacia el receptor. Este tipo de conexión es útil si     los datos no necesitan fluir en ambas direcciones (por ejemplo: desde el equipo hacia la impresora o desde el ratón hacia el equipo.).
 
    *Una conexión semidúplex (a veces denominada una conexión alternativa o semi-dúplex) es una conexión en la que los datos fluyen en una u otra dirección, pero       no las dos al mismo tiempo. Con este tipo de conexión, cada extremo de la conexión transmite uno después del otro. Este tipo de conexión hace posible tener       una comunicación bidireccional utilizando toda la capacidad de la línea.
 
    *Una conexión dúplex total es una conexión en la que los datos fluyen simultáneamente en ambas direcciones. Así, cada extremo de la conexión puede transmitir y     recibir al mismo tiempo; esto significa que el ancho de banda se divide en dos para cada dirección de la transmisión de datos si es que se está utilizando el     mismo medio de transmisión para ambas direcciones de la transmisión.
->>>>>>> 3d77e54759be5a54e551abefe0b00fe42dab5ad0
+
 
 2. Indique las ventajas de cada tipo de topología de red
      
      Ventajas de Topología de Árbol 
       
-<<<<<<< HEAD
+
      *El Hub central al retransmitir las señales amplifica la potencia e incrementa la distancia a la que puede viajar la señ                                          ºSe permite conectar más dispositivos gracias a la inclusión de concentradores secundarios. 
      *Permite priorizar y aislar las comunicaciones de distintas computadoras. 
      *Cableado punto a punto para segmentos individuales. 
-=======
+
      *El Hub central al retransmitir las señales amplifica la potencia e incrementa la distancia a la que puede viajar la señ                                     
      *Se permite conectar más dispositivos gracias a la inclusión de concentradores secundarios. 
      *Permite priorizar y aislar las comunicaciones de distintas computadoras. 
      *Cableado punto a punto para segmentos individuales.
->>>>>>> 3d77e54759be5a54e551abefe0b00fe42dab5ad0
+
      *Soportado por multitud de vendedores de software y de hardware.
      
      Ventajas de Topología bus
@@ -37,7 +37,7 @@
       
      Ventajas de Topología anillo
       
-<<<<<<< HEAD
+
      *Simplicidad de arquitectura.                                                                                                                
      *Facilidad de configuración.                         
      *Facilidad de fluidez de datos.         
@@ -48,7 +48,7 @@
      *Si una PC se desconecta o se rompe el cable solo queda fuera de la red esa     
      *Fácil de agregar, reconfigurar arquitectura PC.     
      *Fácil de prevenir daños o conflictos.     
-=======
+
      *Simplicidad de arquitectura. 
      *Facilidad de configuración. 
      *Facilidad de fluidez de datos.         
@@ -59,28 +59,28 @@
      *Si una PC se desconecta o se rompe el cable solo queda fuera de la red esa 
      *Fácil de agregar, reconfigurar arquitectura PC.  
      *Fácil de prevenir daños o conflictos.   
->>>>>>> 3d77e54759be5a54e551abefe0b00fe42dab5ad0
+
      *Permite que todos los nodos se comuniquen entre sí de manera conveniente.  
      *El mantenimiento resulta más económico y fácil que la topología.
      
      Ventajas de Topología en malla
      
      *Es posible llevar los mensajes de un nodo a otro por diferentes caminos.
-<<<<<<< HEAD
+
      *No puede existir absolutamente ninguna interrupción en las comunicaciones.
      *Cada servidor tiene sus propias comunicaciones con todos los demás servidores.
      *Si falla un cable el otro se hará cargo del trafico. 
      *No requiere un nodo o servidor central lo que reduce el mantenimiento. 
      *Si un nodo desaparece o falla no afecta en absoluto a los demás nodos.
     
-=======
+
      *No puede existir absolutamente ninguna interrupción en las comunicaciones.     
      *Cada servidor tiene sus propias comunicaciones con todos los demás servidores.     
      *Si falla un cable el otro se hará cargo del trafico.      
      *No requiere un nodo o servidor central lo que reduce el mantenimiento.      
      *Si un nodo desaparece o falla no afecta en absoluto a los demás nodos.
      
->>>>>>> 3d77e54759be5a54e551abefe0b00fe42dab5ad0
+
 
 3. ¿Cuáles son los factores que determinan que un sistema de comunicación sea una LAN, MAN o WAN?
  
