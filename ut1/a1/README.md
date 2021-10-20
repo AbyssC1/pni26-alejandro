@@ -17,50 +17,78 @@
 2. Indique las ventajas de cada tipo de topología de red
      
      Ventajas de Topología de Árbol 
+     
     
-     *El Hub central al retransmitir las señales amplifica la potencia e incrementa la distancia a la que puede viajar la señal.   
+     *El Hub central al retransmitir las señales amplifica la potencia e incrementa la distancia a la que puede viajar la señal. 
+     
      *Se permite conectar más dispositivos gracias a la inclusión de concentradores secundarios. 
+     
      *Permite priorizar y aislar las comunicaciones de distintas computadoras. 
+     
      *Cableado punto a punto para segmentos individuales.
+     
      *Soportado por multitud de vendedores de software y de hardware.
      
      Ventajas de Topología bus
+     
       
      *Facilidad de implementación y crecimiento.
+     
      *Simplicidad en la arquitectura.
      
      Ventajas de Topología anillo
      
      *Simplicidad de arquitectura. 
+     
      *Facilidad de configuración. 
+     
      *Facilidad de fluidez de datos.         
      
       Ventajas de Topología en estrella
       
+      
      *Tiene los medios para prevenir problemas.  
+     
      *Si una PC se desconecta o se rompe el cable solo queda fuera de la red.
+     
      *Fácil de agregar, reconfigurar arquitectura PC.   
-     *Fácil de prevenir daños o conflictos.    
+     
+     *Fácil de prevenir daños o conflictos.   
+     
      *Simplicidad de arquitectura. 
+     
      *Facilidad de configuración. 
+     
      *Facilidad de fluidez de datos.         
  
       Ventajas de Topología en estrella
       
+      
      *Tiene los medios para prevenir problemas. 
-     *Si una PC se desconecta o se rompe el cable solo queda fuera de la red esa 
+     
+     *Si una PC se desconecta o se rompe el cable solo queda fuera de la red.
+     
      *Fácil de agregar, reconfigurar arquitectura PC.  
+     
      *Fácil de prevenir daños o conflictos.   
-     *Permite que todos los nodos se comuniquen entre sí de manera conveniente.  
+     
+     *Permite que todos los nodos se comuniquen entre sí de manera conveniente. 
+     
      *El mantenimiento resulta más económico y fácil que la topología.
      
      Ventajas de Topología en malla
      
+    
      *Es posible llevar los mensajes de un nodo a otro por diferentes caminos.
+     
      *No puede existir absolutamente ninguna interrupción en las comunicaciones.
+     
      *Cada servidor tiene sus propias comunicaciones con todos los demás servidores.
+     
      *Si falla un cable el otro se hará cargo del trafico. 
+     
      *No requiere un nodo o servidor central lo que reduce el mantenimiento. 
+     
      *Si un nodo desaparece o falla no afecta en absoluto a los demás nodos.
     
 
