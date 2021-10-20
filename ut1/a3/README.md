@@ -18,7 +18,7 @@
 
 3. Se ha recibido una señal que solamente tiene valores –1, 0 y 1 ¿Es esta una señal analógica o digital? Razona la respuesta.
 
-  Es una señal digital por que los sistemas digitales, como por ejemplo el ordenador, usan la lógica de dos estados representados por dos niveles de tensión         eléctrica, uno alto, H y otro bajo, L (de High y Low, respectivamente, en inglés). Por abstracción, dichos estados se sustituyen por ceros y unos, lo que         facilita la aplicación de la lógica y la aritmética binaria. Si el nivel alto se representa por 1 y el bajo por 0, se habla de lógica positiva y en caso           contrario de lógicanegativa.
+   Es una señal digital por que los sistemas digitales, como por ejemplo el ordenador, usan la lógica de dos estados representados por dos niveles de tensión        eléctrica, uno alto, H y otro bajo, L (de High y Low, respectivamente, en inglés). Por abstracción, dichos estados se sustituyen por ceros y unos, lo que          facilita la aplicación de la lógica y la aritmética binaria. Si el nivel alto se representa por 1 y el bajo por 0, se habla de lógica positiva y en caso          contrario de lógicanegativa.
 
 4. ¿Cuál es la relación entre el periodo y la frecuencia?
  
