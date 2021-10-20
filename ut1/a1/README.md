@@ -28,7 +28,9 @@
       
      *Facilidad de implementación y crecimiento.
      *Simplicidad en la arquitectura.
+     
      Ventajas de Topología anillo
+     
      *Simplicidad de arquitectura. 
      *Facilidad de configuración. 
      *Facilidad de fluidez de datos.         
@@ -55,7 +57,6 @@
      Ventajas de Topología en malla
      
      *Es posible llevar los mensajes de un nodo a otro por diferentes caminos.
-
      *No puede existir absolutamente ninguna interrupción en las comunicaciones.
      *Cada servidor tiene sus propias comunicaciones con todos los demás servidores.
      *Si falla un cable el otro se hará cargo del trafico. 
