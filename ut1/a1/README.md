@@ -3,9 +3,15 @@
 
    *Una conexión simple, es una conexión en la que los datos fluyen en una sola dirección, desde el transmisor hacia el receptor. Este tipo de conexión es útil      los datos no necesitan fluir en ambas direcciones (por ejemplo: desde el equipo hacia la impresora o desde el ratón hacia el equipo.).
 
+<<<<<<< HEAD
    *Una conexión semidúplex (a veces denominada una conexión alternativa o semi-dúplex) es una conexión en la que los datos fluyen en una u otra dirección, pero       no las dos al mismo tiempo. Con este tipo de conexión, cada extremo de la conexión transmite uno después del otro. Este tipo de conexión hace posible tener       una comunicación bidireccional utilizando toda la capacidad de la línea.
 
    *Una conexión dúplex total es una conexión en la que los datos fluyen simultáneamente en ambas direcciones. Así, cada extremo de la conexión puede transmitir   y recibir al mismo tiempo; esto significa que el ancho de banda se divide en dos para cada dirección de la transmisión de datos si es que se está utilizando el     mismo medio de transmisión para ambas direcciones de la transmisión.
+=======
+    *Una conexión semidúplex (a veces denominada una conexión alternativa o semi-dúplex) es una conexión en la que los datos fluyen en una u otra dirección, pero      no las dos al mismo tiempo. Con este tipo de conexión, cada extremo de la conexión transmite uno después del otro. Este tipo de conexión hace posible tener       una comunicación bidireccional utilizando toda la capacidad de la línea.
+
+   *Una conexión dúplex total es una conexión en la que los datos fluyen simultáneamente en ambas direcciones. Así, cada extremo de la conexión puede transmitir      y recibir al mismo tiempo; esto significa que el ancho de banda se divide en dos para cada dirección de la transmisión de datos si es que se está utilizando      el mismo medio de transmisión para ambas direcciones de la transmisión.
+>>>>>>> 0aa4df477baedddbc82bb4e06d476cda736e186f
 
    *Una conexión simple, es una conexión en la que los datos fluyen en una sola dirección, desde el transmisor hacia el receptor. Este tipo de conexión es útil si     los datos no necesitan fluir en ambas direcciones (por ejemplo: desde el equipo hacia la impresora o desde el ratón hacia el equipo.).
 
@@ -17,6 +23,7 @@
 2. Indique las ventajas de cada tipo de topología de red
      
      Ventajas de Topología de Árbol 
+<<<<<<< HEAD
       
      *El Hub central al retransmitir las señales amplifica la potencia e incrementa la distancia a la que puede viajar la señal.
 
@@ -25,58 +32,88 @@
      *Permite priorizar y aislar las comunicaciones de distintas computadoras.
  
      *Cableado punto a punto para segmentos individuales.
+=======
+     
+    
+     *El Hub central al retransmitir las señales amplifica la potencia e incrementa la distancia a la que puede viajar la señal. 
+     
+     *Se permite conectar más dispositivos gracias a la inclusión de concentradores secundarios. 
+     
+     *Permite priorizar y aislar las comunicaciones de distintas computadoras. 
+     
+     *Cableado punto a punto para segmentos individuales.
+     
+     *Soportado por multitud de vendedores de software y de hardware.
+>>>>>>> 0aa4df477baedddbc82bb4e06d476cda736e186f
      
      Ventajas de Topología bus
+     
       
      *Facilidad de implementación y crecimiento.
+     
      *Simplicidad en la arquitectura.
-      
+     
      Ventajas de Topología anillo
+<<<<<<< HEAD
       
 
      *Simplicidad de arquitectura. <br/>                                                                                                                
      *Facilidad de configuración. <br/>                        
+=======
+     
+     *Simplicidad de arquitectura. 
+     
+     *Facilidad de configuración. 
+     
+>>>>>>> 0aa4df477baedddbc82bb4e06d476cda736e186f
      *Facilidad de fluidez de datos.         
      
       Ventajas de Topología en estrella
       
      *Tiene los medios para prevenir problemas.  
-     *Si una PC se desconecta o se rompe el cable solo queda fuera de la red esa     
-     *Fácil de agregar, reconfigurar arquitectura PC.     
-     *Fácil de prevenir daños o conflictos.     
-
+     
+     *Si una PC se desconecta o se rompe el cable solo queda fuera de la red.
+     
+     *Fácil de agregar, reconfigurar arquitectura PC.   
+     
+     *Fácil de prevenir daños o conflictos.   
+     
      *Simplicidad de arquitectura. 
+     
      *Facilidad de configuración. 
+     
      *Facilidad de fluidez de datos.         
  
       Ventajas de Topología en estrella
       
+      
      *Tiene los medios para prevenir problemas. 
-     *Si una PC se desconecta o se rompe el cable solo queda fuera de la red esa 
+     
+     *Si una PC se desconecta o se rompe el cable solo queda fuera de la red.
+     
      *Fácil de agregar, reconfigurar arquitectura PC.  
+     
      *Fácil de prevenir daños o conflictos.   
-
-     *Permite que todos los nodos se comuniquen entre sí de manera conveniente.  
+     
+     *Permite que todos los nodos se comuniquen entre sí de manera conveniente. 
+     
      *El mantenimiento resulta más económico y fácil que la topología.
      
      Ventajas de Topología en malla
      
+    
      *Es posible llevar los mensajes de un nodo a otro por diferentes caminos.
-
+     
      *No puede existir absolutamente ninguna interrupción en las comunicaciones.
+     
      *Cada servidor tiene sus propias comunicaciones con todos los demás servidores.
+     
      *Si falla un cable el otro se hará cargo del trafico. 
+     
      *No requiere un nodo o servidor central lo que reduce el mantenimiento. 
+     
      *Si un nodo desaparece o falla no afecta en absoluto a los demás nodos.
     
-
-     *No puede existir absolutamente ninguna interrupción en las comunicaciones.     
-     *Cada servidor tiene sus propias comunicaciones con todos los demás servidores.     
-     *Si falla un cable el otro se hará cargo del trafico.      
-     *No requiere un nodo o servidor central lo que reduce el mantenimiento.      
-     *Si un nodo desaparece o falla no afecta en absoluto a los demás nodos.
-     
-
 
 3. ¿Cuáles son los factores que determinan que un sistema de comunicación sea una LAN, MAN o WAN?
  
@@ -178,25 +215,45 @@
 17. Defina el tipo de topología de las siguientes figuras:
 https://www3.gobiernodecanarias.org/medusa/eforma/campus/pluginfile.php/5335040/mod_assign/intro/CleanShot%202021-09-09%20at%2019.43.58.png
 
+1)Topología de bus.
+
+2)Topología en linea.
+
+3)Topología en estrella.
+
+4)Topología en arbol.
+
+5)Topología en anillo.
+
 18. Relacione los conceptos siguientes con una topología de red (cada uno se puede aplicar a más de una topología):
 
-       a ) Se pueden añadir nuevos dispositivos fácilmente.
+       a ) Se pueden añadir nuevos dispositivos fácilmente. 
+       
+       Topologías(  Anillo, Bus )
 
        b ) El control se efectúa a través de un nodo central.
-
+       
+       Topologías( Arbol )
+  
        c) El tiempo de transmisión se gasta reenviando los datos a través de nodos intermedios.
+       
+       Topologías ( Arbol, bus )
 
 19. Cuando alguien hace una llamada telefónica local a otra persona, ¿está usando una configuración de línea punto a punto o multipunto? Explique su respuesta.
+ 
+Es punto a punto porque se refiere a las telecomunicaciones inalámbricas de comunicaciones de datos para Internet o Voz sobre IP a través de frecuencias de radio en la gama de varios gigahercios.También incluye tecnologías como el láser para las telecomunicaciones, pero en todos los casos en que el medio de transmisión es la línea de visión y es capaz de ser bastante con vigas de transmisor y el receptor.
 
 20. ¿Qué modo de transmisión (símplex, semidúplex o full-dúplex) se puede comparar a los siguientes?
 
      a ) Una conexión computadora a monitor.
+     
+     Simplex por que es de una sola dirección.
 
      b ) Una conversación educada entre tía Gertrudis y tía Rowena. 
+     
+     Full duplex por que envian datos en dos direcciones.
 
      c ) Una emisión por televisión.
-<<<<<<< HEAD
-
-=======
      
->>>>>>> 3d77e54759be5a54e551abefe0b00fe42dab5ad0
+     Semidúplex por que envian datos en la misma dirección a la vez.
+
