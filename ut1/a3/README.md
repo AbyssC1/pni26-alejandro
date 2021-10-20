@@ -44,7 +44,7 @@
 
 a. señales periódicas
 
-Respuesta: >>> señales electromagnéticas <<<
+b. Respuesta: >>> señales electromagnéticas <<<
 
 c. señales aperiódicas
 
@@ -56,7 +56,7 @@ a. 1 Hz
 
 b. 100 Hz 
 
-Respuesta: >>> 1 KHz <<< 
+c. Respuesta: >>> 1 KHz <<< 
 
 d. 1 MHz
 
