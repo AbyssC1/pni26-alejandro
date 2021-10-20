@@ -46,7 +46,6 @@
      
       Ventajas de Topología en estrella
       
-      
      *Tiene los medios para prevenir problemas.  
      
      *Si una PC se desconecta o se rompe el cable solo queda fuera de la red.
