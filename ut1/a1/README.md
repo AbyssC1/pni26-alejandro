@@ -192,28 +192,45 @@
 17. Defina el tipo de topología de las siguientes figuras:
 https://www3.gobiernodecanarias.org/medusa/eforma/campus/pluginfile.php/5335040/mod_assign/intro/CleanShot%202021-09-09%20at%2019.43.58.png
 
-1)Topología de Arbol
-2)
+1)Topología de bus.
+
+2)Topología en linea.
+
+3)Topología en estrella.
+
+4)Topología en arbol.
+
+5)Topología en anillo.
 
 18. Relacione los conceptos siguientes con una topología de red (cada uno se puede aplicar a más de una topología):
 
-       a ) Se pueden añadir nuevos dispositivos fácilmente.
+       a ) Se pueden añadir nuevos dispositivos fácilmente. 
+       
+       Topologías(  Anillo, Bus )
 
        b ) El control se efectúa a través de un nodo central.
-
+       
+       Topologías( Arbol )
+  
        c) El tiempo de transmisión se gasta reenviando los datos a través de nodos intermedios.
+       
+       Topologías ( Arbol, bus )
 
 19. Cuando alguien hace una llamada telefónica local a otra persona, ¿está usando una configuración de línea punto a punto o multipunto? Explique su respuesta.
+ 
+Es punto a punto porque se refiere a las telecomunicaciones inalámbricas de comunicaciones de datos para Internet o Voz sobre IP a través de frecuencias de radio en la gama de varios gigahercios.También incluye tecnologías como el láser para las telecomunicaciones, pero en todos los casos en que el medio de transmisión es la línea de visión y es capaz de ser bastante con vigas de transmisor y el receptor.
 
 20. ¿Qué modo de transmisión (símplex, semidúplex o full-dúplex) se puede comparar a los siguientes?
 
      a ) Una conexión computadora a monitor.
+     
+     Simplex por que es de una sola dirección.
 
      b ) Una conversación educada entre tía Gertrudis y tía Rowena. 
+     
+     Full duplex por que envian datos en dos direcciones.
 
      c ) Una emisión por televisión.
-<<<<<<< HEAD
-
-=======
      
->>>>>>> 3d77e54759be5a54e551abefe0b00fe42dab5ad0
+     Semidúplex por que envian datos en la misma dirección a la vez.
+
