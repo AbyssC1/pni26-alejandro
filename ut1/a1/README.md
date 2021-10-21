@@ -1,3 +1,5 @@
+[git repositorio pni17/ut1/a1](https://github.com/AbyssC1/pni17-alejandro/blob/9c89d19874e9c5593faab33841f0ca3ad6a14ddf/ut1/a1/README.md)
+
 1. Defina los tres modos de transmisión
 
 
