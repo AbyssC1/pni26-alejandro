@@ -1,4 +1,4 @@
-[Repositorio pni17/ut1/a3](https://github.com/AbyssC1/pni17-alejandro/blob/8284144b8d7245ad6916ce8103de936f5997fad1/ut1/a3/README.md)
+
 
 
 1. ¿Cuál es la diferencia entre información y señales?
