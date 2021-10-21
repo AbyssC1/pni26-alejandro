@@ -1,3 +1,6 @@
+[Repositorio pni17/ut1/a3](https://github.com/AbyssC1/pni17-alejandro/edit/main/ut1/a3/README.md)
+
+
 1. ¿Cuál es la diferencia entre información y señales?
 
    La diferencia es que los datos transportan información (Entidad que contiene significado) y las señales codifican la información (Representación eléctrica o      electromagnética de los datos)  Que se entiende por señalización.
