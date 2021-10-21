@@ -35,7 +35,7 @@
 
    Para señales analógicas, el ancho de banda es la longitud, medida en hercios (Hz), de la extensión de frecuencias en la que se concentra la mayor potencia de      la señal. ... Las frecuencias que se encuentran entre esos límites se denominan también frecuencias efectivas.
 
-7. ¿Qué es el intervalo de bit y cuál es su contraparte en una señal analógica?
+7. ¿Qué es el intervalo de bit y cuál es su contraparte en una señal analógica?.
    
    El intervalo bits(duración de un bits) es el tiempo necesario para enviar un único bit.
 
