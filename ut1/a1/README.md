@@ -190,8 +190,7 @@
 
 16. Una red que contiene múltiples concentradores está configurada muy probablemente como una topología en ARBOL.
 
-17. Defina el tipo de topología de las siguientes figuras:
- https://www3.gobiernodecanarias.org/medusa/eforma/campus/pluginfile.php/5335040/mod_assign/intro/CleanShot%202021-09-09%20at%2019.43
+17. Defina el tipo de topología de las siguientes figura.  https://www3.gobiernodecanarias.org/medusa/eforma/campus/pluginfile.php/5335040/mod_assign/intro/CleanShot%202021-09-09%20at%2019.43.58.png
 
 1)Topología de bus.
 
