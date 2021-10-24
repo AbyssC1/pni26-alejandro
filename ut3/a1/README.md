@@ -2,15 +2,15 @@
 
 1.¿Qué niveles OSI son los niveles de soporte de red? 
 
-<p>Nivel 1: Físico 
+<p> Nivel 1: Físico 
 <br>Nivel 2: Enlace 
 <br>Nivel 3: Red 
 
 2.¿Qué niveles OSI son los niveles de soporte de usuario? 
   
-<p>Nivel 5 (sesión)
-<br>Nivel 6 (presentación) 
-<br>Nivel 7 (aplicación)
+<p> Nivel 5: Sesión
+<br>Nivel 6: Presentación
+<br>Nivel 7: Aplicación
 
 3.¿Cómo están OSI e ISO relacionadas entre sí?
   
