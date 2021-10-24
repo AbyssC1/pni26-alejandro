@@ -44,9 +44,17 @@ principio o al final de un paquete de datos.
   
 <p>Se quitan en la maquina receptora al pasar nivel por nivel, cada 
 nivel procesa y elimina los datos que son para el.
-
-  
+ 
 7.¿Cuáles son las responsabilidades del nivel físico? 
+  
+<p> Características físicas de las interfases y el medio. 
+<br>Representación de los bits 
+<br>Tasa de datos 
+<br>Sincronización de los bits 
+<br>Coniguración de la línea 
+<br>Topología física 
+<br>Modos de transmisión  
+  
 8.¿Cuáles son las responsabilidades del nivel de enlace? 
 9.¿Cuáles son las responsabilidades del nivel de red? 
 10.¿Cuáles son las responsabilidades del nivel de transporte? 
