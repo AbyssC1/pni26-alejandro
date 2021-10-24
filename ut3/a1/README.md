@@ -1,4 +1,4 @@
-<h1> UT3-A1 Ejercicios modelo OSI
+<h1> UT3-A1 Ejercicios modelo OSI </h1>
   
 1.¿Qué niveles OSI son los niveles de soporte de red? 
 2.¿Qué niveles OSI son los niveles de soporte de usuario? 
