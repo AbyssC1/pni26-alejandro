@@ -17,6 +17,7 @@
 15.¿Cuál es el objetivo de la traducción en el nivel de presentación? 
 16.Indique alguno de los servicios proporcionados por el nivel de aplicación. 
 17.¿Cómo se relacionan los niveles de la familia del protocolo TCP/IP con los niveles del modelo OSI?
+
 18.El nivel____________ decide la localización de los puntos de sincronización. 
 transporte
 sesión
