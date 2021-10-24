@@ -14,7 +14,15 @@
 <p>Están relacionados porque ISO es la organización de estándares 
 que creo el modelo de interconexión de sistemas abiertos OSI.</p> 
 
-4.Enumere los niveles del modelo OSI. 
+4.Enumere los niveles del modelo OSI.
+<br>Nivel 1: Físico 
+<br>Nivel 2: Enlace 
+<br>Nivel 3: Red 
+<br>Nivel 4: Transporte 
+<br>Nivel 5: Sesión 
+<br>Nivel 6: Presentación 
+<br>Nivel 7: Aplicación
+
 5.¿Cómo pasa la información de un nivel OSI al siguiente? 
 6.¿Qué son las cabeceras y cola y cómo se añaden y se quitan? 
 7.¿Cuáles son las responsabilidades del nivel físico? 
