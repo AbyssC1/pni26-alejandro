@@ -151,14 +151,14 @@ distinto.
 <br>-Red
 <br>-Transporte
   
-20. Los servicios de correo y de directorio están disponibles a los usuarios de la red a través del nivel:
+20. Los servicios de correo y de directorio están disponibles a los usuarios de la red a través del nivel ``` Aplicación ```
 
 <p>-Enlace de datos
 <br>-Sesión
 <br>-Transporte
 <br>-Aplicación
   
-21. A medida que los paquetes de datos se mueven  de los niveles inferiores a los superiores las cabeceras:
+21. A medida que los paquetes de datos se mueven  de los niveles inferiores a los superiores las cabeceras ``` Eliminadas ```
 
 <p>-Añadidas
 <br>-Eliminadas
