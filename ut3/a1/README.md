@@ -62,9 +62,50 @@ nivel procesa y elimina los datos que son para el.
 <br>-Control de acceso
 
 9.¿Cuáles son las responsabilidades del nivel de red? 
+ 
+<p>-Direccionamiento lógico 
+<br>-Encaminamiento
+
 10.¿Cuáles son las responsabilidades del nivel de transporte? 
+  
+<p>-Direccionamiento en punto de servicio. 
+<br>-Segmentación y reensamblado. 
+<br>-Control de conexión 
+<br>-Control de lujo 
+<br>-Control de errores
+  
 11.El nivel de transporte crea una conexión entre el origen y el destino. ¿Cuáles son los tres eventos involucrados en la conexión? 
+  
+<p>-Establecimiento de la conexión 
+<br>-Transferencia de datos 
+<br>-Liberación de la conexión
+
 12.¿Cuál es la diferencia entre una dirección de punto en servicio, una dirección lógica y una dirección fisica? 
+  
+<p>Direccionamiento lógico: el direccionamiento físico 
+proporcionado por el nivel de enlace de datos gestiona los 
+problemas de direcciones locales si un paquete cruza la frontera 
+de la red es necesario tener otro tipo de direcciones para 
+distinguir los sistemas origen de los del destino, el nivel de red 
+añade una cabecera al paquete que viene del nivel superior que 
+entre otras cosas incluye las direcciones lógicas del emisor y el 
+receptor.
+  
+<p>Punto de servicio: las computadoras suelen ejecutar a 
+menudo varios programas al mismo tiempo por esa razón la 
+entrega desde el origen al destino signiica la entrega no solo de 
+una pc a otra sino también desde un proceso especiico 
+(programa de ejecución) en una pc a un proceso especiico en el 
+otro.
+  
+<p>Direccionamiento físico: si es necesario distribuir las tramas 
+por distintos sistemas de la red, el nivel de enlace de datos 
+añade una cabecera a la trama para deinir la dirección física del
+emisor (dirección fuente) y/o receptor (dirección destino) de la 
+trama. Si hay que enviar la trama a un sistema fuera de la red 
+del emisor, la dirección de receptor es la dirección de dispositivo
+que conecta su red a la siguiente.
+  
 13.¿Cuáles son las responsabilidades del nivel de sesión? 
 14.¿Cuáles son las responsabilidades del nivel de presentación? 
 15.¿Cuál es el objetivo de la traducción en el nivel de presentación? 
