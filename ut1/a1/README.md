@@ -1,14 +1,20 @@
+[git repositorio pni17/ut1/a1](https://github.com/AbyssC1/pni17-alejandro/blob/9c89d19874e9c5593faab33841f0ca3ad6a14ddf/ut1/a1/README.md)
+
 1. Defina los tres modos de transmisión
 
 
    *Una conexión simple, es una conexión en la que los datos fluyen en una sola dirección, desde el transmisor hacia el receptor. Este tipo de conexión es útil      los datos no necesitan fluir en ambas direcciones (por ejemplo: desde el equipo hacia la impresora o desde el ratón hacia el equipo.).
 
 <<<<<<< HEAD
+<<<<<<< HEAD
    *Una conexión semidúplex (a veces denominada una conexión alternativa o semi-dúplex) es una conexión en la que los datos fluyen en una u otra dirección, pero       no las dos al mismo tiempo. Con este tipo de conexión, cada extremo de la conexión transmite uno después del otro. Este tipo de conexión hace posible tener       una comunicación bidireccional utilizando toda la capacidad de la línea.
 
    *Una conexión dúplex total es una conexión en la que los datos fluyen simultáneamente en ambas direcciones. Así, cada extremo de la conexión puede transmitir   y recibir al mismo tiempo; esto significa que el ancho de banda se divide en dos para cada dirección de la transmisión de datos si es que se está utilizando el     mismo medio de transmisión para ambas direcciones de la transmisión.
 =======
     *Una conexión semidúplex (a veces denominada una conexión alternativa o semi-dúplex) es una conexión en la que los datos fluyen en una u otra dirección, pero      no las dos al mismo tiempo. Con este tipo de conexión, cada extremo de la conexión transmite uno después del otro. Este tipo de conexión hace posible tener       una comunicación bidireccional utilizando toda la capacidad de la línea.
+=======
+   *Una conexión semidúplex (a veces denominada una conexión alternativa o semi-dúplex) es una conexión en la que los datos fluyen en una u otra dirección, pero      no las dos al mismo tiempo. Con este tipo de conexión, cada extremo de la conexión transmite uno después del otro. Este tipo de conexión hace posible tener       una comunicación bidireccional utilizando toda la capacidad de la línea.
+>>>>>>> 53ac2ac49906f9f66ac0bba76dfaaee28f0eb843
 
    *Una conexión dúplex total es una conexión en la que los datos fluyen simultáneamente en ambas direcciones. Así, cada extremo de la conexión puede transmitir      y recibir al mismo tiempo; esto significa que el ancho de banda se divide en dos para cada dirección de la transmisión de datos si es que se está utilizando      el mismo medio de transmisión para ambas direcciones de la transmisión.
 >>>>>>> 0aa4df477baedddbc82bb4e06d476cda736e186f
@@ -212,8 +218,7 @@
 
 16. Una red que contiene múltiples concentradores está configurada muy probablemente como una topología en ARBOL.
 
-17. Defina el tipo de topología de las siguientes figuras:
-https://www3.gobiernodecanarias.org/medusa/eforma/campus/pluginfile.php/5335040/mod_assign/intro/CleanShot%202021-09-09%20at%2019.43.58.png
+17. Defina el tipo de topología de las siguientes figura.  https://www3.gobiernodecanarias.org/medusa/eforma/campus/pluginfile.php/5335040/mod_assign/intro/CleanShot%202021-09-09%20at%2019.43.58.png
 
 1)Topología de bus.
 

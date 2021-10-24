@@ -1,3 +1,6 @@
+[Repositorio Pni17/ut1/A3](https://github.com/AbyssC1/pni17-alejandro/blob/518a5364a3ff6969551548a6c76ceaa6e37c7ff2/ut1/a3/README.md)
+
+
 1. ¿Cuál es la diferencia entre información y señales?
 
    La diferencia es que los datos transportan información (Entidad que contiene significado) y las señales codifican la información (Representación eléctrica o      electromagnética de los datos)  Que se entiende por señalización.
@@ -32,7 +35,7 @@
 
    Para señales analógicas, el ancho de banda es la longitud, medida en hercios (Hz), de la extensión de frecuencias en la que se concentra la mayor potencia de      la señal. ... Las frecuencias que se encuentran entre esos límites se denominan también frecuencias efectivas.
 
-7. ¿Qué es el intervalo de bit y cuál es su contraparte en una señal analógica?
+7. ¿Qué es el intervalo de bit y cuál es su contraparte en una señal analógica?.
    
    El intervalo bits(duración de un bits) es el tiempo necesario para enviar un único bit.
 
