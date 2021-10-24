@@ -54,6 +54,13 @@ nivel procesa y elimina los datos que son para el.
 <br>-Modos de transmisión  
   
 8.¿Cuáles son las responsabilidades del nivel de enlace? 
+  
+<p>-Tramado 
+<br>-Direccionamiento físico 
+<br>-Control de lujo 
+<br>-Control de errores 
+<br>-Control de acceso
+
 9.¿Cuáles son las responsabilidades del nivel de red? 
 10.¿Cuáles son las responsabilidades del nivel de transporte? 
 11.El nivel de transporte crea una conexión entre el origen y el destino. ¿Cuáles son los tres eventos involucrados en la conexión? 
