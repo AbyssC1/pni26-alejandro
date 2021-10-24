@@ -137,29 +137,30 @@ distinto.
   
 17.¿Cómo se relacionan los niveles de la familia del protocolo TCP/IP con los niveles del modelo OSI?
 
-18.El nivel ``` Sesion ``` decide la localización de los puntos de sincronización. 
-transporte
-sesión
-presentación
-aplicación
+18.El nivel ``` Sesión ``` decide la localización de los puntos de sincronización. 
+  
+<pTtransporte
+<br>Sesión
+<br>Presentación
+<br>Aplicación
 
 19. En el nivel _______________, la unidad de datos se denomina trama.
 
-físico
-enlace de datos
-red
-transporte
+<p>-Físico
+<br>-Enlace de datos
+<br>-Red
+<br>-Transporte
   
 20. Los servicios de correo y de directorio están disponibles a los usuarios de la red a través del nivel:
 
-enlace de datos
-sesión
-transporte
-aplicación
+<p>-Enlace de datos
+<br>-Sesión
+<br>-Transporte
+<br>-Aplicación
   
 21. A medida que los paquetes de datos se mueven  de los niveles inferiores a los superiores las cabeceras:
 
-añadidas
-eliminadas
-recolocadas
-modificadas
+<p>Añadidas
+<br>-Eliminadas
+<br>-Recolocadas
+<br>-Modificadas
