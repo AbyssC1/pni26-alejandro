@@ -144,7 +144,7 @@ distinto.
 <br>-Presentación
 <br>-Aplicación
 
-19. En el nivel _______________, la unidad de datos se denomina trama.
+19. En el nivel ``` Físico ```, la unidad de datos se denomina trama.
 
 <p>-Físico
 <br>-Enlace de datos
