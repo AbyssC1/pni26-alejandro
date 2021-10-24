@@ -136,6 +136,8 @@ distinto.
 
   
 17.¿Cómo se relacionan los niveles de la familia del protocolo TCP/IP con los niveles del modelo OSI?
+  
+<p>La representación que se presenta en el modelo OSI y TCP/IP difiere entre ambos. TCP/IP combinan las funciones de las capas de presentación y de sesión solamente por medio de la capa de aplicación, así como también capas de enlace de datos y la capa física del modelo OSI en una sola capa, con la presentación de menores capas además de su mejor adaptación a los protocolos.
 
 18.El nivel ``` Sesión ``` decide la localización de los puntos de sincronización. 
   
