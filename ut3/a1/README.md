@@ -139,10 +139,10 @@ distinto.
 
 18.El nivel ``` Sesión ``` decide la localización de los puntos de sincronización. 
   
-<pTtransporte
-<br>Sesión
-<br>Presentación
-<br>Aplicación
+<p>-Rransporte
+<br>-Sesión
+<br>-Presentación
+<br>-Aplicación
 
 19. En el nivel _______________, la unidad de datos se denomina trama.
 
@@ -160,7 +160,7 @@ distinto.
   
 21. A medida que los paquetes de datos se mueven  de los niveles inferiores a los superiores las cabeceras:
 
-<p>Añadidas
+<p>-Añadidas
 <br>-Eliminadas
 <br>-Recolocadas
 <br>-Modificadas
