@@ -1,4 +1,6 @@
 <h1> UT3-A1 Ejercicios modelo OSI </h1>
+
+1.¿Qué niveles OSI son los niveles de soporte de red? 
 <br>Nivel 1: Físico 
 <br>Nivel 2: Enlace 
 <br>Nivel 3: Red 
@@ -7,8 +9,6 @@
 <br>Nivel 6: Presentación 
 <br>Nivel 7: Aplicación
 
-  
-1.¿Qué niveles OSI son los niveles de soporte de red? 
 2.¿Qué niveles OSI son los niveles de soporte de usuario? 
 3.¿Cómo están OSI e ISO relacionadas entre sí? 
 4.Enumere los niveles del modelo OSI. 
