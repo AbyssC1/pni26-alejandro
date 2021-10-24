@@ -28,6 +28,12 @@ que creo el modelo de interconexión de sistemas abiertos OSI.</p>
 <br>Nivel 7: Aplicación
 
 5.¿Cómo pasa la información de un nivel OSI al siguiente? 
+  
+<p>Pasa del nivel mas alto (7) en la maquina A hasta el nivel mas 
+bajo (1) de la misma, y se envía en lujo de bits al nivel mas bajo 
+(1) de la maquina B y sube hasta el nivel mas alto (7) de la 
+maquina B.
+  
 6.¿Qué son las cabeceras y cola y cómo se añaden y se quitan? 
 7.¿Cuáles son las responsabilidades del nivel físico? 
 8.¿Cuáles son las responsabilidades del nivel de enlace? 
