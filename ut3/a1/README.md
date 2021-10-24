@@ -37,11 +37,9 @@ maquina B.
 6.¿Qué son las cabeceras y cola y cómo se añaden y se quitan?
   
 <p>-Las cabeceras o colas son datos de control que se añaden al 
-principio o al final de un paquete de datos.
-  
+principio o al final de un paquete de datos. 
 <br>-Las cabeceras se añaden en la maquina emisora en los niveles, 
 6 , 5 , 4, 3, 2, y en el nivel 2 se añade una cola.
-  
 <br>-Se quitan en la maquina receptora al pasar nivel por nivel, cada 
 nivel procesa y elimina los datos que son para el.
  
