@@ -1,8 +1,7 @@
 <h1> UT3-A1 Ejercicios modelo OSI </h1>
 
 1.¿Qué niveles OSI son los niveles de soporte de red? 
-
-<br>Nivel 1: Físico 
+<p>Nivel 1: Físico</p> 
 <br>Nivel 2: Enlace 
 <br>Nivel 3: Red 
 
