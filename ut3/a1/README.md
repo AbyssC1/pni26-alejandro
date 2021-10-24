@@ -137,7 +137,7 @@ distinto.
   
 17.¿Cómo se relacionan los niveles de la familia del protocolo TCP/IP con los niveles del modelo OSI?
 
-18.El nivel<FONT COLOR="red">Sesión</FONT>decide la localización de los puntos de sincronización. 
+18.El nivel<p style="color:#FF0000";>Sesión</p>decide la localización de los puntos de sincronización. 
 transporte
 sesión
 presentación
