@@ -34,7 +34,18 @@ bajo (1) de la misma, y se envía en lujo de bits al nivel mas bajo
 (1) de la maquina B y sube hasta el nivel mas alto (7) de la 
 maquina B.
   
-6.¿Qué son las cabeceras y cola y cómo se añaden y se quitan? 
+6.¿Qué son las cabeceras y cola y cómo se añaden y se quitan?
+  
+<p>Las cabeceras o colas son datos de control que se añaden al 
+principio o al inal de un paquete de datos.
+  
+<p>Las cabeceras se añaden en la maquina emisora en los niveles, 
+6 , 5 , 4, 3, 2, y en el nivel 2 se añade una cola.
+  
+<p>Se quitan en la maquina receptora al pasar nivel por nivel, cada 
+nivel procesa y elimina los datos que son para el.
+
+  
 7.¿Cuáles son las responsabilidades del nivel físico? 
 8.¿Cuáles son las responsabilidades del nivel de enlace? 
 9.¿Cuáles son las responsabilidades del nivel de red? 
