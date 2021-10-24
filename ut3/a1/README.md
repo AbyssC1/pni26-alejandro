@@ -11,8 +11,8 @@
 <br>Nivel 7 (aplicación)
 
 3.¿Cómo están OSI e ISO relacionadas entre sí?
-Están relacionados porque ISO es la organización de estándares 
-que creo el modelo de interconexión de sistemas abiertos OSI. 
+<p>Están relacionados porque ISO es la organización de estándares 
+que creo el modelo de interconexión de sistemas abiertos OSI.</p> 
 
 4.Enumere los niveles del modelo OSI. 
 5.¿Cómo pasa la información de un nivel OSI al siguiente? 
