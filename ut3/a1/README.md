@@ -106,13 +106,38 @@ trama. Si hay que enviar la trama a un sistema fuera de la red
 del emisor, la dirección de receptor es la dirección de dispositivo
 que conecta su red a la siguiente.
   
-13.¿Cuáles son las responsabilidades del nivel de sesión? 
+13.¿Cuáles son las responsabilidades del nivel de sesión?
+  
+<p>-Control de dialogo 
+<br>-Sincronización 
+  
 14.¿Cuáles son las responsabilidades del nivel de presentación? 
+  
+<p>-Traducción 
+<br>-Cifrado 
+<br>-Compresión  
+  
 15.¿Cuál es el objetivo de la traducción en el nivel de presentación? 
+
+<p>Traducir la información a lujos de bits antes de transmitirla, 
+debido a que cada computadora usa un sistema de codiicación 
+distinto.
+  
 16.Indique alguno de los servicios proporcionados por el nivel de aplicación. 
+  
+<p>Algunos de los servicios son:
+
+<p>-Servicios de terminal remoto (Telnet)
+<br>-Servicios de correo
+<br>-Servicios de transferencia de ficheros (ftp)
+<br>-Servicios web
+<br>-Servicios DNS
+<br>-Servicios DHCP
+
+  
 17.¿Cómo se relacionan los niveles de la familia del protocolo TCP/IP con los niveles del modelo OSI?
 
-18.El nivel____________ decide la localización de los puntos de sincronización. 
+18.El nivel<FONT COLOR="red"> </FONT> decide la localización de los puntos de sincronización. 
 transporte
 sesión
 presentación
