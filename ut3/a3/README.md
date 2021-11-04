@@ -154,6 +154,8 @@
 |   200.10.57.0    |    200.10.57.63|
 |   200.10.57.64   |   200.10.57.127|
 |   200.10.57.128  |   200.10.57.191|
+    
+</center>
   
     + Indica una máscara que permita dividir la red de clase C (al menos) en tres subredes 
     + ¿Cuántos hosts (ordenadores) puede haber por subred?
