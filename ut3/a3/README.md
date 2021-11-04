@@ -80,14 +80,23 @@
 7. Dada una dirección `142.226.0.15` :
 
     + ¿Cuál es el equivalente binario del segundo octeto?
+    + R- 11100010
     + ¿Cuál es la Clase de la dirección?
+    + R- 
     + ¿Cuál es la dirección de red de esta dirección `ip`?
+    + R-
     + ¿Es ésta una dirección de host válida? ¿Por qué? o ¿Por qué no?
+    + R- Si por que no corresponde a ninguna direccion reservada.
     + ¿Cuál es la cantidad máxima de hosts que se pueden tener con una dirección de red de clase C? 
+    + R- 254 host como maximo.
     + ¿Cuántas redes de clase B puede haber?
+    + R- Dos elevado a las 16= 65536 redes
     + ¿Cuántos hosts puede tener cada red de clase B?
+    + R- Dos elevados a las 16 menos 2
     + ¿Cuántos octetos hay en una dirección `ip`?
+    + R- 4 octetos hay en una direccion ip
     + ¿Cuántos bits puede haber por octeto?
+    + R- 
 
 8. Determinar, para las siguientes direcciones de host `ip`, cuáles son las direcciones que son válidas para redes comerciales. Válida significa que se puede asignar a una estación de trabajo, servidor, impresora, interfaz de router, etc.
 
@@ -95,12 +104,12 @@
 
 | Dirección `ip`  | ¿La dirección es válida? | ¿Por qué? |
 |-----------------|--------------------------|-----------|
-| 150.100.255.255 |                          |           |
-| 175.100.255.18  |                          |           |
-| 100.0.0.23      |                          |           |
-| 188.258.221.176 |                          |           |
-| 127.34.25.189   |                          |           |
-| 224.156.217.73  |                          |           |
+| 150.100.255.255 |           No             |  No es una direccion de broatcast                                         |
+| 175.100.255.18  |           Si             |  Es una red clase b y no corresponde a una direccion de broatcast         |
+| 100.0.0.23      |           Si             |  Es una clase A publica comercial                                         |
+| 188.258.221.176 |           No             |  No por que tiene en el segundo octeto 258                                |
+| 127.34.25.189   |                          |                                                                           |
+| 224.156.217.73  |           No             |  Estan reservadas por que es una clases D                                 |
 
 </center>
 
@@ -122,6 +131,11 @@
 </center>
 
 10. Asignar direcciones `ip` válidas a las interfaces de red (interfaz de red = tarjeta de red) que les falte para conseguir que exista comunicación entre los host A, B, C, D, E y F. La máscara en todos los casos será `255.255.224.0`. Justifica la respuesta.
+R-
+| Direccion subred | Primer host | Ultimo host   |
+|------------------|-------------|---------------|
+|   172.33.32.0    |  172.33.32.1|  172.33.64.254|
+
 
 <center>
 
@@ -131,7 +145,11 @@
 
 11. Tu empresa tiene una dirección de red de Clase C de `200.10.57.0` .Desea subdividir la red física en 3 subredes.
 
-    + Indica una máscara que permita dividir la red de clase C (al menos) en tres subredes.
+     200.10.57.0       200.10.57.63
+     200.10.57.64      200.10.57.127
+     200.10.57.128     200.10.57.191
+     
+    + Indica una máscara que permita dividir la red de clase C (al menos) en tres subredes 
     + ¿Cuántos hosts (ordenadores) puede haber por subred?
     + ¿Cuál es la dirección de red y la dirección de broadcast de cada una de las 3 subredes creadas?
 
