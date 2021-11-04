@@ -132,10 +132,13 @@
 
 10. Asignar direcciones `ip` válidas a las interfaces de red (interfaz de red = tarjeta de red) que les falte para conseguir que exista comunicación entre los host A, B, C, D, E y F. La máscara en todos los casos será `255.255.224.0`. Justifica la respuesta.
 R-
+<center>
+    
 | Direccion subred | Primer host | Ultimo host   |
 |------------------|-------------|---------------|
 |   172.33.32.0    |  172.33.32.1|  172.33.64.254|
 
+</center>
 
 <center>
 
