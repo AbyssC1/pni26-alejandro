@@ -56,8 +56,11 @@
 
 
 5. ¿Cuál es el intervalo decimal y binario del primer octeto para todas las direcciones `ip` clase "B" posibles?
+ R- 10000000=128 hasta 10111111=191
 ¿Qué octeto u octetos representan la parte que corresponde a la red de una dirección `ip` clase "C"?
+ R- Los tres primero octetos por que el ultimo es la red.
 ¿Qué octeto u octetos representan la parte que corresponde al host de una dirección `ip` clase "A"?
+ R- Los tres ultimos octetos por que el primero es la red.
 
 6. Completa la siguiente tabla:
 
@@ -66,9 +69,9 @@
 
 | Dirección `ip` del host | Dirección clase | Dirección de red | Dirección de host | Dirección de broadcast de red | Máscara de subred por defecto |
 |-------------------------|-----------------|------------------|-------------------|-------------------------------|-------------------------------|
-| 216.14.55.137           |                 |                  |                   |                               |                               |
-| 123.1.1.15              |                 |                  |                   |                               |                               |
-| 123.1.1.15              |                 |                  |                   |                               |                               |
+| 216.14.55.137           |        C        |   216.14.55.0    |  216.14.55.1      |   216.14.55.255               |   255.255.255.0               |
+| 123.1.1.15              |        A        |   123.0.0.0      |  123.1.1.15       |   123.255.255.255             |   255.0.0.0                   |
+| 150.127.221.224         |        B        |   150.127.0.0    |  150.127.221.224  |   150.127.255.255             |   255.255.0.0                 |
 | 123.1.1.15              |                 |                  |                   |                               |                               |
 | 123.1.1.15              |                 |                  |                   |                               |                               |
 
