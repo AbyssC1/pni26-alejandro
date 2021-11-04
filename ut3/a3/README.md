@@ -131,7 +131,7 @@
 </center>
 
 10. Asignar direcciones `ip` válidas a las interfaces de red (interfaz de red = tarjeta de red) que les falte para conseguir que exista comunicación entre los host A, B, C, D, E y F. La máscara en todos los casos será `255.255.224.0`. Justifica la respuesta.
-R-
+
 <center>
     
 | Direccion subred | Primer host | Ultimo host   |
@@ -147,11 +147,13 @@ R-
 </center>
 
 11. Tu empresa tiene una dirección de red de Clase C de `200.10.57.0` .Desea subdividir la red física en 3 subredes.
-
-     200.10.57.0       200.10.57.63
-     200.10.57.64      200.10.57.127
-     200.10.57.128     200.10.57.191
-     
+<center>
+| Direccion subred | Primer host    | 
+|------------------|----------------|
+|  200.10.57.0     |  200.10.57.63  |
+|   200.10.57.64   |   200.10.57.127|
+|   200.10.57.128  |   200.10.57.191|
+     </center>
     + Indica una máscara que permita dividir la red de clase C (al menos) en tres subredes 
     + ¿Cuántos hosts (ordenadores) puede haber por subred?
     + ¿Cuál es la dirección de red y la dirección de broadcast de cada una de las 3 subredes creadas?
