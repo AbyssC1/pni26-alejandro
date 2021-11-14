@@ -59,10 +59,10 @@
 <p>    10000000=128
 <br>   10111111=191
 <br>   El intervalo decimal es 128 - 191
-¿Qué octeto u octetos representan la parte que corresponde a la red de una dirección `ip` clase "C"?
- R- Los tres primero octetos por que el ultimo es la red.
-¿Qué octeto u octetos representan la parte que corresponde al host de una dirección `ip` clase "A"?
- R- Los tres ultimos octetos por que el primero es la red.
+<p>¿Qué octeto u octetos representan la parte que corresponde a la red de una dirección `ip` clase "C"?
+<p> Los tres primero octetos.
+<p>¿Qué octeto u octetos representan la parte que corresponde al host de una dirección `ip` clase "A"?
+<p> Los tres ultimos octetos.
 
 6. Completa la siguiente tabla:
 
