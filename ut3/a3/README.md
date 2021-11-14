@@ -88,17 +88,17 @@
     + ¿Cuál es la dirección de red de esta dirección `ip`?
     + 142.226.0.0
     + ¿Es ésta una dirección de host válida? ¿Por qué? o ¿Por qué no?
-    + Si
+    + Si por que no es una dirección de red ni de difusión privada.
     + ¿Cuál es la cantidad máxima de hosts que se pueden tener con una dirección de red de clase C? 
-    + R- 254 host como maximo.
+    + 254 host como maximo.
     + ¿Cuántas redes de clase B puede haber?
-    + R- Dos elevado a las 16= 65536 redes
+    + Dos elevado a las 16= 65536 redes
     + ¿Cuántos hosts puede tener cada red de clase B?
-    + R- Dos elevados a las 16 menos 2
+    + Dos elevados a las 16 menos 2
     + ¿Cuántos octetos hay en una dirección `ip`?
-    + R- 4 octetos hay en una direccion ip
+    + cuatro octetos hay en una direccion ip
     + ¿Cuántos bits puede haber por octeto?
-    + R- 
+    + ocho bits
 
 8. Determinar, para las siguientes direcciones de host `ip`, cuáles son las direcciones que son válidas para redes comerciales. Válida significa que se puede asignar a una estación de trabajo, servidor, impresora, interfaz de router, etc.
 
