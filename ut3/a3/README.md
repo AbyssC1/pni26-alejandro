@@ -273,9 +273,9 @@
      
 | Número de red | Dirección de red    | Dirección de Broadcast |
 |---------------|---------------------|------------------------|
-|  1            |   150.10.0.0        |                        |        
-|  2            |   150.10.64.0       |                        |            
-|  3            |   150.10.128.0      |                        |            
+|  1            |   150.10.0.0        |  150.10.63.255         |        
+|  2            |   150.10.64.0       |  150.10.127.255        |            
+|  3            |   150.10.128.0      |  150.10.191.255        |            
 </center>
 
 19. Dada la dirección de clase B `120.32.0.0`, indica qué máscara de subred deberías escoger para tener 4 subredes. Rellena a continuación la siguiente tabla.
