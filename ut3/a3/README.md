@@ -224,7 +224,13 @@
     + La red `192.168.0.0`, ¿de qué clase es?
     + - Clase C
     + Escribe el rango de direcciones `ip` que pertenecen a la subred definida por la dirección `140.220.15.245` con máscara `255.255.255.240`.
-    + -
+    + - Primero hay que calcular la subred a la que pertenece la IP 
+        140.220.15.245 = 255.255.255.240 = 140.220.15.240
+        10001100.11011100.00001111.11110101       11111111.11111111.11111111.11110000     10001100.11011100.00001111.11110000 
+        La subred a la que pertenece la IP 140.220.15.245 es 140.220.15.240 
+        El primer ordenador de la subred es 140.220.15.241 
+        La dirección de difusión de la subred es 10001100.11011100.00001111.1111 1111 = 140.220.15.255 
+        Por tanto, la dirección del último ordenador de la subred es 140.220.15.254 
     + Una red de clase B en Internet tiene una máscara de subred igual a `255.255.240.0`. ¿Cuál es el máximo de nodos por subred?
 
 16. Calcular la dirección de red y la dirección de broadcast (difusión) de las máquinas con las siguientes direcciones IP y máscaras de subred (si no se especifica, se utiliza la máscara por defecto).
