@@ -121,7 +121,7 @@
 <center>
 
 
-|  `ip`         | Máscara        | Subred      | Broadcast     |
+|  ip           | Máscara        | Subred      | Broadcast     |
 |---------------|----------------|-------------|---------------|
 | 192.168.1.130 | 255.255.255.128|192.168.1.128|192.168.1.255  |
 | 10.1.1.3      | 255.255.0.0    |10.1.0.0     |10.1.255.255   |
@@ -161,9 +161,9 @@
 </center>
   
     + Indica una máscara que permita dividir la red de clase C (al menos) en tres subredes 
-    + - 255.255.255.192
+    + 255.255.255.192
     + ¿Cuántos hosts (ordenadores) puede haber por subred?
-    + - Si se cogen 2 bits para la mascara quedan 6 bits para asignar direcciones a los ordenadores
+    + Si se cogen 2 bits para la mascara quedan 6 bits para asignar direcciones a los ordenadores
     
     
 
