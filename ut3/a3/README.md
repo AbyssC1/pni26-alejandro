@@ -219,8 +219,8 @@
 
     + Si tenemos una red `147.84.32.0` con máscara de red `255.255.255.252`, indica la dirección de broadcast, la de red y la de los posibles nodos de la red.
     + -  Dirección de red: 147.84.32.0
-         Broadcast: 147.84.32.3
-         Posibles Nodos: 147.84.32.1, 147.84.32.2
+        <br> Broadcast: 147.84.32.3
+        <br> Posibles Nodos: 147.84.32.1, 147.84.32.2
     + La red `192.168.0.0`, ¿de qué clase es?
     + - Clase C
     + Escribe el rango de direcciones `ip` que pertenecen a la subred definida por la dirección `140.220.15.245` con máscara `255.255.255.240`.
