@@ -104,14 +104,14 @@
 
 <center>
 
-| Dirección `ip`  | ¿La dirección es válida? | ¿Por qué? |
-|-----------------|--------------------------|-----------|
-| 150.100.255.255 |           No             |  No es una direccion de broatcast                                         |
-| 175.100.255.18  |           Si             |  Es una red clase b y no corresponde a una direccion de broatcast         |
-| 100.0.0.23      |           Si             |  Es una clase A publica comercial                                         |
-| 188.258.221.176 |           No             |  No por que tiene en el segundo octeto 258                                |
-| 127.34.25.189   |                          |                                                                           |
-| 224.156.217.73  |           No             |  Estan reservadas por que es una clases D                                 |
+| Dirección `ip`  | ¿La dirección es válida? |                              ¿Por qué?                                                 |
+|-----------------|--------------------------|----------------------------------------------------------------------------------------|
+| 150.100.255.255 |           No             |  Es una direccion de difusión de una red de clase B                                    |
+| 175.100.255.18  |           Si             |  No es un dirección de red ni de difusión                                              |
+| 100.0.0.23      |           Si             |  No es un dirección de red ni de difusión                                              |
+| 188.258.221.176 |           No             |  No por que tiene en el segundo octeto 258                                             |
+| 127.34.25.189   |           No             |  Esta es una red de clase A pero no es valida por que comienza en 127 el primer octeto |                                           
+| 224.156.217.73  |           No             |  Estan reservadas por que es una clases D                                              |
 
 </center>
 
