@@ -56,9 +56,9 @@
 
 
 5. ¿Cuál es el intervalo decimal y binario del primer octeto para todas las direcciones `ip` clase "B" posibles?
- R- |10000000=128|
-    |10111111=191|
-    El intervalo decimal es 128 - 191
+<p>    10000000=128
+<br>   10111111=191
+<br>   El intervalo decimal es 128 - 191
 ¿Qué octeto u octetos representan la parte que corresponde a la red de una dirección `ip` clase "C"?
  R- Los tres primero octetos por que el ultimo es la red.
 ¿Qué octeto u octetos representan la parte que corresponde al host de una dirección `ip` clase "A"?
