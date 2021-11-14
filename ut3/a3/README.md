@@ -250,16 +250,33 @@
 17. Responde a las siguientes preguntas:
 
     + ¿Cuántos ordenadores como máximo se pueden tener en una red de clase A?
+    + - 2 a la 24 -2        
     + ¿Cuántos ordenadores como máximo se pueden tener en una red de clase B?
+    + - 2 a la 16 -2       
     + ¿Cuántos ordenadores como máximo se pueden tener en una red de clase C?
+    + - 2 a la 8 -2        
     + En una red de clase C con máscara `255.255.255.128`, ¿cuántos ordenadores se pueden tener en cada subred?
+    + - Como se toma prestado un bit de la máscara quedarian 7 bits para identificar un ordenador dentro de cada subred. Con 7 bits hay 2 a la 7 de combinaciones posibles.
+        luego se podria tener 2 a la 7 -2 de ordenadores con cada subred.
     + En una red de clase C con máscara `255.255.255.192`, ¿cuántos ordenadores se pueden tener en cada subred?
-
+    + - Como se toman prestado dos bits de la máscara quedarían 6 bits para identificar un ordenador dentro de cada subred. Con 6 bits hay 2 a la 6 combinaciones posibles. 
+         luego se podría tener 2 a la 6 -2 de ordenadores con cada subred.
 18. Tu empresa tiene una dirección de red de Clase B de `150.10.0.0`. Desea subdividir la red física en 3 subredes.
 
     + Indica una máscara que permita dividir la red de clase B (al menos) en tres subredes.
+    + - 255.255.192.0       
     + ¿Cuántos hosts puede haber por subred?
+    + - 2 a la 14 -2      
     + ¿Cuál es la dirección de red y la dirección de broadcast de cada una de las 3 subredes creadas?
+    
+<center>       
+     
+| Número de red | Dirección de red    | Dirección de Broadcast |
+|---------------|---------------------|------------------------|
+|  1            |   150.10.0.0        |                        |        
+|  2            |   150.10.64.0       |                        |            
+|  3            |   150.10.128.0      |                        |            
+</center>
 
 19. Dada la dirección de clase B `120.32.0.0`, indica qué máscara de subred deberías escoger para tener 4 subredes. Rellena a continuación la siguiente tabla.
 
