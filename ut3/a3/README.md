@@ -82,23 +82,23 @@
 7. Dada una dirección `142.226.0.15` :
 
     + ¿Cuál es el equivalente binario del segundo octeto?
-    + 11100010
+    + -11100010
     + ¿Cuál es la Clase de la dirección?
-    + Clase B 
+    + -Clase B 
     + ¿Cuál es la dirección de red de esta dirección `ip`?
-    + 142.226.0.0
+    + -142.226.0.0
     + ¿Es ésta una dirección de host válida? ¿Por qué? o ¿Por qué no?
-    + Si por que no es una dirección de red ni de difusión privada.
+    + -Si por que no es una dirección de red ni de difusión privada.
     + ¿Cuál es la cantidad máxima de hosts que se pueden tener con una dirección de red de clase C? 
-    + 254 host como maximo.
+    + -254 host como maximo.
     + ¿Cuántas redes de clase B puede haber?
-    + Dos elevado a las 16= 65536 redes
+    + -Dos elevado a las 16= 65536 redes
     + ¿Cuántos hosts puede tener cada red de clase B?
-    + Dos elevados a las 16 menos 2
+    + -Dos elevados a las 16 menos 2
     + ¿Cuántos octetos hay en una dirección `ip`?
-    + cuatro octetos hay en una direccion ip
+    + -Cuatro octetos hay en una direccion ip
     + ¿Cuántos bits puede haber por octeto?
-    + ocho bits
+    + -Ocho bits
 
 8. Determinar, para las siguientes direcciones de host `ip`, cuáles son las direcciones que son válidas para redes comerciales. Válida significa que se puede asignar a una estación de trabajo, servidor, impresora, interfaz de router, etc.
 
