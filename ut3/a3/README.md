@@ -82,13 +82,13 @@
 7. Dada una dirección `142.226.0.15` :
 
     + ¿Cuál es el equivalente binario del segundo octeto?
-    + R- 11100010
+    + 11100010
     + ¿Cuál es la Clase de la dirección?
-    + R- 
+    + Clase B 
     + ¿Cuál es la dirección de red de esta dirección `ip`?
-    + R-
+    + 142.226.0.0
     + ¿Es ésta una dirección de host válida? ¿Por qué? o ¿Por qué no?
-    + R- Si por que no corresponde a ninguna direccion reservada.
+    + Si
     + ¿Cuál es la cantidad máxima de hosts que se pueden tener con una dirección de red de clase C? 
     + R- 254 host como maximo.
     + ¿Cuántas redes de clase B puede haber?
