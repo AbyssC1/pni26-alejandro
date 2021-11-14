@@ -82,23 +82,23 @@
 7. Dada una dirección `142.226.0.15` :
 
     + ¿Cuál es el equivalente binario del segundo octeto?
-    + -11100010
+    + - 11100010
     + ¿Cuál es la Clase de la dirección?
-    + -Clase B 
+    + - Clase B 
     + ¿Cuál es la dirección de red de esta dirección `ip`?
-    + -142.226.0.0
+    + - 142.226.0.0
     + ¿Es ésta una dirección de host válida? ¿Por qué? o ¿Por qué no?
-    + -Si por que no es una dirección de red ni de difusión privada.
+    + - Si por que no es una dirección de red ni de difusión privada.
     + ¿Cuál es la cantidad máxima de hosts que se pueden tener con una dirección de red de clase C? 
-    + -254 host como maximo.
+    + - 254 host como maximo.
     + ¿Cuántas redes de clase B puede haber?
-    + -Dos elevado a las 16= 65536 redes
+    + - Dos elevado a las 16= 65536 redes
     + ¿Cuántos hosts puede tener cada red de clase B?
-    + -Dos elevados a las 16 menos 2
+    + - Dos elevados a las 16 menos 2
     + ¿Cuántos octetos hay en una dirección `ip`?
-    + -Cuatro octetos hay en una direccion ip
+    + - Cuatro octetos hay en una direccion ip
     + ¿Cuántos bits puede haber por octeto?
-    + -Ocho bits
+    + - Ocho bits
 
 8. Determinar, para las siguientes direcciones de host `ip`, cuáles son las direcciones que son válidas para redes comerciales. Válida significa que se puede asignar a una estación de trabajo, servidor, impresora, interfaz de router, etc.
 
@@ -121,14 +121,14 @@
 <center>
 
 
-|  `ip`         | Máscara | Subred | Broadcast |
-|---------------|---------|--------|-----------|
-| 192.168.1.130 |         |        |           |
-| 10.1.1.3      |         |        |           |
-| 10.1.1.8      |         |        |           |
-| 200.1.1.23    |         |        |           |
-| 172.16.8.48   |         |        |           |
-| 172.16.8.48   |         |        |           |
+|  `ip`         | Máscara        | Subred      | Broadcast     |
+|---------------|----------------|-------------|---------------|
+| 192.168.1.130 | 255.255.255.128|192.168.1.128|192.168.1.255  |
+| 10.1.1.3      | 255.255.0.0    |10.1.0.0     |10.1.255.255   |
+| 10.1.1.8      | 255.255.0.0    |10.1.0.0     |10.1.255.255   |
+| 200.1.1.23    | 255.0.0.0      |220.0.0.0    |220.255.255.255|
+| 172.168.8.48  | 255.255.248.0  |172.16.8.0   |172.16.15.255  |
+| 172.16.8.48   | 255.255.255.224|172.16.8.32  |172.16.8.63    |
 
 </center>
 
@@ -149,19 +149,23 @@
 </center>
 
 11. Tu empresa tiene una dirección de red de Clase C de `200.10.57.0` .Desea subdividir la red física en 3 subredes.
+   <p> ¿Cuál es la dirección de red y la dirección de broadcast de cada una de las 3 subredes creadas?
 <center>
     
 | Dirección subred |   Primer host  | 
 |------------------|----------------|
-|   200.10.57.0    |    200.10.57.63|
+|   200.10.57.0    |   200.10.57.63 |
 |   200.10.57.64   |   200.10.57.127|
 |   200.10.57.128  |   200.10.57.191|
     
 </center>
   
     + Indica una máscara que permita dividir la red de clase C (al menos) en tres subredes 
+    + - 255.255.255.192
     + ¿Cuántos hosts (ordenadores) puede haber por subred?
-    + ¿Cuál es la dirección de red y la dirección de broadcast de cada una de las 3 subredes creadas?
+    + - Si se cogen 2 bits para la mascara quedan 6 bits para asignar direcciones a los ordenadores
+    
+    
 
 12. Se desea subdividir la dirección de red de clase C de `200.10.57.0` en 4 subredes. Responde a las siguientes preguntas:
 
