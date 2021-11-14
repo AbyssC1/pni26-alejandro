@@ -234,17 +234,18 @@
         La dirección de difusión de la subred es 10001100.11011100.00001111.1111 1111 = 140.220.15.255 
         Por tanto, la dirección del último ordenador de la subred es 140.220.15.254 
     + Una red de clase B en Internet tiene una máscara de subred igual a `255.255.240.0`. ¿Cuál es el máximo de nodos por subred?
+    + - Al ser el tercer octecto de la subred 240, quiere decir que se toman prestados 4 bits de la máscara. Hay por tanto 8+4=12 bits que identifican un ordenador dentro de la         red. Por tanto el número máximo de ordenadores dentro de cada subred será 212-2. 
 
 16. Calcular la dirección de red y la dirección de broadcast (difusión) de las máquinas con las siguientes direcciones IP y máscaras de subred (si no se especifica, se utiliza la máscara por defecto).
 
-    + `18.120.16.250`
-    + `18.120.16.255 / 255.255.0.0`
-    + `155.4.220.39`
-    + `194.209.14.33`
-    + `190.33.109.133 / 255.255.255.0`
-    + `190.33.109.133 / 255.255.255.128`
-    + `192.168.20.25 / 255.255.255.240` 
-    + `192.168.20.25 / 255.255.255.192`
+    + `18.120.16.250`                         Dirección de red: 18.0.0.0       Broadcast: 18.255.255.255
+    + `18.120.16.255 / 255.255.0.0`           Dirección de red: 18.120.0.0     Broadcast: 18.120.255.255
+    + `155.4.220.39`                          Dirección de red: 155.4.0.0      Broadcast: 155.4.255.255
+    + `194.209.14.33`                         Dirección de red: 194.209.14.0   Broadcast: 194.209.14.255
+    + `190.33.109.133 / 255.255.255.0`        Dirección de red: 190.33.109.0   Broadcast: 190.33.109.255
+    + `190.33.109.133 / 255.255.255.128`      Dirección de red: 190.33.109.128 Broadcast: 190.33.109.255
+    + `192.168.20.25 / 255.255.255.240`       Dirección de red: 192.168.20.16  Broadcast: 192.168.20.31
+    + `192.168.20.25 / 255.255.255.192`       Dirección de red: 192.168.20.0   Broadcast: 192.168.20.63
 
 17. Responde a las siguientes preguntas:
 
