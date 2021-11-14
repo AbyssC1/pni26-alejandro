@@ -294,8 +294,7 @@
 20. Responde a las siguientes preguntas:
 
     + Si tenemos una red `150.84.32.0` con máscara de red `255.255.255.224`, indica la dirección de broadcast, la de red y la de los posibles nodos de la red.
-    + - 
-    <br>Dirección de red: 150.84.32.0        
+    + - Dirección de red: 150.84.32.0        
     <br>Dirección de Broadcast:150.84.32.0
     <br>Primer Ordenador: 150.84.32.1
     <br>Ultimo Ordenador: 150.84.32.30
