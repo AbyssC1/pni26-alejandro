@@ -1,1 +1,18 @@
 
+
+Ejercicios
+Use el comando ipconfig /all para ver la dirección MAC de tu equipo. Y la siguiente aplicación
+http://coffer.com/mac_find/ para rellenar la siguiente tabla
+
+
+|-----------------------------------|--------------------------------------------------|
+|Dirección IP v4                    |  172.18.99.16                                    |
+|Máscara                            |  255.255.0.0                                     |
+|Gateway                            |  172.18.0.1                                      |
+|MAC                                |  08-00-27-73-A7-53                               |
+|Fabricante                         |  Intel(R) PRO/1000 MT Desktop Adapter            |
+|Dirección IP v6                    |                                                  |
+|Servidores DNS                     |                                                  | 
+|Tiempo de concesión de la IP       |                                                  |
+|Nombre del adaptador de red        |                                                  |
+|-----------------------------------|--------------------------------------------------|
