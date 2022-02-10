@@ -126,7 +126,7 @@ que ya no está activada.
 
 <p> Quita el lo en mi caso </p>
 
-![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/1ifconfig%20verdadera.png"IMG")
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/1ifconfig%20verdadera.png "IMG")
 
 Usa el comando ifconfig –a para ver que la tarjeta está desactivada, pero nadie la ha robado. Sigue 
 ahí.
@@ -137,14 +137,14 @@ pantalla que muestre que el adaptador de red se ha configurado correctamente.
 
 <p> Configura ifconfig  lo 192.168.99.99  netmask  255.255.255.0 </p>
 
-![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/2ifconfig%20lo%20down.png"IMG")
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/2ifconfig%20lo%20down.png "IMG")
 
 Usa el comando ifconfig eth0 IP netmask Máscara (con la configuración inicial de red) y pega una 
 captura de pantalla que muestre que el adaptador de red se ha configurado correctamente.
 
 <p> Comprobacion </p>
 
-![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/4lo%20configurado%20correctamente.png"IMG")
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/4lo%20configurado%20correctamente.png "IMG")
 
 3.	Comando	ping	(Windows	y	Línux)	
 Se usa para saber si hay comunicación entre equipos. Podría “no funcionar” en caso de que el 
