@@ -4,8 +4,8 @@
 
 </center>
 
-*** Nombre:Alejandro Hernandez ***
-*** Curso:1º de Ciclo Superior de Administración de Sistemas Informáticos en Red *** 
+***Nombre:Alejandro Hernandez***
+***Curso:1º de Ciclo Superior de Administración de Sistemas Informáticos en Red*** 
 
 ### ÍNDICE
 
