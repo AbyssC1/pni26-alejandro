@@ -33,7 +33,7 @@ Enumeramos el material empleado tanto hardware como software y las conficuracion
 http://coffer.com/mac_find/ para rellenar la siguiente tabla
 
 
-
+| ---------------------------------- | -------------------------------------------------|  
 | Dirección IP v4                    |  172.18.99.16                                    |
 | Máscara                            |  255.255.0.0                                     |
 | Gateway                            |  172.18.0.1                                      |
