@@ -105,6 +105,7 @@ Ifconfig eth0 192.168.1.1 netmask 255.255.255.192 à Asigna una IP y una máscar
 eth0.
 
 Ejercicios
+
 Ejecuta el comando ifconfig y rellena lo que puedas de la siguiente tabla.
 
 | Comandos a realizar                | Resultados                                       |
@@ -145,7 +146,7 @@ captura de pantalla que muestre que el adaptador de red se ha configurado correc
 
 <p> Comprobacion </p>
 
-![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/1ifconfig%20verdadera.png"IMG")
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/1ifconfig%20verdadera.png "IMG")
 
 3.	Comando	ping	(Windows	y	Línux)	
 Se usa para saber si hay comunicación entre equipos. Podría “no funcionar” en caso de que el 
