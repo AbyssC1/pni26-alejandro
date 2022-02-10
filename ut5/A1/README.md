@@ -51,6 +51,7 @@ http://coffer.com/mac_find/ para rellenar la siguiente tabla
 
 Liberar la configuración IP del adaptador con ipconfig /release y a continuación volver a usar el
 comando ipconfig.
+
 ¿Cuál es la ip ahora?
 
 <center>
@@ -67,7 +68,7 @@ volver a ejecutar ipconfig. ¿Cuál es la nueva ip?
 
 <p> solicita a un servidor de DHCP una nueva configuración IPv4 </p>
 
-![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Windows/Para%20PNI%20comandos%20release.png "IMG")
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Windows/renew%20pni.png "IMG")
 
 Ejecutar el comando ipconfig /displaydns y comprobar la información que contiene la caché DNS 
 de  tu  equipo.  Ejecuta  ahora  el  comando  ipconfig  /flushdns y  después  muestra  otra  vez  el 
