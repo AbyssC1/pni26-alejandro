@@ -91,11 +91,9 @@ ese nombre de dominio y pegarla aquí debajo.
 Borra la caché DNS con el comando ipconfig /flushdns y muestra una captura de pantalla en que 
 se vea que ya no hay registros DNS en caché.
 
+<p> Borramos la caché </p>
 
-|---------------------------------------------------------------------------------------------------------------------------------|
-| Renovamos la IP. |
-
-IMG
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Windows/flushdns.png "IMG")
 
 2.	Comando	ifconfig	(Línux)	
 Este comando nos permite mostrar la configuración IP de nuestra máquina y configurar algunos 
