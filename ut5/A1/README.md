@@ -83,10 +83,10 @@ Usar el navegador para ir a la web http://www.iespuertodelacruz.es y luego ejecu
 ipconfig /displaydns. Hacer una captura de pantalla donde se muestre que se ha cacheado la ip de 
 ese nombre de dominio y pegarla aquí debajo.
 
-|---------------------------------------------------------------------------------------------------------------------------------|
-| Renovamos la IP. |
+<p> Vamos a la pagina </p>
 
-IMG
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Windows/displaydns%20con%20ies%20puerto%20de%20la%20cruz.png "IMG")
+
 
 Borra la caché DNS con el comando ipconfig /flushdns y muestra una captura de pantalla en que 
 se vea que ya no hay registros DNS en caché.
