@@ -33,8 +33,8 @@ http://coffer.com/mac_find/ para rellenar la siguiente tabla
 
 <center>
 
-| Comandos a realizar |              | Resultados |
-| ---------------------------------- | -------------------------------------------------|  
+| Comandos a realizar                | Resultados                                       |
+| -----------------------------------|--------------------------------------------------|  
 | Dirección IP v4                    |  172.18.99.16                                    |
 | Máscara                            |  255.255.0.0                                     |
 | Gateway                            |  172.18.0.1                                      |
@@ -107,13 +107,13 @@ eth0.
 Ejercicios
 Ejecuta el comando ifconfig y rellena lo que puedas de la siguiente tabla.
 
-| Comandos a realizar |              | Resultados |
+| Comandos a realizar                | Resultados                                       |
 | ---------------------------------- | -------------------------------------------------|  
-| Dirección IP v4                    |                                    |
-| Máscara                            |                                       |
+| Dirección IP v4                    |                                                  |
+| Máscara                            |                                                  |
 | Gateway                            |                                      |
 | MAC                                |                                |
-| Fabricante                         |             |
+| Fabricante                         |                          |
 | Dirección IP v6                    |         |
 | Servidores DNS                     |                                     | 
 | Tiempo de concesión de la IP       |             |
