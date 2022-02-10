@@ -53,16 +53,16 @@ Liberar la configuración IP del adaptador con ipconfig /release y a continuaci�
 comando ipconfig.
 ¿Cuál es la ip ahora?
 
-|---------------------------------------------------------------------------------------------------------------------------------|
-| No hay ip ya que libera y renueva la dirección IP. |
+|------------------------------------------------------|
+| No hay ip ya que libera y renueva la dirección IP.   |                                                 
 
 IMG [alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 Ejecutar el comando ipconfig /renew solicitando una renovación de dirección IP. A continuación 
 volver a ejecutar ipconfig. ¿Cuál es la nueva ip?
 
-|---------------------------------------------------------------------------------------------------------------------------------|
-| Renovamos la IP. |
+|-----------------------------------------------------|
+| Renovamos la IP.                                    |
 
 IMG
 
