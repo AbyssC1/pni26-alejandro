@@ -109,25 +109,24 @@ Ejecuta el comando ifconfig y rellena lo que puedas de la siguiente tabla.
 
 | Comandos a realizar                | Resultados                                       |
 | ---------------------------------- | -------------------------------------------------|  
-| Dirección IP v4                    |                                                  |
-| Máscara                            |                                                  |
-| Gateway                            |                                      |
-| MAC                                |                                |
-| Fabricante                         |                          |
-| Dirección IP v6                    |         |
-| Servidores DNS                     |                                     | 
-| Tiempo de concesión de la IP       |             |
-| Nombre del adaptador de red        |                            |
+| Dirección IP v4                    | 192.168.1.40                                     |
+| Máscara                            | 255.255.255.0                                    |
+| Gateway                            | 192.168.1.1                                      |
+| MAC                                | 80:00:27:bc:9f:f6                                |
+| Fabricante                         | Intel(R) PRO/1000 MT Desktop Adapter             |
+| Dirección IP v6                    | 00-01-00-01-30-8e-9e-33-08-00-27-73-a7-53        |
+| Servidores DNS                     | 127.0.0.53                                       | 
+| Tiempo de concesión de la IP       | jue feb 10 20:52:07 WET 2022                     |
+| Nombre del adaptador de red        | Intel(R) PRO/1000                                |
 
 
 Desactiva tu tarjeta de red con el comando ifconfig eth0 down. A continuación, comprueba con un 
 ifconfig que la tarjeta ya no aparece, se ha desactivado. Haz una captura de pantalla donde se vea 
 que ya no está activada.
 
-|---------------------------------------------------------------------------------------------------------------------------------|
-| Renovamos la IP. |
+<p> Quita el lo en mi caso </p>
 
-IMG
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Windows/flushdns.png "IMG")
 
 Usa el comando ifconfig –a para ver que la tarjeta está desactivada, pero nadie la ha robado. Sigue 
 ahí.
@@ -136,18 +135,16 @@ comprueba que ya está habilitada.
 Usa  el  comando  ifconfig  eth0  192.168.99.99  netmask  255.255.255.0  y  pega  una  captura  de 
 pantalla que muestre que el adaptador de red se ha configurado correctamente.
 
-|---------------------------------------------------------------------------------------------------------------------------------|
-| Renovamos la IP. |
+<p> Configura ifconfig  lo 192.168.99.99  netmask  255.255.255.0 </p>
 
-IMG
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Windows/flushdns.png "IMG")
 
 Usa el comando ifconfig eth0 IP netmask Máscara (con la configuración inicial de red) y pega una 
 captura de pantalla que muestre que el adaptador de red se ha configurado correctamente.
 
-|---------------------------------------------------------------------------------------------------------------------------------|
-| Renovamos la IP. |
+<p> Comprobacion </p>
 
-IMG
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Windows/flushdns.png "IMG")
 
 3.	Comando	ping	(Windows	y	Línux)	
 Se usa para saber si hay comunicación entre equipos. Podría “no funcionar” en caso de que el 
