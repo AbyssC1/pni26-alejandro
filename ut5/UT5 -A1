@@ -63,9 +63,12 @@ volver a ejecutar ipconfig. ¿Cuál es la nueva ip?
 
 IMG
 
+Desactiva tu tarjeta de red con el comando ifconfig eth0 down. A continuación, comprueba con un 
+ifconfig que la tarjeta ya no aparece, se ha desactivado. Haz una captura de pantalla donde se vea 
+que ya no está activada.
 
-
-
+|---------------------------------------------------------------------------------------------------------------------------------|
+| Renovamos la IP. |
 
 
 
