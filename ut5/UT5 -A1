@@ -11,14 +11,8 @@
 ### ÍNDICE
 
 + [Introducción](#id1)
-
-  Por medio de esta practica conocemos un poco mas sobre los comandos necesarios de redes tanto de linux como windows.
-
-+ [Objetivos](#id2)
-
-  Aprender a usar los comandos de red, para usar de manera mas eficiente los sistemas operativos.
++ [Objetivos](#id2) 
 + [Material empleado](#id3)
-   
 + [Desarrollo](#id4)
 + [Conclusiones](#id5)
 
@@ -38,7 +32,7 @@ Enumeramos el material empleado tanto hardware como software y las conficuracion
 ### Use el comando ipconfig /all para ver la dirección MAC de tu equipo. Y la siguiente aplicación
 http://coffer.com/mac_find/ para rellenar la siguiente tabla
 
-
+| Comandos a realizar |              | Resultados |
 | ---------------------------------- | -------------------------------------------------|  
 | Dirección IP v4                    |  172.18.99.16                                    |
 | Máscara                            |  255.255.0.0                                     |
