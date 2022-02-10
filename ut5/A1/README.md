@@ -59,7 +59,7 @@ comando ipconfig.
 
 </center>
 
-IMG [alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Windows/Para%20PNI%20comandos%20release.png "IMG")
 
 Ejecutar el comando ipconfig /renew solicitando una renovación de dirección IP. A continuación 
 volver a ejecutar ipconfig. ¿Cuál es la nueva ip?
