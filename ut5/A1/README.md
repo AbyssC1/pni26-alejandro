@@ -1,4 +1,4 @@
-/*https://github.com/AbyssC1/pni17-alejandro/blob/812199c56dd8e2ed7f48a7b330d8582a9a47f230/ut5/A1/README.md*\
+<!-- No podrá ver este texto. -->
 <center>
 
 <h1> UT5-A1 Comandos de red </h1>
