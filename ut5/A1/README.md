@@ -119,6 +119,7 @@ Ejecuta el comando ifconfig y rellena lo que puedas de la siguiente tabla.
 | Tiempo de concesión de la IP       | jue feb 10 20:52:07 WET 2022                     |
 | Nombre del adaptador de red        | Intel(R) PRO/1000                                |
 
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/1ifconfig%20verdadera.png "IMG")
 
 Desactiva tu tarjeta de red con el comando ifconfig eth0 down. A continuación, comprueba con un 
 ifconfig que la tarjeta ya no aparece, se ha desactivado. Haz una captura de pantalla donde se vea 
@@ -126,7 +127,7 @@ que ya no está activada.
 
 <p> Quita el lo en mi caso </p>
 
-![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/1ifconfig%20verdadera.png "IMG")
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/2ifconfig%20lo%20down.png "IMG")
 
 Usa el comando ifconfig –a para ver que la tarjeta está desactivada, pero nadie la ha robado. Sigue 
 ahí.
@@ -137,14 +138,14 @@ pantalla que muestre que el adaptador de red se ha configurado correctamente.
 
 <p> Configura ifconfig  lo 192.168.99.99  netmask  255.255.255.0 </p>
 
-![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/2ifconfig%20lo%20down.png "IMG")
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/3comando%20lo.png "IMG")
 
 Usa el comando ifconfig eth0 IP netmask Máscara (con la configuración inicial de red) y pega una 
 captura de pantalla que muestre que el adaptador de red se ha configurado correctamente.
 
 <p> Comprobacion </p>
 
-![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/4lo%20configurado%20correctamente.png "IMG")
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/1ifconfig%20verdadera.png"IMG")
 
 3.	Comando	ping	(Windows	y	Línux)	
 Se usa para saber si hay comunicación entre equipos. Podría “no funcionar” en caso de que el 
@@ -173,7 +174,7 @@ captura de pantalla con el resultado y explica lo que ha pasado.
 
 <p> Enviar dos pines ,establece el indicador Time To Live (tiempo de vida). a puerta de enlace y www.google.es </p>
 
-![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/4lo%20configurado%20correctamente.png "IMG")
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/otracap1.png "IMG")
 
 
 
@@ -183,7 +184,7 @@ latencia y compara los tiempos de latencia en ambos casos.
 
 <p> Los tiempos de latencia es la velocidad que viajan los datos, en la puerta de enlace son mucho mas rapidos </p>
 
-![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/4lo%20configurado%20correctamente.png "IMG")
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/otracap2.png "IMG")
 
 
 4.	Comando	route	(Línux)	
@@ -207,14 +208,14 @@ route y del resultado de ping 8.8.8.8 ¿Cómo interpretas el mensaje que te devu
 
 <p> Desactiva la puerta de enlace y no tiene acceso a internet </p>
 
-![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/1ifconfig%20verdadera.png "IMG")
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/otracap3.png "IMG")
 
 Vuelve a configurar la puerta de enlace usando el comando route add default gw ip_gateway y 
 comprueba que ya ha vuelto la puerta de enlace con el comando route.
 
 <p> Se activa la puerta de enlace y vuelve la red </p>
 
-![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/1ifconfig%20verdadera.png "IMG")
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/otracap4.png "IMG")
 
 5.	Comando	netstat	(Línux	y	Windows)	
 Nos muestra las conexiones que tiene nuestro host abiertas con la red. Algunas opciones para 
@@ -234,7 +235,7 @@ que es cada una de las columnas que aparecen.
 
 <p> Muestra todas las conecciones establecidas que tiene el ordenador </p>
 
-![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/1ifconfig%20verdadera.png "IMG")
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/otracap5.png "IMG")
 
 Ahora espera unos segundos y vuelve a ejecutar netstat -tn. Comprobarás que algunas de las 
 conexiones se han cerrado o están esperando para cerrarse. Además con la opción -n verás los resultados  en  formato  numérico.  Pon  una  captura  de  pantalla  y  explica  la  diferencia  entre 
@@ -242,11 +243,11 @@ Established, Time_wait y Close_Wait.
 
 <p> Established es cuando tiene conección, Time_wait tiempo de espera de verificación y Close_Wait cuando se cerro la conección. </p>
 
-![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/1ifconfig%20verdadera.png "IMG")
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/otracap6.png "IMG")
 
 <p> netstat -n </p>
 
-![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/1ifconfig%20verdadera.png "IMG")
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/otracap7.png "IMG")
 
 Ejecuta ahora la orden netstat -at para que muestre las tanto las conexiones tcp abiertas como los 
 puertos que están a la escucha. Copia una captura de pantalla donde se vean los puertos que 
@@ -255,14 +256,14 @@ investiga si tener esos puertos abiertos es normal o supone una amenaza.
 
 <p> Los foreign son puertos abiertos que pueden suponer una amenaza ya que es un puerto abierto. </p>
 
-![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/1ifconfig%20verdadera.png "IMG")
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/otracap8.png "IMG")
 
 Ejecuta el comando netstat -s para ver las estadísticas de red  y haz una captura en la que se vean 
 cuantos paquetes tcp has recibido y cuantos de ellos han sido erroneos.
 
 <p> TCP recibidos </p>
 
-![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/1ifconfig%20verdadera.png "IMG")
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/otracap9.png "IMG")
 
 
 6.	Comando	arp	(Línux	y	Windows)
@@ -280,7 +281,7 @@ enlace. Pon una captura de la tabla ARP en que se vea que solo está la puerta d
 
 <p> Con el comando arp -a muestra la tabla y el arp -d borra el cache </p>
 
-![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/1ifconfig%20verdadera.png "IMG")
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/otracap10.png "IMG")
 
 Ahora  borra  manualmente  la  entrada  arp  de  la  puerta  de  enlace  con  la  orden  arp -d 
 ip_puertadeenlace. Luego introduce manualmente una mac falsa para la puerta de enlace en la 
@@ -290,7 +291,7 @@ no hay internet.
 
 <p> Por que se ha cambiado la MAC que se habia registrado en la red </p>
 
-![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/1ifconfig%20verdadera.png "IMG")
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/otracap11.png "IMG")
 
 Borra la entrada falsa de la tabla arp con el comando arp -d ip_puertadeenlace.
 
@@ -307,10 +308,9 @@ Averigua el nombre del servidor DNS de www.iespuertodelacruz.es. A continuación
 el comando nslookup nombreServidorDNS y luego el comando nslookup nombreServidorDNS
 8.8.8.8. Explica las causas de las diferencias que hay entre los resultados de las dos consultas.
 
-|---------------------------------------------------------------------------------------------------------------------------------|
-| Renovamos la IP. |
+<p> Uno muestra la dirección de DNS por defecto y otro lo asigna </p>
 
-IMG
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/otracap12.png "IMG")
 
 
 #### ***Conclusiones***. <a name="id5"></a>
