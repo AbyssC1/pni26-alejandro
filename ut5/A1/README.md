@@ -74,11 +74,9 @@ Ejecutar el comando ipconfig /displaydns y comprobar la información que contien
 de  tu  equipo.  Ejecuta  ahora  el  comando  ipconfig  /flushdns y  después  muestra  otra  vez  el 
 contenido de la caché DNS. ¿Qué información muestra ahora? ¿Qué ha ocurrido?
 
-|---------------------------------------------------------------------------------------------------------------------------------|
-| Renovamos la IP. |
+<p> Nos muestra los valores DNS que se están almacenados en la caché de nuestro sistema </p>
 
-
-IMG
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Windows/ipconfig%20displaydns%20y%20ipconfig%20flushdns.png "IMG")
 
 
 Usar el navegador para ir a la web http://www.iespuertodelacruz.es y luego ejecutar el comando 
