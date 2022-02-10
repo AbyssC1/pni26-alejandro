@@ -212,10 +212,9 @@ route y del resultado de ping 8.8.8.8 ¿Cómo interpretas el mensaje que te devu
 Vuelve a configurar la puerta de enlace usando el comando route add default gw ip_gateway y 
 comprueba que ya ha vuelto la puerta de enlace con el comando route.
 
-|---------------------------------------------------------------------------------------------------------------------------------|
-| Renovamos la IP. |
+<p> Se activa la puerta de enlace y vuelve la red </p>
 
-IMG
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/1ifconfig%20verdadera.png "IMG")
 
 5.	Comando	netstat	(Línux	y	Windows)	
 Nos muestra las conexiones que tiene nuestro host abiertas con la red. Algunas opciones para 
@@ -233,37 +232,37 @@ Abre una página web cualquiera y luego ejecuta el comando netstat -t para que n
 conexiones que tenemos abiertas por tcp. Pon una captura de pantalla del resultado y explica lo 
 que es cada una de las columnas que aparecen.
 
-|---------------------------------------------------------------------------------------------------------------------------------|
-| Renovamos la IP. |
+<p> Muestra todas las conecciones establecidas que tiene el ordenador </p>
 
-IMG
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/1ifconfig%20verdadera.png "IMG")
 
 Ahora espera unos segundos y vuelve a ejecutar netstat -tn. Comprobarás que algunas de las 
 conexiones se han cerrado o están esperando para cerrarse. Además con la opción -n verás los resultados  en  formato  numérico.  Pon  una  captura  de  pantalla  y  explica  la  diferencia  entre 
 Established, Time_wait y Close_Wait.
 
-|---------------------------------------------------------------------------------------------------------------------------------|
-| Renovamos la IP. |
+<p> Established es cuando tiene conección, Time_wait tiempo de espera de verificación y Close_Wait cuando se cerro la conección. </p>
 
-IMG
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/1ifconfig%20verdadera.png "IMG")
+
+<p> netstat -n </p>
+
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/1ifconfig%20verdadera.png "IMG")
 
 Ejecuta ahora la orden netstat -at para que muestre las tanto las conexiones tcp abiertas como los 
 puertos que están a la escucha. Copia una captura de pantalla donde se vean los puertos que 
 tienes  escuchando,  explica  qué    significan  los  asteriscos  en  la  columna  “Foreign  address”  e 
 investiga si tener esos puertos abiertos es normal o supone una amenaza.
 
-|---------------------------------------------------------------------------------------------------------------------------------|
-| Renovamos la IP. |
+<p> Los foreign son puertos abiertos que pueden suponer una amenaza ya que es un puerto abierto. </p>
 
-IMG
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/1ifconfig%20verdadera.png "IMG")
 
 Ejecuta el comando netstat -s para ver las estadísticas de red  y haz una captura en la que se vean 
 cuantos paquetes tcp has recibido y cuantos de ellos han sido erroneos.
 
-|---------------------------------------------------------------------------------------------------------------------------------|
-| Renovamos la IP. |
+<p> TCP recibidos </p>
 
-IMG
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/1ifconfig%20verdadera.png "IMG")
 
 
 6.	Comando	arp	(Línux	y	Windows)
@@ -279,10 +278,9 @@ Ejercicio
 Borra toda la caché ARP con el comando arp -d *. A continuación haz un ping a la puerta de 
 enlace. Pon una captura de la tabla ARP en que se vea que solo está la puerta de enlace y su mac.
 
-|---------------------------------------------------------------------------------------------------------------------------------|
-| Renovamos la IP. |
+<p> Con el comando arp -a muestra la tabla y el arp -d borra el cache </p>
 
-IMG
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/1ifconfig%20verdadera.png "IMG")
 
 Ahora  borra  manualmente  la  entrada  arp  de  la  puerta  de  enlace  con  la  orden  arp -d 
 ip_puertadeenlace. Luego introduce manualmente una mac falsa para la puerta de enlace en la 
@@ -290,10 +288,9 @@ tabla arp con el comando arp -s ip_puertadeenlace aa:bb:cc:dd:ee:ff Haz una capt
 en que se vea el resultado del comando arp -a y de hacer un ping a google. Explica por qué ahora 
 no hay internet.
 
-|---------------------------------------------------------------------------------------------------------------------------------|
-| Renovamos la IP. |
+<p> Por que se ha cambiado la MAC que se habia registrado en la red </p>
 
-IMG
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/1ifconfig%20verdadera.png "IMG")
 
 Borra la entrada falsa de la tabla arp con el comando arp -d ip_puertadeenlace.
 
