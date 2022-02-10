@@ -126,7 +126,7 @@ que ya no está activada.
 
 <p> Quita el lo en mi caso </p>
 
-![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Windows/flushdns.png "IMG")
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/1)ifconfig%20verdadera.png"IMG")
 
 Usa el comando ifconfig –a para ver que la tarjeta está desactivada, pero nadie la ha robado. Sigue 
 ahí.
