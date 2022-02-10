@@ -55,7 +55,6 @@ comando ipconfig.
 
 <center>
   
-|------------------------------------------------------|
 | No hay ip ya que libera y renueva la dirección IP.   |                                                 
 
 </center>
