@@ -28,6 +28,7 @@ Aprender a conocer los comandos tanto en windows como en linux de una red.
 
 Enumeramos el material empleado tanto hardware como software y las conficuraciones que hacemos (configuraciones de red por ejemplo) 
 
+#### ***Desarrollo***. <a name="id4"></a>
 ### Use el comando ipconfig /all para ver la dirección MAC de tu equipo. Y la siguiente aplicación
 http://coffer.com/mac_find/ para rellenar la siguiente tabla
 
