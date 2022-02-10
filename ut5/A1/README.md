@@ -55,7 +55,7 @@ comando ipconfig.
 
 <center>
   
-| No hay ip ya que libera y renueva la dirección IP.   |                                                 
+<p> No hay ip ya que libera y renueva la dirección IP.  </p>                                                
 
 </center>
 
@@ -64,10 +64,10 @@ comando ipconfig.
 Ejecutar el comando ipconfig /renew solicitando una renovación de dirección IP. A continuación 
 volver a ejecutar ipconfig. ¿Cuál es la nueva ip?
 
-|-----------------------------------------------------|
-| Renovamos la IP.                                    |
 
-IMG
+<p> solicita a un servidor de DHCP una nueva configuración IPv4 </p>
+
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Windows/Para%20PNI%20comandos%20release.png "IMG")
 
 Ejecutar el comando ipconfig /displaydns y comprobar la información que contiene la caché DNS 
 de  tu  equipo.  Ejecuta  ahora  el  comando  ipconfig  /flushdns y  después  muestra  otra  vez  el 
