@@ -162,30 +162,28 @@ Ejercicios
 Desde una máquina con línux ejecuta el comando ping –s 100 –c 2  ip_puertadeenlace para que se 
 envíen dos ecos de 100 bytes. Muestra una captura de pantalla con el resultado.
 
-|---------------------------------------------------------------------------------------------------------------------------------|
-| Renovamos la IP. |
+<p> Enviar dos pines a la puerta de enlace </p>
 
-IMG
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/4lo%20configurado%20correctamente.png "IMG")
 
 Desde una máquina con windows usa el comando ping –i 2 ip_puertadeenlace para hacer un ping 
 a nuestra puerta de enlace con un TTL igual a 2. 
 Luego haz un ping de las mismas características, pero a google ping –i 2 www.google.es. Pega una 
 captura de pantalla con el resultado y explica lo que ha pasado.
 
-|---------------------------------------------------------------------------------------------------------------------------------|
-| Renovamos la IP. |
+<p> Enviar dos pines ,establece el indicador Time To Live (tiempo de vida). a puerta de enlace y www.google.es </p>
 
-IMG
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/4lo%20configurado%20correctamente.png "IMG")
+
 
 
 El comando ping nos da información sobre el tiempo de latencia de una red. Haz un ping a nuestra 
 puerta de enlace y luego a otro a www.google.es. Busca información de lo que es el tiempo de 
 latencia y compara los tiempos de latencia en ambos casos. 
 
-|---------------------------------------------------------------------------------------------------------------------------------|
-| Renovamos la IP. |
+<p> Los tiempos de latencia es la velocidad que viajan los datos, en la puerta de enlace son mucho mas rapidos </p>
 
-IMG
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/4lo%20configurado%20correctamente.png "IMG")
 
 
 4.	Comando	route	(Línux)	
@@ -198,20 +196,18 @@ Ejercicios
 
 Usa el comando route para ver la puerta de enlace de tu equipo. ¿Cuál es tu puerta de enlace?
 
-|---------------------------------------------------------------------------------------------------------------------------------|
-| Renovamos la IP. |
+<p> En mi caso me muerta el nombre de mi livebox fibra </p>
 
-IMG
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/1ifconfig%20verdadera.png "IMG") <<<---- esta esta bien no modificar
 
 Borra la puerta de enlace usando el comando Route del default gw ip_gateway. A continuación, 
 ejecuta el comando route para comprobar que ya no hay puerta de enlace. Intenta navegar por 
 internet y verás que tampoco puedes. Haz una captura de pantalla con la salida del comando 
 route y del resultado de ping 8.8.8.8 ¿Cómo interpretas el mensaje que te devuelve el ping?
 
-|---------------------------------------------------------------------------------------------------------------------------------|
-| Renovamos la IP. |
+<p> Desactiva la puerta de enlace y no tiene acceso a internet </p>
 
-IMG
+![alt text](https://github.com/AbyssC1/pni17-alejandro/blob/main/Imagenes/UT5/Linux/1ifconfig%20verdadera.png "IMG")
 
 Vuelve a configurar la puerta de enlace usando el comando route add default gw ip_gateway y 
 comprueba que ya ha vuelto la puerta de enlace con el comando route.
