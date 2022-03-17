@@ -189,7 +189,12 @@ aparecen al realizar el comando arp –a después de esta comunicación.
 <p>Paso 5. Cambiar la configuración de tal forma que los equipos se comuniquen en 
 grupos de 5 equipos (primer grupo PC01 al PC05, segundo grupo PC06 al PC10, tercer 
 grupo PC11 al PC15)
+
+ ![Ejercicio 5](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20Tracer%20img%201/practica%205%20switch%201.png "IMG")  
   
+ ![Ejercicio 5](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20Tracer%20img%201/Practica%205%20switch%202.png "IMG")
+  
+ ![Ejercicio 5](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20Tracer%20img%201/practica%205%20switch%203.png "IMG")
   
 #### ***Conclusiones***. <a name="id5"></a>
 
