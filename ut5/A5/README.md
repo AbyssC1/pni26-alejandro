@@ -136,8 +136,59 @@ del hub número 5. Comprobar la conectividad de los 4 equipos anteriores con és
  
  ![Ejercicio 4](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20tracer%20PKT%201/Ejercicio%204.pkt "IMG")
   
+<h1>Ejercicio 5. Direccionamiento IP.</h1>
+
+<p>Partiendo de una configuración de 3 switchs y 15 equipos, comprobar la comunicación 
+entre los equipos mediante el uso de direcciones IP y máscaras.
+ 
+<p>Paso 1. Insertar tres switchs 2950‐24 con los nombres SW01, SW02 y SW03, con la 
+siguiente configuración:
+<p>Switch origen Puerto origen Switch destino Puerto destino
+SW01 2 SW02 1
+SW01 3 SW03 1
+<p>Paso 2. Insertar los 15 equipos con la siguiente configuración:
+Nombre IP Máscara Switch Puerto
+<p>PC01 192.168.1.101 255.255.255.0 SW01 11
+PC02 192.168.1.121 255.255.255.248 SW02 11
+PC03 192.168.1.140 255.255.255.192 SW03 11
+PC04 192.168.1.160 255.255.255.128 SW01 12
+PC05 192.168.1.1 255.255.255.0 SW02 12
+PC06 192.168.1.11 255.255.255.224 SW03 12
+PC07 192.168.1.111 255.255.255.128 SW01 13
+PC08 192.168.1.200 255.255.255.240 SW02 13
+PC09 192.168.1.201 255.255.255.0 SW03 13
+PC10 192.168.1.248 255.255.255.128 SW01 14
+PC11 192.168.1.144 255.255.255.192 SW02 14
+PC12 192.168.1.211 255.255.255.240 SW03 14
+PC13 192.168.1.25 255.255.255.128 SW01 15
+PC14 192.168.1.33 255.255.255.224 SW02 15
+PC15 192.168.1.222 255.255.255.0 SW03 15
+<p>Paso 3. Calcular, de forma manual, qué equipos se comunican entre ellos. 
+Comprobar estos cálculos con los aportados por las comunicaciones del ejemplo.
+<p>Paso 4. Comprobar las direcciones MAC que 
+ha aprendido cada uno de los switchs. Para ello, 
+entramos en el modo consola de cada uno de 
+los switchs.
   
-  
+<p>Dentro de ese modo consola, debemos entrar 
+en el modo privilegiado del sistema. Esto se 
+consigue tecleando el comando enable. 
+Después, al cambiar el prompt de petición a 
+tener un #, colocaremos el comando show 
+mac‐address‐table.
+Verificamos que los resultados eran los 
+requeridos.
+<p>Señalar que, si no hay comunicación entre los equipos durante un tiempo, esta tabla se 
+vacía.
+<p>Comprobar también que en los equipos podemos verificar las relaciones direcciones IP 
+y MAC de los equipos con los que nos hemos comunicado mediante el comando 
+arp –a.
+<p>Sobre la máquina virtual (no sobre el simulador) realizamos un ping a la dirección 
+www.google.es. Este ping debe ser correcto. Comprobar y explicar qué elementos 
+aparecen al realizar el comando arp –a después de esta comunicación.
+<p>Paso 5. Cambiar la configuración de tal forma que los equipos se comuniquen en 
+grupos de 5 equipos (primer grupo PC01 al PC05, segundo grupo PC06 al PC10, tercer 
+grupo PC11 al PC15)
   
   
 #### ***Conclusiones***. <a name="id5"></a>
