@@ -31,7 +31,24 @@ El material empleado fue el "Packet Tracer"
 
 #### ***Desarrollo***. <a name="id4"></a>
 
-Aqui la ex
+Ejercicio 1. Comandos importantes. Ping, tracert y
+pathping.
+
+Paso 1. Realizar un ping, desde la máquina virtual, a las siguientes direcciones, 
+comprobando los mensajes que devuelven cada uno de ellos. Se recomienda analizar 
+porque se produce cada respuesta:
+• 192.168.1.250
+• 172.20.1.2
+• www.google.es (responde)
+• www.gobiernodecanarias.org (tiempo de espera agotado, pero traduce)
+• www.educacion.es (tiempo de espera agotado, pero traduce)
+• www.iespuertodelacruz.com (dirección no existente)
+• leela.servidor
+Paso 2. Realizar un tracert a las direcciones dadas anteriormente y explicar los 
+resultados.
+Paso 3. Realizar un pathping a las direcciones dadas anteriormente.
+
+![alt text](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20Tracer%20img%201/Practica%201.png "IMG")
 
 
 
