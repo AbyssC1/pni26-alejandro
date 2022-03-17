@@ -366,6 +366,18 @@ switch. Esta acción la conseguimos con los comandos:
 <p>Comprobar el funcionamiento de este comando mediante el añadido de varios equipos 
 al switch a diferentes puertos
   
+![Ejercicio 7](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20Tracer%20img%201/Practica%207.png "IMG")   
+  
+  
+![Ejercicio 7](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20Tracer%20img%201/Practica%207%2C2.png "IMG")   
+  
+  
+ ![Ejercicio 7](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20Tracer%20img%201/Practica%207%2C3.png "IMG")    
+  
+   ![Ejercicio 7](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20tracer%20PKT%201/Ejercicio%207.pkt "IMG")
+  
+  
+  
 #### ***Conclusiones***. <a name="id5"></a>
 
 Las mayores dificultades fueron por parte de los switches a la hora de configurarlo
