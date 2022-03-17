@@ -104,10 +104,34 @@ experiencias
 ![Ejercicio 3](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20tracer%20PKT%201/Ejercicio%203.pkt "IMG") 
 ![Ejercicio 3.2](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20tracer%20PKT%201/Ejercicio%203%2C2.pkt "IMG") 
   
+<h1>Ejercicio 4. Unión entre switchs de comunicaciones.</h1>
+
+<p>El ejercicio nos sirve para comprobar las diferentes uniones entre varios switchs de 
+comunicaciones.
+<p>Paso 1. Colocar 4 switchs 2950‐24, cambiando sus nombres a SW01, SW02, SW03 y 
+SW04.
+<p>Paso 2. Realizar las siguientes conexiones entre switchs:
+Switch origen Puerto destino Puerto origen Switch destino Puerto destino Puerto destino
+SW01 2 SW02 1
+SW01 3 SW03 1
+SW02 4 SW04 2
+<p>Paso 3. Insertar los siguientes equipos con sus correspondientes configuraciones:
+Nombre IP Máscara Switch Puerto
+PC01 10.0.1.101 255.255.0.0 SW01 11
+PC02 10.0.2.102 255.255.0.0 SW02 12
+PC03 10.0.3.103 255.255.0.0 SW03 13
+PC04 10.0.4.104 255.255.0.0 SW04 14
+<p>Paso 4. Comprobar la conectividad de los 4 equipos.
+<p>Paso 5. Introducir una nueva conexión entre switchs entre el SW01 puerto 4 y el 
+SW04 puerto 1. Esto crea un circuito entre los equipos. Comprobar qué sucede con la 
+comunicación entre equipos.
+<p>Paso 6. Eliminar la última conexión realizada. Añadir un Generic Hub‐PT y 
+denominarlo HUB05. Utilizando el puerto 1 de este hub, unirlo al SW04 puerto 1. 
+Insertar un nuevo equipo con la configuración PC05, 10.0.5.105, 255.255.0.0, al puerto 
+del hub número 5. Comprobar la conectividad de los 4 equipos anteriores con éste
   
-  
-  
-  
+ ![Ejercicio 4](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20Tracer%20img%201/Ejercicio%204.png "IMG")
+ ![Ejercicio 4](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20tracer%20PKT%201/Ejercicio%204.pkt "IMG")
   
   
   
