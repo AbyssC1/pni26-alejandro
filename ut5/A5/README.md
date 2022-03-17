@@ -102,7 +102,6 @@ ejecutando el comando arp -a en uno de los equipos.
 experiencias
   
 ![Ejercicio 3](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20tracer%20PKT%201/Ejercicio%203.pkt "IMG") 
-  <p>Otra parte</p>
 ![Ejercicio 3.2](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20tracer%20PKT%201/Ejercicio%203%2C2.pkt "IMG") 
   
 <h1>Ejercicio 4. Unión entre switchs de comunicaciones.</h1>
