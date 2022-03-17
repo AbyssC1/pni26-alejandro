@@ -114,15 +114,15 @@ comunicaciones.
 SW04.
 <p>Paso 2. Realizar las siguientes conexiones entre switchs:
 Switch origen Puerto destino Puerto origen Switch destino Puerto destino Puerto destino
-SW01 2 SW02 1
-SW01 3 SW03 1
-SW02 4 SW04 2
+<p>SW01 2 SW02 1
+<p>SW01 3 SW03 1
+<p>SW02 4 SW04 2
 <p>Paso 3. Insertar los siguientes equipos con sus correspondientes configuraciones:
 Nombre IP Máscara Switch Puerto
-PC01 10.0.1.101 255.255.0.0 SW01 11
-PC02 10.0.2.102 255.255.0.0 SW02 12
-PC03 10.0.3.103 255.255.0.0 SW03 13
-PC04 10.0.4.104 255.255.0.0 SW04 14
+<p>PC01 10.0.1.101 255.255.0.0 SW01 11
+<p>PC02 10.0.2.102 255.255.0.0 SW02 12
+<p>PC03 10.0.3.103 255.255.0.0 SW03 13
+<p>PC04 10.0.4.104 255.255.0.0 SW04 14
 <p>Paso 4. Comprobar la conectividad de los 4 equipos.
 <p>Paso 5. Introducir una nueva conexión entre switchs entre el SW01 puerto 4 y el 
 SW04 puerto 1. Esto crea un circuito entre los equipos. Comprobar qué sucede con la 
