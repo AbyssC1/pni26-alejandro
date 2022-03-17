@@ -198,6 +198,134 @@ grupo PC11 al PC15)
   
  ![Ejercicio 5](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20tracer%20PKT%201/Ejercicio%205.pkt "IMG") 
   
+  <h1>Ejercicio 6. Seguridad y configuraciones de un switch.</h1>
+  
+<p>Como es lógico, el acceso a un switch lo realizaremos desde un equipo exterior, ya que 
+el propio switch no presenta ninguna pantalla. Para ver esto en el simulador, 
+colocaremos un PC y un switch, y los uniremos mediante un cable de consola (por el 
+puerto RS232 o puerto COM1 del equipo y por el puerto de consola del switch).
+  
+<p>Esta unión la usaremos entrando en el PC y utilizando la opción de Terminal. En un PC 
+real, lo haríamos utilizando el aplicativo Hiperterminal.
+Dejaremos la configuración de velocidad, bits de datos, paridad, etc. que se nos ofrece 
+por defecto.
+  
+<p>Paso 1. Establecer la conexión con el switch utilizando la opción de enlace por Consola 
+y Terminal.
+<p>Paso 2. Establecer el nombre del equipo. Este es uno de los primeros pasos que se 
+suele realizar al configurar un switch. En nuestro caso, le pondremos el nombre 
+Mi_primer_switch. Esta acción la realizamos desde el modo comando de la siguiente 
+forma:
+<p>Switch> enable (entra en el modo privilegiado de configuración)
+<p>Switch# configure terminal (entra en el modo de configuración que es el que permite 
+el cambio de los parámetros del switch)
+<p>Switch(config)# hostname Mi_primer_switch (cambia el nombre) 
+<p>Mi_primer_switch (config)# (vemos como ya ha cambiado el nombre)
+<p>Paso 3. Desactivar avisos de consola. Es una acción muy habitual, ya que, con cada 
+modificación del estado de alguno de los parámetros del switch, se presenta un 
+mensaje por consola. Por ejemplo, cuando apagamos o encendemos un equipo, se 
+presentan mensajes del estado de ese puerto en el que estaba conectado el equipo. 
+Debemos comprobar que esto es así, y, usando los comandos siguientes, 
+comprobaremos que ya no se presentan dichas alertas.
+<p>Switch> enable
+<p>Switch# configure terminal
+<p>Switch(config)# no logging console (para la aparición de mensajes por consola)
+4
+<p>Paso 4. Contraseñas de acceso. Si nuestro switch es una parte importante de nuestra 
+configuración de red, es lógico que protejamos su acceso mediante el uso de 
+contraseñas.
+<p>En primer lugar, podemos establecer una contraseña para acceder al modo 
+privilegiado. Esto lo hacemos con los siguientes comandos:
+<p>Switch> enable
+<p>Switch# configure terminal
+<p>Switch(config)# enable secret ciscoenable (activa y fija la contraseña del modo 
+privilegiado a ciscoenable)
+Y después activamos la contraseña para la entrada mediante consola:
+<p>Switch(config)# line console 0 (se puede colocar una contraseña diferente para 
+cada tipo de acceso; nosotros estamos entrando por consola; ver que cambia el 
+prompt del sistema)
+<p>Switch(config)# password cisco (coloca como contraseña la palabra cisco) 
+<p>Switch(config‐line)# login (activa la solicitud de contraseña por consola)
+<p>Debemos comprobar que esto funciona, por lo que nos desconectaremos de la consola 
+y volveremos a entrar.
+<p>Para desactivar la contraseña del modo consola, llegando a config‐line tecleamos no 
+login. Para desactivar la contraseña del modo privilegiado, llegando a config tecleamos 
+no enable secret.
+<p>La mayoría de los desactivados en IOS CISCO se hacen colocando el comando no por 
+delante del comando que lo activó.
+<p>Paso 5. Configurar dirección IP, máscara y puerta de enlace del switch.
+La dirección IP del propio switch la configuramos para su acceso a través de la VLAN1. 
+Por eso, muchos fabricantes, llaman a esta VLAN1 la de gestión, ya que el 
+equipamiento de red configura por ahí su acceso remoto por IP.
+<p>En modo comando, lo hacemos así:
+<p>Switch> enable
+<p>Switch# configure terminal
+<p>Switch(config)# interface vlan 1 (entramos en la configuración de la vlan 1) 
+<p>Switch(config‐if)#ip address 192.168.1.254 255.255.255.0 (colocamos la IP y la 
+máscara)
+<p>Switch(config‐if)# no shutdown (este comando activa el interface que acabamos 
+de configurar)
+<p>Switch(config)# exit (salimos a la configuración general)
+<p>Switch(config)# ip default‐gateway 192.168.1.1 (configuramos la puerta de enlace 
+predeterminada para todas las comunicaciones de gestión del switch; hay que 
+colocarlo si queremos acceder a él a través de un router, o para que se conecte a 
+Internet para descargar actualizaciones, etc.)
+<p>Podemos comprobar que la IP funciona realizando un ping desde un equipo que esté 
+enganchado al switch.
+
+<p>Paso 6. Guardar la configuración.
+Con todos los pasos anteriores, hemos modificado la configuración de nuestro switch, 
+pero existe un problema: no hemos guardado la configuración.
+Para verificar que esto es así, procedemos a recargar la configuración, que sería como 
+apagar y volver a encender el switch.
+<p>Switch> enable 
+<p>Switch# reload
+<p>Al iniciar, comprobamos que los cambios en el switch no están (nombre del switch, 
+direcciones IP, etc.).
+<p>Volvemos a colocar el nombre al switch, y ahora grabaremos los cambios. Para realizar 
+esta acción, debemos saber que un equipo CISCO posee dos ficheros de configuración: 
+running‐config: almacena la configuración que está en ejecución en este momento. Es 
+sobre la que hemos realizado los cambios hasta ahora. Este fichero, al iniciar el 
+sistema, se sobre escribe con otro fichero: startup‐config.
+startup‐config: como su nombre indica, es el fichero de configuración que se carga en 
+el sistema al iniciar el mismo, y realiza una copia de si mismo sobre el fichero running‐ 
+config.
+<p>Con esta configuración, si en algún momento uno de los parámetros de configuración 
+que tocamos provoca un comportamiento inadecuado, podemos solucionarlo 
+volviendo a una configuración estable con solo reiniciar el switch.
+<p>Para grabar la configuración, sólo debemos realizar una copia del fichero running‐ 
+config sobre el fichero startup‐config. La forma de hacerlo no puede ser más clara: 
+<p>Switch> enable
+<p>Switch# copy running‐config startup‐config
+Ahora, realizamos un cambio en el nombre del switch (Paso 2), copiamos la 
+configuración y reiniciamos el switch. De esta forma comprobamos que nuestro equipo 
+ha mantenido el cambio de nombre.
+<p>También volveremos a realizar el paso 5 de colocar la IP, ya que la necesitamos en el 
+paso siguiente, y grabaremos la configuración. Podemos comprobar que la IP funciona 
+realizando un ping desde un equipo que esté enganchado al switch.
+<p>Paso 7. Acceso mediante Telnet.
+Además de tener configurada una dirección IP para nuestro switch, éste posee 5 
+conexiones para telnet desde el exterior que pueden ser activadas. Lógicamente, al ser 
+conexiones externas, se debe establecer una contraseña para dicha conexión. Estas 
+acciones se realizan mediante lo comandos:
+<p>Switch> enable
+<p>Switch# configure terminal
+<p>Switch# enable password cisco (debe tener contraseña el acceso al switch hasta 
+por consola)
+<p>Switch(config)# line vty 0 4 (accedemos a la configuración de los 5 interfaces telnet) 
+<p>Switch(config‐line)# password cisco (colocamos la contraseña cisco para 
+accede mediante telnet)
+<p>Switch(config‐line)# login (activamos la petición de contraseña)
+6
+Ahora, procederemos a acceder desde un ordenador conectado a ese switch mediante 
+la opción de Escritorio, entrando en el modo comando, e invocando el comando 
+Telnet  
+  
+  
+  
+  
+  
+  
 #### ***Conclusiones***. <a name="id5"></a>
 
 Las mayores dificultades fueron por parte de los switches a la hora de configurarlo
