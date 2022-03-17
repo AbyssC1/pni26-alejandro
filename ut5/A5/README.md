@@ -102,7 +102,7 @@ ejecutando el comando arp -a en uno de los equipos.
 experiencias
   
 ![Ejercicio 3](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20tracer%20PKT%201/Ejercicio%203.pkt "IMG") 
-  <p>Otra parte
+  <p>Otra parte</p>
 ![Ejercicio 3.2](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20tracer%20PKT%201/Ejercicio%203%2C2.pkt "IMG") 
   
 <h1>Ejercicio 4. Unión entre switchs de comunicaciones.</h1>
@@ -132,7 +132,7 @@ Insertar un nuevo equipo con la configuración PC05, 10.0.5.105, 255.255.0.0, al
 del hub número 5. Comprobar la conectividad de los 4 equipos anteriores con éste
   
  ![Ejercicio 4](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20Tracer%20img%201/Ejercicio%204.png "IMG")
- <p> PKT
+ <p> PKT </p>
  ![Ejercicio 4](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20tracer%20PKT%201/Ejercicio%204.pkt "IMG")
   
   
