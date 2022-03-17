@@ -406,6 +406,12 @@ el punto de acceso. Como podemos comprobar, la configuración IP del punto de
 acceso no impide una correcta comunicación entre los diferentes PC’s que se conecten 
 a su red.
   
+ 
+ ![Ejercicio 1.2](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20Tracer%20img%202/Ejercicio%201%20de%20la%20parte%202%2C%201.png "IMG") 
+  
+  
+ ![Ejercicio 1.2](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20Tracer%20PKT%202/Ejercicio%201%20de%20la%20parte%202.pkt "IMG") 
+  
 #### ***Conclusiones***. <a name="id5"></a>
 
 Las mayores dificultades fueron por parte de los switches a la hora de configurarlo
