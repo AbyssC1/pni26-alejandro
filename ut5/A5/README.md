@@ -73,6 +73,35 @@ adecuando de par trenzado hasta que se produzca comunicación (luces en verde en
 ambos extremos)
 
 ![Ejercicio 2](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20tracer%20PKT%201/Ejercicio%202.pkt "IMG")
+  
+  
+<h1>Ejercicio 3. Diferencias entre Hub y Switch.</h1>
+
+<p>En esta primera práctica intentaremos ver la diferencia entre Switch y Hub. Para ello 
+realizaremos las siguientes acciones:
+  
+<p>Paso1. Añadimos un Generic Hub‐PT, que nos presenta un pequeño hub con 6
+puertos Fast Ethernet.
+<p>Paso 2. Añadimos 3 ordenadores con las siguientes configuraciones:
+Nombre Dirección IP Máscara de red
+  
+PC01 192.168.5.101 255.255.255.0
+PC02 192.168.5.102 255.255.255.0
+PC03 192.168.5.103 255.255.255.0
+<p>Paso 3. Conectar los 3 equipos con el hub utilizando el cableado adecuado.
+<p>Paso 4. Comprobar la conectividad entre los equipos realizando un ping entre ellos.
+<p>Paso 5. Una vez comprobada la conectividad, pasar del modo Tiempo Real al modo 
+Simulación y volver a realizar un ping entre equipos. Se debe reiniciar la configuración 
+para poder apreciar los paquetes ICMP entre los equipos. Para realizar correctamente 
+esta experiencia, y no tener más información que la necesaria, aplicar un filtro de 
+eventos que sólo nos presente los paquetes ARP e ICMP (que son los necesarios para 
+comprobar el funcionamiento del ping). Comprobar también tablas ARP aprendidas,
+ejecutando el comando arp -a en uno de los equipos.
+<p>Paso 6. Realizar las mismas pruebas cambiando el Generic Hub‐PT por un switch 2950‐
+24. Grabar el proyecto con un nuevo nombre. Comprobar la diferencia entre ambas 
+experiencias
+  
+  
 
 #### ***Conclusiones***. <a name="id5"></a>
 
