@@ -101,7 +101,7 @@ ejecutando el comando arp -a en uno de los equipos.
 24. Grabar el proyecto con un nuevo nombre. Comprobar la diferencia entre ambas 
 experiencias
   
-![Ejercicio 3](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20tracer%20PKT%201/Ejercicio%203.pkt "IMG") 
+<p>![Ejercicio 3](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20tracer%20PKT%201/Ejercicio%203.pkt "IMG") 
 ![Ejercicio 3.2](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20tracer%20PKT%201/Ejercicio%203%2C2.pkt "IMG") 
 #### ***Conclusiones***. <a name="id5"></a>
 
