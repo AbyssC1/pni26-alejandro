@@ -374,9 +374,37 @@ al switch a diferentes puertos
   
  ![Ejercicio 7](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20Tracer%20img%201/Practica%207%2C3.png "IMG")    
   
-   ![Ejercicio 7](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20tracer%20PKT%201/Ejercicio%207.pkt "IMG")
+ ![Ejercicio 7](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20tracer%20PKT%201/Ejercicio%207.pkt "IMG")
   
   
+  
+  <h1> Parte Dos </h1>
+  
+<h1>Ejercicio 1. Inalámbrico. Red Abierta.</h1>
+Realicemos una configuración de una red inalámbrica sin seguridad.
+<p>Paso 1. Insertar un dispositivo inalámbrico Linksys WRT300N (Punto de acceso). Por 
+defecto, este equipo viene con la configuración 192.168.0.1 y máscara de red 
+255.255.255.0. Debemos colocar la configuración con la IP 192.168.1.1 y máscara de 
+red 255.255.255.0. Además, debemos desactivar la asignación de direcciones 
+mediante DHCP en el dispositivo inalámbrico.
+<p>Paso 2. Insertar tres PC’s inalámbricos, con las siguientes configuraciones:
+Nombre Dirección IP Máscara de red
+<p>PC01 192.168.1.11 255.255.255.0
+<p>PC02 192.168.1.12 255.255.255.0
+<p>PC03 192.168.1.13 255.255.255.0
+<p>Comprobar que el SSID de todos los equipos insertados es Default.
+<p>Paso 3. Comprobar la comunicación entre los diferentes PC’s, y su comunicación con 
+el punto de acceso. Observar esta comunicación en el modo simulación. ¿A qué te 
+recuerda este tipo de propagación de tramas?
+<p>Paso 4. Cambia la configuración de los equipos:
+Nombre Dirección IP Máscara de red
+<p>PC01 192.168.101.11 255.255.255.0
+<p>PC02 192.168.101.12 255.255.255.0
+<p>PC03 192.168.101.13 255.255.255.0
+<p>Paso 5. Comprobar la comunicación entre los diferentes PC’s, y su comunicación con 
+el punto de acceso. Como podemos comprobar, la configuración IP del punto de 
+acceso no impide una correcta comunicación entre los diferentes PC’s que se conecten 
+a su red.
   
 #### ***Conclusiones***. <a name="id5"></a>
 
