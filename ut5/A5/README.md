@@ -412,6 +412,30 @@ a su red.
   
  ![Ejercicio 1.2](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20Tracer%20PKT%202/Ejercicio%201%20de%20la%20parte%202.pkt "IMG") 
   
+  
+<h1>Ejercicio 2. Inalámbricas: varios puntos de acceso.</h1>
+<p>Comprobar la interacción de varios puntos de acceso en una misma red (ya que en una 
+red distinta sería crear inalámbricas aisladas).
+  
+ ![Ejercicio 2.2](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20Tracer%20img%202/Ejercicio%202%20de%20la%20parte%202%2C%20cambio%20de%20ssd.png "IMG") 
+  
+ ![Ejercicio 2.2](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20Tracer%20PKT%202/Ejercicio%202%20de%20la%20parte%202.pkt "IMG")   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 #### ***Conclusiones***. <a name="id5"></a>
 
 Las mayores dificultades fueron por parte de los switches a la hora de configurarlo
