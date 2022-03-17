@@ -72,7 +72,7 @@ trenzado hasta que se produzca comunicación (luces en verde en ambos extremos).
 adecuando de par trenzado hasta que se produzca comunicación (luces en verde en 
 ambos extremos)
 
-![alt text](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20tracer%20PKT%201/Ejercicio%202.pkt "IMG")
+![Ejercicio 2](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20tracer%20PKT%201/Ejercicio%202.pkt "IMG")
 
 #### ***Conclusiones***. <a name="id5"></a>
 
