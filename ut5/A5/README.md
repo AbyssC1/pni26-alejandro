@@ -196,6 +196,8 @@ grupo PC11 al PC15)
   
  ![Ejercicio 5](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20Tracer%20img%201/practica%205%20switch%203.png "IMG")
   
+ ![Ejercicio 5](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20tracer%20PKT%201/Ejercicio%205.pkt "IMG") 
+  
 #### ***Conclusiones***. <a name="id5"></a>
 
 Las mayores dificultades fueron por parte de los switches a la hora de configurarlo
