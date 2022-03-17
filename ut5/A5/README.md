@@ -321,7 +321,7 @@ Ahora, procederemos a acceder desde un ordenador conectado a ese switch mediante
 la opción de Escritorio, entrando en el modo comando, e invocando el comando 
 Telnet  
   
-![Ejercicio 6](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20Tracer%20img%201/7)%20comprobacion%20de%20IP.png "IMG") 
+![Ejercicio 6](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20Tracer%20img%201/6)Captura%20de%20cisco%20parte.png "IMG") 
   
   
 ![Ejercicio 6](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20tracer%20PKT%201/Ejercicio%206.pkt "IMG")   
