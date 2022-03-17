@@ -32,7 +32,7 @@ El material empleado fue el "Packet Tracer"
 #### ***Desarrollo***. <a name="id4"></a>
 
 <h1>Ejercicio 1. Comandos importantes. Ping, tracert y
-pathping.
+pathping.</h1>
 
 Paso 1. Realizar un ping, desde la máquina virtual, a las siguientes direcciones, 
 comprobando los mensajes que devuelven cada uno de ellos. Se recomienda analizar 
@@ -51,7 +51,7 @@ resultados.
 ![alt text](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20Tracer%20img%201/Practica%201.png "IMG")
   
   
-<h1>Ejercicio 2. Tipos de cables en uniones entre equipos.
+<h1>Ejercicio 2. Tipos de cables en uniones entre equipos.</h1>
   
 <p>Vamos a verificar los cables que se necesitan colocar, utilizando par trenzado, en la 
 comunicación entre diferentes dispositivos.
