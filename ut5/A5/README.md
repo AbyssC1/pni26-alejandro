@@ -31,7 +31,7 @@ El material empleado fue el "Packet Tracer"
 
 #### ***Desarrollo***. <a name="id4"></a>
 
-Ejercicio 1. Comandos importantes. Ping, tracert y
+<h1>Ejercicio 1. Comandos importantes. Ping, tracert y
 pathping.
 
 Paso 1. Realizar un ping, desde la máquina virtual, a las siguientes direcciones, 
@@ -49,7 +49,28 @@ resultados.
 <p>Paso 3. Realizar un pathping a las direcciones dadas anteriormente.
 
 ![alt text](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20Tracer%20img%201/Practica%201.png "IMG")
-
+  
+  
+<h1>Ejercicio 2. Tipos de cables en uniones entre equipos.
+  
+<p>Vamos a verificar los cables que se necesitan colocar, utilizando par trenzado, en la 
+comunicación entre diferentes dispositivos.
+  
+<p>Paso 1. Unión de un PC con otro. Utilizar el cable adecuando de par trenzado hasta 
+que se produzca comunicación (luces en verde en ambos extremos).
+<p>Paso 2. Unión de un PC con un switch (utilizaremos un 2950‐24 para todas las 
+experiencias). Utilizar el cable adecuando de par trenzado hasta que se produzca 
+comunicación (luces en verde en ambos extremos).
+<p>Paso 3. Unión de un switch con otro. Utilizar el cable adecuando de par trenzado 
+hasta que se produzca comunicación (luces en verde en ambos extremos).
+<p>Paso 4. Unión de un PC con un router (utilizaremos el 1841 en todas las 
+experiencias). Utilizar el cable adecuando de par trenzado hasta que se produzca 
+comunicación (luces en verde en ambos extremos).
+<p>Paso 5. Unión de un switch con un router. Utilizar el cable adecuando de par 
+trenzado hasta que se produzca comunicación (luces en verde en ambos extremos).
+<p>Paso 6. Unión de un switch con un hub (utilizaremos el HUB‐PT). Utilizar el cable 
+adecuando de par trenzado hasta que se produzca comunicación (luces en verde en 
+ambos extremos)
 
 
 #### ***Conclusiones***. <a name="id5"></a>
