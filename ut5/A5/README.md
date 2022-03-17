@@ -131,6 +131,7 @@ Insertar un nuevo equipo con la configuración PC05, 10.0.5.105, 255.255.0.0, al
 del hub número 5. Comprobar la conectividad de los 4 equipos anteriores con éste
   
  ![Ejercicio 4](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20Tracer%20img%201/Ejercicio%204.png "IMG")
+  <p>
  ![Ejercicio 4](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20tracer%20PKT%201/Ejercicio%204.pkt "IMG")
   
   
