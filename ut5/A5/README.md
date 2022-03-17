@@ -321,13 +321,50 @@ Ahora, procederemos a acceder desde un ordenador conectado a ese switch mediante
 la opción de Escritorio, entrando en el modo comando, e invocando el comando 
 Telnet  
   
-![Ejercicio 6](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20Tracer%20img%201/6)Captura%20de%20cisco%20parte.png "IMG") 
-  
-  
+   
 ![Ejercicio 6](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20tracer%20PKT%201/Ejercicio%206.pkt "IMG")   
   
   
-  
+<h1>Ejercicio 7. Configuración de puertos.</h1>
+
+<p>Durante el uso de un switch, y por problemas con los equipos o las tarjetas de red, 
+puede ser interesante el poder gestionar los puertos sin tener que tocar los cables. 
+Veamos los cambios más frecuentes que podemos realizar sobre un puerto.
+<p>Paso 1. Auto‐negociación o fijado de velocidad.
+Esta configuración la haremos utilizando el switch 2950T que posee dos puertos 
+Gigabit. En el PC que utilicemos vamos a colocar, en lugar de la tarjeta estándar que 
+viene, una tarjeta de par trenzado Gigabit. De esta forma tendremos una unión entre 
+el switch y el PC a Gigabit.
+<p>Veamos cual es la situación normal del puerto: 
+Switch# show interfaces GigabitEthernet1/1 
+Esto devuelve:
+<p>De esta forma comprobamos la velocidad del puerto. 
+Si queremos cambiarla, utilizamos los comandos: 
+<p>Switch# configure terminal
+<p>Switch(config)#interface gigabitEthernet1/1 
+<p>Switch(config‐if)#speed 10
+
+<p>Y comprobamos que, ahora, la velocidad de nuestro puerto a cambia a 10 Mbps.
+<p>Switch# show interfaces GigabitEthernet1/1
+Podemos hacer lo mismo colocando la velocidad a 100: 
+<p>Switch(config)#interface gigabitEthernet1/1 
+<p>Switch(config‐if)#speed 100
+<p>O volviendo a colocar la velocidad en automático: 
+<p>Switch(config)#interface gigabitEthernet1/1 
+<p>Switch(config‐if)#speed auto
+<p>Paso 2. Desactivar un puerto.
+Hay momentos en que podremos necesitar el desactivar un puerto, ya sea porque la 
+tarjeta de red del equipo no funciona correctamente, o por haber detectado que quien 
+hace uso de ese puerto no está autorizado.
+<p>Por este motivo, podemos desactivar un puerto.
+Partiendo de la configuración anterior, podemos desactivar cualquier puerto del 
+switch. Esta acción la conseguimos con los comandos:
+<p>Switch>enable 
+<p>Switch#configure terminal
+<p>Switch(config)#interface gigabitEthernet1/1 
+<p>Switch(config‐if)#shutdown
+<p>Comprobar el funcionamiento de este comando mediante el añadido de varios equipos 
+al switch a diferentes puertos
   
 #### ***Conclusiones***. <a name="id5"></a>
 
