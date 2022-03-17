@@ -424,13 +424,30 @@ red distinta sería crear inalámbricas aisladas).
   
   
   
+<h1>Ejercicio 3. Inalámbrico: Red cifrado WEP.</h1>
+<p>Comprobar las funcionalidades de una red con cifrado mediante WEP.
   
   
+   ![Ejercicio 3.2](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20Tracer%20img%202/Ejercicio%203%20de%20la%20parte%202.png "IMG") 
+  
+ ![Ejercicio 3.2](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20Tracer%20PKT%202/Ejercicio%203%20de%20la%20parte%202.pkt "IMG") 
   
   
+<h1>Ejercicio 4. Inalámbrico: DHCP.</h1>
+
+<p>DHCP (Dynamic Host Configuration Protocol) es un protocolo de red que permite a los 
+nodos de una red IP obtener sus parámetros de configuración automáticamente. Un 
+servidor posee una lista de direcciones IP dinámicas y las va asignando a los clientes 
+conforme éstas van estando libres, sabiendo en todo momento quién ha estado en 
+posesión de esa IP, cuánto tiempo la ha tenido y a quién se la ha asignado después.
+La mayoría de los puntos de acceso son capaces de implementar este protocolo de 
+asignación de direcciones, pero lo deben hacer en el mismo rango de direcciones que 
+son capaces de ver.
   
   
+   ![Ejercicio 4.2](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20Tracer%20img%202/Ejercicio%204%20de%20la%20parte%202.png "IMG") 
   
+ ![Ejercicio 4.2](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut5/A5/Packet%20Tracer%20PKT%202/Ejercicio%204%20de%20la%20parte%202.pkt "IMG") 
   
   
   
