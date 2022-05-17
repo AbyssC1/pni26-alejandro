@@ -142,7 +142,9 @@ R1(config-line)# **login**
 
 R1(config-line)# **logging synchronous**  
 
-R1(config-line)# **exit** R1(config)#  
+R1(config-line)# **exit** 
+
+R1(config)#  
 
 9. Cifre las contraseñas de texto no cifrado.  
 
@@ -174,11 +176,7 @@ R1(config-if)# **ip address 192.168.1.1 255.255.255.0**
 
 R1(config-if)# **no shutdown** 
 
-R1(config-if)# **exit** 
-
-R1(config)# **exit**  
-
-R1#  
+![](https://github.com/AbyssC1/pni26-alejandro/blob/main/Imagenes/UT7-A1/2configuracion%20de%20router.png)
 
 12. Configure el reloj en el router, por ejemplo: 
 
