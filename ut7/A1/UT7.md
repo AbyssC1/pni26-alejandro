@@ -411,11 +411,9 @@ haga ping a la dirección IPv6 de unidifusión del R1 ``2001:db8:acad:a::1/641``
 
 **Tabla de resumen de interfaces del router**
 
-
-
-|**Resumen de interfaces del router**|
-| - |
+**Resumen de interfaces del router**
 |**Modelo de router**|**Interfaz Ethernet #1**|**Interfaz Ethernet n.º 2**|**Interfaz serial #1**|**Interfaz serial n.º 2**|
+| :---    | :----    | :---    | :---    | :----    |
 |1800|Fast Ethernet 0/0 (F0/0)|Fast Ethernet 0/1 (F0/1)|Serial 0/0/0 (S0/0/0)|Serial 0/0/1 (S0/0/1)|
 |1900|Gigabit Ethernet 0/0 (G0/0)|Gigabit Ethernet 0/1 (G0/1)|Serial 0/0/0 (S0/0/0)|Serial 0/0/1 (S0/0/1)|
 |2801|Fast Ethernet 0/0 (F0/0)|Fast Ethernet 0/1 (F0/1)|Serial 0/1/0 (S0/1/0)|Serial 0/1/1 (S0/1/1)|
@@ -503,16 +501,20 @@ Switch#
 
 7. Vuelva a cargar el switch para eliminar toda información de configuración antigua de la memoria. Se le solicitará que confirme la recarga del switch. Presione Enter para seguir con la recarga. (Si presiona cualquier otra tecla, se cancela la recarga).  
 
-Switch# **reload**
+Switch# ``reload``
 
 Proceed with reload? [confirm]
 
 **Nota:** es posible que reciba un mensaje para guardar la configuración en ejecución antes de volver a** cargar el switch. Escriba **no** y presione Enter.
 
-System configuration has been modified. Save? [yes/no]: **no**
+System configuration has been modified. Save? [yes/no]: 
+
+``no``
 
 8. Una vez que se vuelve a cargar el switch, se le solicita introducir el diálogo de configuración inicial. Escriba **no** y presione Enter.  
 
-Would you like to enter the initial configuration dialog? [yes/no]: **no**
+Would you like to enter the initial configuration dialog? [yes/no]: 
+
+``no``
 
 
