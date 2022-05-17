@@ -1,16 +1,10 @@
-﻿**Práctica de laboratorio: configuración de los parámetros básicos del router con la CLI del IOS![](Aspose.Words.984e8100-e7d7-4615-8674-76dd7e26b9dd.001.png)**
+## Práctica de laboratorio: configuración de los parámetros básicos del router con la CLI del IOS!
 
-![](Aspose.Words.984e8100-e7d7-4615-8674-76dd7e26b9dd.002.png)
+### Topología 
 
-**Práctica de laboratorio: configuración de los parámetros básicos del router con la CLI del IOS**
+![](https://github.com/AbyssC1/pni26-alejandro/blob/main/Imagenes/UT7-A1/topologia.png)
 
-**Topología** 
-
-![](Aspose.Words.984e8100-e7d7-4615-8674-76dd7e26b9dd.003.png)
-
-**Tabla de direccionamiento** 
-
-
+### Tabla de direccionamiento
 
 ||||**Máscara de**|**Gateway**|
 | :- | :- | :- | - | - |
@@ -22,28 +16,28 @@
 |PC-B|NIC|192.168.0.3|255.255.255.0|192.168.0.1|
 **Objetivos** 
 
-**Parte 1: establecer la topología e inicializar los dispositivos**
+### Parte 1: establecer la topología e inicializar los dispositivos
 
 - Realizar el cableado de los equipos para que coincidan con la topología de la red.  
 - Inicializar y reiniciar el router y el switch.  
 
-**Parte 2: configurar los dispositivos y verificar la conectividad**
+### Parte 2: configurar los dispositivos y verificar la conectividad
 
 - Asignar información de IPv4 estática a las interfaces de la computadora.  
 - Configurar los parámetros básicos del router.  
 - Verificar la conectividad de la red  
 - Configurar el router para el acceso por SSH.  
 
-**Parte 3: mostrar la información del router**
+### Parte 3: mostrar la información del router
 
 - Recuperar información del hardware y del software del router.  
 - Interpretar el resultado de la configuración de inicio.  
 - Interpretar el resultado de la tabla de routing.  
 - Verificar el estado de las interfaces.  
 
-**Parte 4: configurar IPv6 y verificar la conectividad**
+### Parte 4: configurar IPv6 y verificar la conectividad
 
-**Información básica/situación** 
+### Información básica/situación 
 
 Esta es una práctica de laboratorio integral para revisar comandos de router de IOS que se abarcaron anteriormente. En las partes 1 y 2, realizará el cableado de los equipos y completará las configuraciones básicas y las configuraciones de las interfaces IPv4 en el router.
 
@@ -55,7 +49,7 @@ Para fines de revisión, esta práctica de laboratorio proporciona los comandos 
 
 **Nota**: asegúrese de que el router y el switch se hayan borrado y no tengan configuraciones de inicio.** Consulte el apéndice A para conocer los procedimientos para inicializar y volver a cargar los dispositivos.
 
-**Recursos necesarios** 
+### Recursos necesarios
 
 - 1 router (Cisco 1941 con IOS de Cisco versión 15.2(4)M3, imagen universal o similar)  
 - 1 switch (Cisco 2960 con IOS de Cisco versión 15.0(2), imagen lanbasek9 o comparable)  
@@ -65,25 +59,25 @@ Para fines de revisión, esta práctica de laboratorio proporciona los comandos 
 
 **Nota**: las interfaces Gigabit Ethernet en los ISR Cisco 1941 cuentan con detección automática, y se puede** utilizar un cable directo de Ethernet entre el router y la PC-B. Si utiliza otro modelo de router Cisco, puede ser necesario usar un cable cruzado Ethernet.
 
-**Parte 1:  establecer la topología e inicializar los dispositivos**
+### Parte 1:  establecer la topología e inicializar los dispositivos.
 
-**Paso 1.  realizar el cableado de red tal como se muestra en la topología.**
+### Paso 1.  realizar el cableado de red tal como se muestra en la topología.
 
 1. Conecte los dispositivos tal como se muestra en el diagrama de la topología y realice el cableado según sea necesario.  
-1. Encienda todos los dispositivos de la topología.  
+2. Encienda todos los dispositivos de la topología.  
 
-**Paso 2.  inicializar y volver a cargar el router y el switch.**
+### Paso 2.  inicializar y volver a cargar el router y el switch.
 
 **Nota**: en el apéndice A, se detallan los pasos para inicializar y volver a cargar los dispositivos.
 
-**Parte 2:  Configurar dispositivos y verificar la conectividad**
+### Parte 2:  Configurar dispositivos y verificar la conectividad.
 
-**Paso 1.  Configure las interfaces de la PC.**
+### Paso 1.  Configure las interfaces de la PC.
 
 1. Configure la dirección IP, la máscara de subred y la configuración del gateway predeterminado en la PC-A.  
 1. Configure la dirección IP, la máscara de subred y la configuración del gateway predeterminado en la PC-B.  
 
-**Paso 2.  Configurar el router.**
+### Paso 2.  Configurar el router.
 
 a.  Acceda al router mediante el puerto de consola y habilite el modo EXEC privilegiado.  Router> **enable**  
 
