@@ -81,9 +81,6 @@ Para fines de revisión, esta práctica de laboratorio proporciona los comandos 
 
 a.  Acceda al router mediante el puerto de consola y habilite el modo EXEC privilegiado.  Router> **enable**  
 
-© 2014 Cisco y/o sus filiales. Todos los derechos reservados. Este documento es información pública de Cisco. Página 3** de 13**
-**Práctica de laboratorio: configuración de los parámetros básicos del router con la CLI del IOS![](Aspose.Words.984e8100-e7d7-4615-8674-76dd7e26b9dd.001.png)**
-
 Router#
 
 b  .  Ingrese al modo de configuración global.  
@@ -142,10 +139,8 @@ R1(config)# **service password-encryption**
 
 10. Cree un aviso que advierta a todo aquel que acceda al dispositivo que el acceso no autorizado está prohibido.  
 
-© 2014 Cisco y/o sus filiales. Todos los derechos reservados. Este documento es información pública de Cisco. Página **3** de **11**
 
-
-**Práctica de laboratorio: configuración de los parámetros básicos del router con la CLI del IOS![](Aspose.Words.984e8100-e7d7-4615-8674-76dd7e26b9dd.001.png)**
+### Práctica de laboratorio: configuración de los parámetros básicos del router con la CLI del IOS!.
 
 R1(config)# **banner motd #Unauthorized access prohibited!#**
 
@@ -188,8 +183,6 @@ Después de completar esta serie de comandos, ¿qué tipo de acceso remoto podr�
 
 Abra Tera Term e introduzca la dirección IP de la interfaz G0/1 del R1 en el campo Host: de la ventana Tera Term: New Connection (Tera Term: nueva conexión). Asegúrese de que el botón de opción **Telnet** esté seleccionado y después haga clic en **OK** (Aceptar) para conectarse al router.  
 
-![](Aspose.Words.984e8100-e7d7-4615-8674-76dd7e26b9dd.004.png)
-
 ¿Pudo conectarse remotamente? **Si**
 
 ¿Por qué el protocolo Telnet es considerado un riesgo de seguridad?
@@ -217,8 +210,6 @@ R1(config)# **exit**
 2. Acceda remotamente al R1 desde la PC-A con el cliente SSH de Tera Term.  
 
 Abra Tera Term e introduzca la dirección IP de la interfaz G0/1 del R1 en el campo Host: de la ventana Tera Term: New Connection (Tera Term: nueva conexión). Asegúrese de que el botón de opción **SSH** esté seleccionado y después haga clic en **OK** para conectarse al router.  
-
-![](Aspose.Words.984e8100-e7d7-4615-8674-76dd7e26b9dd.005.png)
 
 ¿Pudo conectarse remotamente? \_\_\_\_
 
@@ -308,7 +299,7 @@ R1(config)# **exit**
 
 En la PC-B, haga ping a la dirección link-local del gateway predeterminado del R1. ¿Tuvo éxito? **Si**  En la PC-B, haga ping a la dirección IPv6 de unidifusión del R1 2001:db8:acad:a::1. ¿Tuvo éxito? **No**  
 
-**Reflexión** 
+### Reflexión
 
 1. Durante la investigación de un problema de conectividad de red, un técnico sospecha que no se habilitó una interfaz. ¿Qué comando **show** podría usar el técnico para resolver este problema?  
 
@@ -323,8 +314,6 @@ En la PC-B, haga ping a la dirección link-local del gateway predeterminado del 
 **Fallaría ya que la interfaz g0/1 no se configure con ipv6 y la PC-A solo tiene una dirección ipv4.** 
 
 **Tabla de resumen de interfaces del router** 
-
-
 
 |**Resumen de interfaces del router**|
 | - |
@@ -427,4 +416,3 @@ System configuration has been modified. Save? [yes/no]: **no**
 Would you like to enter the initial configuration dialog? [yes/no]: **no**
 
 Switch>  
-© 2014 Cisco y/o sus filiales. Todos los derechos reservados. Este documento es información pública de Cisco. Página 13** de 13**
