@@ -379,7 +379,7 @@ En la PC-B, haga ping a la dirección link-local del gateway predeterminado del 
 
 En la PC-B,
 
- haga ping a la dirección IPv6 de unidifusión del R1 2001:db8:acad:a::1.
+** haga ping a la dirección IPv6 de unidifusión del R1 ``2001:db8:acad:a::1/641``.**
 
 ¿Tuvo éxito? 
 
