@@ -1,4 +1,4 @@
-## Práctica de laboratorio: configuración de los parámetros básicos del router con la CLI del IOS!
+﻿## Práctica de laboratorio: configuración de los parámetros básicos del router con la CLI del IOS!
 
 ### Topología 
 
@@ -14,7 +14,8 @@
 ||G0/1|192.168.1.1|255.255.255.0|N/A|
 |PC-A|NIC|192.168.1.3|255.255.255.0|192.168.1.1|
 |PC-B|NIC|192.168.0.3|255.255.255.0|192.168.0.1|
-**Objetivos** 
+
+### Objetivos
 
 ### Parte 1: establecer la topología e inicializar los dispositivos
 
@@ -79,11 +80,13 @@ Para fines de revisión, esta práctica de laboratorio proporciona los comandos 
 
 ### Paso 2.  Configurar el router.
 
-a.  Acceda al router mediante el puerto de consola y habilite el modo EXEC privilegiado.  Router> **enable**  
+:a:  Acceda al router mediante el puerto de consola y habilite el modo EXEC privilegiado.  
+
+Router> **enable**  
 
 Router#
 
-b  .  Ingrese al modo de configuración global.  
+:b:  Ingrese al modo de configuración global.  
 
 Router# **config terminal**  
 
@@ -113,7 +116,9 @@ R1(config)# **enable secret cisco12345**
 
 R1(config)# **line con 0**  
 
-R1(config-line)# **password ciscoconpass**  R1(config-line)#  **exec-timeout  5** 
+R1(config-line)# **password ciscoconpass**  
+
+R1(config-line)#  **exec-timeout  5** 
 
 **0** R1(config-line)# **login**  R1(config-line)# **logging synchronous**  
 
@@ -129,9 +134,13 @@ Para el comando **exec-timeout**, ¿qué representan el **5** y el **0**?
 
 R1(config)# **line vty 0 4**  
 
-R1(config-line)# **password ciscovtypass**  R1(config-line)#  **exec-timeout  5** 
+R1(config-line)# **password ciscovtypass** 
 
-**0** R1(config-line)# **login**  R1(config-line)# **logging synchronous**  
+R1(config-line)#  **exec-timeout  5** **0** 
+
+R1(config-line)# **login**  
+
+R1(config-line)# **logging synchronous**  
 
 R1(config-line)# **exit** R1(config)#  
 
@@ -139,13 +148,17 @@ R1(config-line)# **exit** R1(config)#
 
 R1(config)# **service password-encryption**  
 
+![](https://github.com/AbyssC1/pni26-alejandro/blob/main/Imagenes/UT7-A1/1configuracion%20de%20reouter.png)
+
 10. Cree un aviso que advierta a todo aquel que acceda al dispositivo que el acceso no autorizado está prohibido.  
 
 ### Práctica de laboratorio: configuración de los parámetros básicos del router con la CLI del IOS!.
 
 R1(config)# **banner motd #Unauthorized access prohibited!#**
 
-11. Configure una dirección IP y una descripción de interfaz. Active las dos interfaces en el router.  R1(config)# **int g0/0**  
+11. Configure una dirección IP y una descripción de interfaz. Active las dos interfaces en el router.  
+
+R1(config)# **int g0/0**  
 
 R1(config-if)# **description Connection to PC-B** 
 
@@ -159,7 +172,11 @@ R1(config-if)# **description Connection to S1**
 
 R1(config-if)# **ip address 192.168.1.1 255.255.255.0** 
 
-R1(config-if)# **no shutdown** R1(config-if)# **exit** R1(config)# **exit**  R1#  
+R1(config-if)# **no shutdown** 
+
+R1(config-if)# **exit** 
+
+R1(config)# **exit**  R1#  
 
 12. Configure el reloj en el router, por ejemplo:  R1# **clock set 17:00:00 18 Feb 2013**  
 13. Guarde la configuración en ejecución en el archivo de configuración de inicio.  R1# **copy running-config startup-config**  
@@ -174,7 +191,9 @@ R1#
 
 **Paso 3.  Verificar la conectividad de la red**
 
-1. Haga ping a la PC-B en un símbolo del sistema en la PC-A. **Nota:** quizá sea necesario deshabilitar el firewall de las computadoras.** ¿Tuvieron éxito los pings? **Si**
+1. Haga ping a la PC-B en un símbolo del sistema en la PC-A. **Nota:** quizá sea necesario deshabilitar el firewall de las computadoras.
+
+** ¿Tuvieron éxito los pings? **Si**
 
 Después de completar esta serie de comandos, ¿qué tipo de acceso remoto podría usarse para acceder al R1?
 
@@ -192,17 +211,21 @@ Abra Tera Term e introduzca la dirección IP de la interfaz G0/1 del R1 en el ca
 
 **Paso 4.  configurar el router para el acceso por SSH.**
 
-1. Habilite las conexiones SSH y cree un usuario en la base de datos local del router.  R1# **configure terminal**  
+1. Habilite las conexiones SSH y cree un usuario en la base de datos local del router.  
+
+R1# **configure terminal**  
 
 R1(config)# **ip domain-name CCNA-lab.com**  
 
-R1(config)# **username admin privilege 15 secret adminpass1**  R1(config)# **line vty 0 4**  
+R1(config)# **username admin privilege 15 secret adminpass1**  
+
+R1(config)# **line vty 0 4**  
 
 R1(config-line)# **transport input ssh**  
 
-R1(config-line)#  **login** 
+R1(config-line)#  **login local** 
 
-**local** R1(config-line)# **exit**  
+R1(config-line)# **exit**  
 
 R1(config)# **crypto key generate rsa modulus 1024**  
 
@@ -224,19 +247,25 @@ Mediante Tera Term en la PC-B, abra una sesión SSH para el R1 en la dirección 
 
 **Paso 2.  recuperar información importante del hardware y el software.**
 
-1. Use el comando **show version** para responder preguntas sobre el router. ¿Cuál es el nombre de la imagen de IOS que el router está ejecutando?  **c1900-uiversalk9-mz.SPA.151-1.M4.bin**
+1. Use el comando **show version** para responder preguntas sobre el router. 
 
-¿Cuánta memoria de acceso aleatorio no volátil (NVRAM) tiene el router?  **255Kbytes** 
+¿Cuál es el nombre de la imagen de IOS que el router está ejecutando?  
+
+``c1900-uiversalk9-mz.SPA.151-1.M4.bin``
+
+¿Cuánta memoria de acceso aleatorio no volátil (NVRAM) tiene el router? 
+
+``255Kbytes``
 
 ¿Cuánta memoria flash tiene el router?  
 
-**249856Kbytes**
+``249856Kbytes``
 
 2. Con frecuencia, los comandos **show** proporcionan varias pantallas de resultados. Filtrar el resultado permite que un usuario visualice determinadas secciones del resultado. Para habilitar el comando de filtrado, introduzca una barra vertical (**|**) después de un comando **show**, seguido de un parámetro de filtrado y una expresión de filtrado. Para que el resultado coincida con la instrucción de filtrado, puede usar la palabra clave **include** para ver todas las líneas del resultado que contienen la expresión de filtrado. Filtre el comando **show version** mediante **show version | include register** para responder la siguiente pregunta.  
 
 ¿Cuál es el proceso de arranque para el router en la siguiente recarga?  
 
-**No se puede realizar simulando con el Packet Tracer, no ejecuta el comando.**
+``No se puede realizar simulando con el Packet Tracer, no ejecuta el comando.``
 
 **Paso 3.  mostrar la configuración de inicio.**
 
@@ -244,19 +273,25 @@ Use el comando **show startup-config** en el router para responder las siguiente
 
 ¿De qué forma figuran las contraseñas en el resultado?
 
-**Se encuentran encriptadas.**
+``Se encuentran encriptadas.``
 
 Use el comando **show startup-config | begin vty**. 
 
 ¿Qué resultado se obtiene al usar este comando?
 
-**No se puede realizar simulando con el Packet Tracer, no ejecuta el comando.**
+``No se puede realizar simulando con el Packet Tracer, no ejecuta el comando.``
 
 **Paso 4.  mostrar la tabla de routing en el router.**
 
-Use el comando **show ip route** en el router para responder las siguientes preguntas. ¿Qué código se utiliza en la tabla de routing para indicar una red conectada directamente? **Con la letra C se indica que hay una subred conectada directamente**
+Use el comando **show ip route** en el router para responder las siguientes preguntas. 
 
-¿Cuántas entradas de ruta están cifradas con un código C en la tabla de routing? **2**
+¿Qué código se utiliza en la tabla de routing para indicar una red conectada directamente? 
+
+``Con la letra C se indica que hay una subred conectada directamente``
+
+¿Cuántas entradas de ruta están cifradas con un código C en la tabla de routing? 
+
+``2``
 
 **Paso 5.  mostrar una lista de resumen de las interfaces del router.**
 
@@ -264,7 +299,7 @@ Use el comando **show ip interface brief** en el router para responder la siguie
 
 ¿Qué comando cambió el estado de los puertos Gigabit Ethernet de administrativamente inactivo a activo?
 
-**no shutdown**
+``no shutdown``
 
 **Parte 4:  configurar IPv6 y verificar la conectividad**
 
@@ -278,7 +313,11 @@ R1# **configure terminal**
 
 R1(config)# **interface g0/0** 
 
-R1(config-if)#  **ipv6  address  2001:db8:acad:a::1/64** R1(config-if)# **ipv6 address fe80::1 link-local** R1(config-if)# **no shutdown** 
+R1(config-if)#  **ipv6  address  2001:db8:acad:a::1/64** 
+
+R1(config-if)# **ipv6 address fe80::1 link-local** 
+
+R1(config-if)# **no shutdown** 
 
 R1(config-if)# **exit** 
 
