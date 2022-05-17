@@ -80,27 +80,27 @@ Para fines de revisión, esta práctica de laboratorio proporciona los comandos 
 
 ### Paso 2.  Configurar el router.
 
-🅰️:  Acceda al router mediante el puerto de consola y habilite el modo EXEC privilegiado.  
+a.  Acceda al router mediante el puerto de consola y habilite el modo EXEC privilegiado.  
 
 Router> **enable**  
 
 Router#
 
-:b:  Ingrese al modo de configuración global.  
+b.  Ingrese al modo de configuración global.  
 
 Router# **config terminal**  
 
 Router(config)#  
 
-:c:  Asigne un nombre de dispositivo al router.  
+c.  Asigne un nombre de dispositivo al router.  
 
 Router(config)# **hostname R1**  
 
-:d:  Deshabilite  la  búsqueda  DNS  para  evitar  que  el  router  intente  traducir  los  comandos incorrectamente introducidos como si fueran nombres de host.  
+d.  Deshabilite  la  búsqueda  DNS  para  evitar  que  el  router  intente  traducir  los  comandos incorrectamente introducidos como si fueran nombres de host.  
 
 R1(config)# **no ip domain-lookup**  
 
-:e:  Establezca el requisito de que todas las contraseñas tengan como mínimo 10 caracteres.  
+e.  Establezca el requisito de que todas las contraseñas tengan como mínimo 10 caracteres.  
 
 R1(config)# **security passwords min-length 10**  
 
@@ -108,7 +108,7 @@ Además de configurar una longitud mínima, enumere otras formas de aportar segu
 
 `Aparte  de  que  las  podemos  encriptar  es  necesario  que  estas  contraseñas  contenga  letras mayúsculas, números o caracteres para así dificultar la contraseña.`
 
-:f:  Asigne **cisco12345** como la contraseña cifrada del modo EXEC privilegiado.  
+f.  Asigne **cisco12345** como la contraseña cifrada del modo EXEC privilegiado.  
 
 R1(config)# **enable secret cisco12345**  
 
