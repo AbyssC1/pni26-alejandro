@@ -257,17 +257,17 @@ Abra Tera Term e introduzca la dirección IP de la interfaz G0/1 del R1 en el ca
 
 ``Sí``
 
-**Parte 3:  mostrar la información del router**
+### Parte 3:  mostrar la información del router
 
 En la parte 3, utilizará comandos **show** en una sesión SSH para recuperar información del router.
 
-**Paso 1.  establecer una sesión SSH para el R1.**
+### Paso 1.  establecer una sesión SSH para el R1.
 
 Mediante Tera Term en la PC-B, abra una sesión SSH para el R1 en la dirección IP 192.168.0.1 e inicie sesión como **admin** y use la contraseña **adminpass1**.
 
 ![](https://github.com/AbyssC1/pni26-alejandro/blob/main/Imagenes/UT7-A1/5%205%20entrar%20al%20ssh.png)
 
-**Paso 2.  recuperar información importante del hardware y el software.**
+### Paso 2.  recuperar información importante del hardware y el software.
 
 1. Use el comando **show version** para responder preguntas sobre el router. 
 
@@ -295,7 +295,7 @@ Mediante Tera Term en la PC-B, abra una sesión SSH para el R1 en la dirección 
 
 ``No se puede realizar simulando con el Packet Tracer, no ejecuta el comando.``
 
-**Paso 3.  mostrar la configuración de inicio.**
+### Paso 3.  mostrar la configuración de inicio.
 
 Use el comando **show startup-config** en el router para responder las siguientes preguntas. 
 
@@ -309,7 +309,7 @@ Use el comando **show startup-config | begin vty**.
 
 ``No se puede realizar simulando con el Packet Tracer, no ejecuta el comando.``
 
-**Paso 4.  mostrar la tabla de routing en el router.**
+### Paso 4.  mostrar la tabla de routing en el router.
 
 Use el comando **show ip route** en el router para responder las siguientes preguntas. 
 
@@ -323,7 +323,7 @@ Use el comando **show ip route** en el router para responder las siguientes preg
 
 ![](https://github.com/AbyssC1/pni26-alejandro/blob/main/Imagenes/UT7-A1/9%20show%20ip%20route.png)
 
-**Paso 5.  mostrar una lista de resumen de las interfaces del router.**
+### Paso 5.  mostrar una lista de resumen de las interfaces del router.
 
 Use el comando **show ip interface brief** en el router para responder la siguiente pregunta.
 
@@ -345,7 +345,7 @@ R1# **configure terminal**
 
 R1(config)# **interface g0/0** 
 
-R1(config-if)#  **ipv6  address  2001:db8acada1/64** 
+R1(config-if)#  **ipv6  address ``2001:db8:acad:a::1/64``** 
 
 R1(config-if)# **ipv6 address fe80::1 link-local** 
 
