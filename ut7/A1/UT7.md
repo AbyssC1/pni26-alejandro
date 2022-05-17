@@ -409,7 +409,9 @@ haga ping a la dirección IPv6 de unidifusión del R1 ``2001:db8:acad:a::1/641``
 ![Archivo Packet Tracer](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut7/Packet%20Tracer/Ejercicio%20packet%20tracer%20UT7-A1.pkt)
 
 
-## Tabla de resumen de interfaces del router
+**Tabla de resumen de interfaces del router**
+
+
 
 |**Resumen de interfaces del router**|
 | - |
@@ -419,7 +421,9 @@ haga ping a la dirección IPv6 de unidifusión del R1 ``2001:db8:acad:a::1/641``
 |2801|Fast Ethernet 0/0 (F0/0)|Fast Ethernet 0/1 (F0/1)|Serial 0/1/0 (S0/1/0)|Serial 0/1/1 (S0/1/1)|
 |2811|Fast Ethernet 0/0 (F0/0)|Fast Ethernet 0/1 (F0/1)|Serial 0/0/0 (S0/0/0)|Serial 0/0/1 (S0/0/1)|
 |2900|Gigabit Ethernet 0/0 (G0/0)|Gigabit Ethernet 0/1 (G0/1)|Serial 0/0/0 (S0/0/0)|Serial 0/0/1 (S0/0/1)|
-|**Nota**: para conocer la configuración del router, observe las interfaces a fin de identificar el tipo de router y** cuántas interfaces tiene. No existe una forma eficaz de confeccionar una lista de todas las combinaciones de configuraciones para cada clase de router. En esta tabla, se incluyen los identificadores para las posibles combinaciones de interfaces Ethernet y seriales en el dispositivo. En esta tabla, no se incluye ningún otro tipo de interfaz, si bien puede haber interfaces de otro tipo en un router determinado. La interfaz BRI ISDN es un ejemplo. La cadena entre paréntesis es la abreviatura legal que se puede utilizar en los comandos de IOS de Cisco para representar la interfaz.|
+
+**Nota**: para conocer la configuración del router, observe las interfaces a fin de identificar el tipo de router y** cuántas interfaces tiene. No existe una forma eficaz de confeccionar una lista de todas las combinaciones de configuraciones para cada clase de router. En esta tabla, se incluyen los identificadores para las posibles combinaciones de interfaces Ethernet y seriales en el dispositivo. En esta tabla, no se incluye ningún otro tipo de interfaz, si bien puede haber interfaces de otro tipo en un router determinado. La interfaz BRI ISDN es un ejemplo. La cadena entre paréntesis es la abreviatura legal que se puede utilizar en los comandos de IOS de Cisco para representar la interfaz.|
+
 **Apéndice A: inicialización y recarga de un router y un switch** **Paso 1.  inicializar y volver a cargar el router.**
 
 1. Acceda al router mediante el puerto de consola y habilite el modo EXEC privilegiado.  Router> **enable** 
