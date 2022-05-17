@@ -80,27 +80,27 @@ Para fines de revisión, esta práctica de laboratorio proporciona los comandos 
 
 ### Paso 2.  Configurar el router.
 
-:a:  Acceda al router mediante el puerto de consola y habilite el modo EXEC privilegiado.  
+:A:  Acceda al router mediante el puerto de consola y habilite el modo EXEC privilegiado.  
 
 Router> **enable**  
 
 Router#
 
-:b:  Ingrese al modo de configuración global.  
+:B:  Ingrese al modo de configuración global.  
 
 Router# **config terminal**  
 
 Router(config)#  
 
-c .  Asigne un nombre de dispositivo al router.  
+:C:  Asigne un nombre de dispositivo al router.  
 
 Router(config)# **hostname R1**  
 
-d.  Deshabilite  la  búsqueda  DNS  para  evitar  que  el  router  intente  traducir  los  comandos incorrectamente introducidos como si fueran nombres de host.  
+:D:  Deshabilite  la  búsqueda  DNS  para  evitar  que  el  router  intente  traducir  los  comandos incorrectamente introducidos como si fueran nombres de host.  
 
 R1(config)# **no ip domain-lookup**  
 
-e  .  Establezca el requisito de que todas las contraseñas tengan como mínimo 10 caracteres.  
+:E:  Establezca el requisito de que todas las contraseñas tengan como mínimo 10 caracteres.  
 
 R1(config)# **security passwords min-length 10**  
 
@@ -108,7 +108,7 @@ Además de configurar una longitud mínima, enumere otras formas de aportar segu
 
 `Aparte  de  que  las  podemos  encriptar  es  necesario  que  estas  contraseñas  contenga  letras mayúsculas, números o caracteres para así dificultar la contraseña.`
 
-f .  Asigne **cisco12345** como la contraseña cifrada del modo EXEC privilegiado.  
+:F:  Asigne **cisco12345** como la contraseña cifrada del modo EXEC privilegiado.  
 
 R1(config)# **enable secret cisco12345**  
 
@@ -176,7 +176,9 @@ R1(config-if)# **no shutdown**
 
 R1(config-if)# **exit** 
 
-R1(config)# **exit**  R1#  
+R1(config)# **exit**  
+
+R1#  
 
 12. Configure el reloj en el router, por ejemplo:  R1# **clock set 17:00:00 18 Feb 2013**  
 13. Guarde la configuración en ejecución en el archivo de configuración de inicio.  R1# **copy running-config startup-config**  
@@ -191,9 +193,13 @@ R1#
 
 **Paso 3.  Verificar la conectividad de la red**
 
-1. Haga ping a la PC-B en un símbolo del sistema en la PC-A. **Nota:** quizá sea necesario deshabilitar el firewall de las computadoras.
+1. Haga ping a la PC-B en un símbolo del sistema en la PC-A. 
 
-** ¿Tuvieron éxito los pings? **Si**
+**Nota:** quizá sea necesario deshabilitar el firewall de las computadoras.
+
+** ¿Tuvieron éxito los pings? 
+
+**Si**
 
 Después de completar esta serie de comandos, ¿qué tipo de acceso remoto podría usarse para acceder al R1?
 
@@ -203,7 +209,9 @@ Después de completar esta serie de comandos, ¿qué tipo de acceso remoto podr�
 
 Abra Tera Term e introduzca la dirección IP de la interfaz G0/1 del R1 en el campo Host: de la ventana Tera Term: New Connection (Tera Term: nueva conexión). Asegúrese de que el botón de opción **Telnet** esté seleccionado y después haga clic en **OK** (Aceptar) para conectarse al router.  
 
-¿Pudo conectarse remotamente? **Si**
+¿Pudo conectarse remotamente? 
+
+**Si**
 
 ¿Por qué el protocolo Telnet es considerado un riesgo de seguridad?
 
@@ -313,7 +321,7 @@ R1# **configure terminal**
 
 R1(config)# **interface g0/0** 
 
-R1(config-if)#  **ipv6  address  2001:db8:acad:a::1/64** 
+R1(config-if)#  **ipv6  address  2001:db8acad:a::1/64** 
 
 R1(config-if)# **ipv6 address fe80::1 link-local** 
 
@@ -335,23 +343,41 @@ R1(config)# **exit**
 
 **FE80::204:9AFF:FE5C:4C79**
 
-¿Cuál es el gateway predeterminado asignado a la PC-B? **192.168.0.1**  
+¿Cuál es el gateway predeterminado asignado a la PC-B? 
 
-En la PC-B, haga ping a la dirección link-local del gateway predeterminado del R1. ¿Tuvo éxito? **Si**  En la PC-B, haga ping a la dirección IPv6 de unidifusión del R1 2001:db8:acad:a::1. ¿Tuvo éxito? **No**  
+``192.168.0.1``
+
+En la PC-B, haga ping a la dirección link-local del gateway predeterminado del R1. 
+
+¿Tuvo éxito? 
+
+``Si*`` 
+
+En la PC-B,
+
+ haga ping a la dirección IPv6 de unidifusión del R1 2001:db8:acad:a::1.
+
+¿Tuvo éxito? 
+
+``No``
 
 ### Reflexión
 
-1. Durante la investigación de un problema de conectividad de red, un técnico sospecha que no se habilitó una interfaz. ¿Qué comando **show** podría usar el técnico para resolver este problema?  
+1. Durante la investigación de un problema de conectividad de red, un técnico sospecha que no se habilitó una interfaz. 
 
-**show ip interface brief o show startup-config** 
+¿Qué comando **show** podría usar el técnico para resolver este problema?  
 
-2. Durante la investigación de un problema de conectividad de red, un técnico sospecha que se asignó una máscara de subred incorrecta a una interfaz. ¿Qué comando **show** podría usar el técnico para resolver este problema?  
+``show ip interface brief o show startup-config``
 
-**show startup-config o show running-config** 
+2. Durante la investigación de un problema de conectividad de red, un técnico sospecha que se asignó una máscara de subred incorrecta a una interfaz. 
+
+¿Qué comando **show** podría usar el técnico para resolver este problema?  
+
+``show startup-config o show running-config``
 
 3. Después de configurar IPv6 en la LAN de la PC-B en la interfaz G0/0 del R1, si hiciera ping de la PC-A a la dirección IPv6 de la PC-B, ¿el ping sería correcto? ¿Por qué o por qué no?  
 
-**Fallaría ya que la interfaz g0/1 no se configure con ipv6 y la PC-A solo tiene una dirección ipv4.** 
+``Fallaría ya que la interfaz g0/1 no se configure con ipv6 y la PC-A solo tiene una dirección ipv4.``
 
 **Tabla de resumen de interfaces del router** 
 
