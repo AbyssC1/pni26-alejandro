@@ -411,16 +411,14 @@ haga ping a la dirección IPv6 de unidifusión del R1 ``2001:db8:acad:a::1/641``
 
 **Tabla de resumen de interfaces del router**
 
-
-
-|**Resumen de interfaces del router**|
-| -                                                        |
-|**Modelo de router**             |Interfaz Ethernet #1    |
-|1800|Fast Ethernet 0/0 (F0/0)    |Fast Ethernet 0/0 (F0/0)|
-|1900|Gigabit Ethernet 0/0 (G0/0)1|
-|2801|Fast Ethernet 0/0 (F0/0)    |
-|2811|Fast Ethernet 0/0 (F0/0)    |
-|2900|Gigabit Ethernet 0/0 (G0/0) |
+**Resumen de interfaces del router**
+|**Modelo de router**|**Interfaz Ethernet #1**|**Interfaz Ethernet n.º 2**|**Interfaz serial #1**|**Interfaz serial n.º 2**|
+| :---    | :----    | :---    | :---    | :----    |
+|1800|Fast Ethernet 0/0 (F0/0)|Fast Ethernet 0/1 (F0/1)|Serial 0/0/0 (S0/0/0)|Serial 0/0/1 (S0/0/1)|
+|1900|Gigabit Ethernet 0/0 (G0/0)|Gigabit Ethernet 0/1 (G0/1)|Serial 0/0/0 (S0/0/0)|Serial 0/0/1 (S0/0/1)|
+|2801|Fast Ethernet 0/0 (F0/0)|Fast Ethernet 0/1 (F0/1)|Serial 0/1/0 (S0/1/0)|Serial 0/1/1 (S0/1/1)|
+|2811|Fast Ethernet 0/0 (F0/0)|Fast Ethernet 0/1 (F0/1)|Serial 0/0/0 (S0/0/0)|Serial 0/0/1 (S0/0/1)|
+|2900|Gigabit Ethernet 0/0 (G0/0)|Gigabit Ethernet 0/1 (G0/1)|Serial 0/0/0 (S0/0/0)|Serial 0/0/1 (S0/0/1)|
 
 **Nota**: para conocer la configuración del router, observe las interfaces a fin de identificar el tipo de router y** cuántas interfaces tiene. No existe una forma eficaz de confeccionar una lista de todas las combinaciones de configuraciones para cada clase de router. En esta tabla, se incluyen los identificadores para las posibles combinaciones de interfaces Ethernet y seriales en el dispositivo. En esta tabla, no se incluye ningún otro tipo de interfaz, si bien puede haber interfaces de otro tipo en un router determinado. La interfaz BRI ISDN es un ejemplo. La cadena entre paréntesis es la abreviatura legal que se puede utilizar en los comandos de IOS de Cisco para representar la interfaz.|
 
