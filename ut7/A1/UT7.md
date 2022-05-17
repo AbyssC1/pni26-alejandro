@@ -501,16 +501,20 @@ Switch#
 
 7. Vuelva a cargar el switch para eliminar toda información de configuración antigua de la memoria. Se le solicitará que confirme la recarga del switch. Presione Enter para seguir con la recarga. (Si presiona cualquier otra tecla, se cancela la recarga).  
 
-Switch# **reload**
+Switch# ``reload``
 
 Proceed with reload? [confirm]
 
 **Nota:** es posible que reciba un mensaje para guardar la configuración en ejecución antes de volver a** cargar el switch. Escriba **no** y presione Enter.
 
-System configuration has been modified. Save? [yes/no]: **no**
+System configuration has been modified. Save? [yes/no]: 
+
+``no``
 
 8. Una vez que se vuelve a cargar el switch, se le solicita introducir el diálogo de configuración inicial. Escriba **no** y presione Enter.  
 
-Would you like to enter the initial configuration dialog? [yes/no]: **no**
+Would you like to enter the initial configuration dialog? [yes/no]: 
+
+``no``
 
 
