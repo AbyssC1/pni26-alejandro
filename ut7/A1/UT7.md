@@ -80,7 +80,7 @@ Para fines de revisión, esta práctica de laboratorio proporciona los comandos 
 
 ### Paso 2.  Configurar el router.
 
-:a:  Acceda al router mediante el puerto de consola y habilite el modo EXEC privilegiado.  
+🅰️:  Acceda al router mediante el puerto de consola y habilite el modo EXEC privilegiado.  
 
 Router> **enable**  
 
@@ -92,7 +92,7 @@ Router# **config terminal**
 
 Router(config)#  
 
-🔤:  Asigne un nombre de dispositivo al router.  
+:c:  Asigne un nombre de dispositivo al router.  
 
 Router(config)# **hostname R1**  
 
