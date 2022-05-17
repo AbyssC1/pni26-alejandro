@@ -180,8 +180,13 @@ R1(config)# **exit**
 
 R1#  
 
-12. Configure el reloj en el router, por ejemplo:  R1# **clock set 17:00:00 18 Feb 2013**  
-13. Guarde la configuración en ejecución en el archivo de configuración de inicio.  R1# **copy running-config startup-config**  
+12. Configure el reloj en el router, por ejemplo: 
+
+R1# **clock set 17:00:00 18 Feb 2013** 
+
+13. Guarde la configuración en ejecución en el archivo de configuración de inicio. 
+
+R1# **copy running-config startup-config**  
 
 Destination  filename  [startup- config]? Building configuration... [OK] 
 
@@ -189,7 +194,7 @@ R1#
 
 ¿Qué resultado obtendría al volver a cargar el router antes de completar el comando **copy running- config startup-config**?**  
 
-**Se borraría toda la configuración que se realice, ya que el router no tendría una configuración de inicio.**
+``Se borraría toda la configuración que se realice, ya que el router no tendría una configuración de inicio.``
 
 **Paso 3.  Verificar la conectividad de la red**
 
@@ -211,11 +216,11 @@ Abra Tera Term e introduzca la dirección IP de la interfaz G0/1 del R1 en el ca
 
 ¿Pudo conectarse remotamente? 
 
-**Si**
+``Si``
 
 ¿Por qué el protocolo Telnet es considerado un riesgo de seguridad?
 
-**Porque las contraseñas no están cifradas, es decir pueden verse fácilmente mediante un programa.**
+``Porque las contraseñas no están cifradas, es decir pueden verse fácilmente mediante un programa.``
 
 **Paso 4.  configurar el router para el acceso por SSH.**
 
@@ -243,7 +248,9 @@ R1(config)# **exit**
 
 Abra Tera Term e introduzca la dirección IP de la interfaz G0/1 del R1 en el campo Host: de la ventana Tera Term: New Connection (Tera Term: nueva conexión). Asegúrese de que el botón de opción **SSH** esté seleccionado y después haga clic en **OK** para conectarse al router.  
 
-¿Pudo conectarse remotamente? \_\_\_\_
+¿Pudo conectarse remotamente? 
+
+``Sí``
 
 **Parte 3:  mostrar la información del router**
 
@@ -309,9 +316,9 @@ Use el comando **show ip interface brief** en el router para responder la siguie
 
 ``no shutdown``
 
-**Parte 4:  configurar IPv6 y verificar la conectividad**
+### Parte 4:  configurar IPv6 y verificar la conectividad
 
-**Paso 1.  asignar direcciones IPv6 a la G0/0 del R1 y habilitar el routing IPv6.**
+### Paso 1.  asignar direcciones IPv6 a la G0/0 del R1 y habilitar el routing IPv6. ###
 
 **Nota:** la asignación de una dirección IPv6, además de una dirección IPv4, en una interfaz se conoce como** “dual stacking”, debido a que las pilas de protocolos IPv4 e IPv6 están activas. Al habilitar el routing de unidifusión IPv6 en el R1, la PC-B recibe el prefijo de red IPv6 de G0/0 del R1 y puede configurar automáticamente la dirección IPv6 y el gateway predeterminado.
 
@@ -335,13 +342,13 @@ R1(config)# **exit**
 
 2. Use el comando **show ipv6 int brief** para verificar la configuración de IPv6 en el R1. Si no se asignó una dirección IPv6 a la G0/1, ¿por qué se indica como [up/up]?  
 
-**Es el estado de la capa 1 y la capa 2 de la interfaz y no depende de la capa 3.**
+``Es el estado de la capa 1 y la capa 2 de la interfaz y no depende de la capa 3.``
 
 3. Emita el comando **ipconfig** en la PC-B para examinar la configuración de IPv6. 
 
 ¿Cuál es la dirección IPv6 asignada a la PC-B?  
 
-**FE80::204:9AFF:FE5C:4C79**
+`` FE80::204:9AFF:FE5C:4C79 ``
 
 ¿Cuál es el gateway predeterminado asignado a la PC-B? 
 
@@ -379,7 +386,7 @@ En la PC-B,
 
 ``Fallaría ya que la interfaz g0/1 no se configure con ipv6 y la PC-A solo tiene una dirección ipv4.``
 
-**Tabla de resumen de interfaces del router** 
+## Tabla de resumen de interfaces del router
 
 |**Resumen de interfaces del router**|
 | - |
