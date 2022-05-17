@@ -406,6 +406,9 @@ En la PC-B,
 
 ``Fallaría ya que la interfaz g0/1 no se configure con ipv6 y la PC-A solo tiene una dirección ipv4.``
 
+![Archivo Packet Tracer](https://github.com/AbyssC1/pni26-alejandro/blob/main/ut7/Packet%20Tracer/Ejercicio%20packet%20tracer%20UT7-A1.pkt)
+
+
 ## Tabla de resumen de interfaces del router
 
 |**Resumen de interfaces del router**|
