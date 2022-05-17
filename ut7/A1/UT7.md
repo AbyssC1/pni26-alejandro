@@ -1,4 +1,4 @@
-﻿## Práctica de laboratorio: configuración de los parámetros básicos del router con la CLI del IOS!
+## Práctica de laboratorio: configuración de los parámetros básicos del router con la CLI del IOS!
 
 ### Topología 
 
@@ -92,7 +92,7 @@ Router# **config terminal**
 
 Router(config)#  
 
-:c:  Asigne un nombre de dispositivo al router.  
+🔤:  Asigne un nombre de dispositivo al router.  
 
 Router(config)# **hostname R1**  
 
