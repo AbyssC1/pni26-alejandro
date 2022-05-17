@@ -89,7 +89,9 @@ Router# **config terminal**
 
 Router(config)#  
 
-c .  Asigne un nombre de dispositivo al router.  Router(config)# **hostname R1**  
+c .  Asigne un nombre de dispositivo al router.  
+
+Router(config)# **hostname R1**  
 
 d.  Deshabilite  la  búsqueda  DNS  para  evitar  que  el  router  intente  traducir  los  comandos incorrectamente introducidos como si fueran nombres de host.  
 
@@ -99,9 +101,9 @@ e  .  Establezca el requisito de que todas las contraseñas tengan como mínimo 
 
 R1(config)# **security passwords min-length 10**  
 
-Además de configurar una longitud mínima, enumere otras formas de aportar seguridad a las contraseñas.  
+Además de configurar una longitud mínima, enumere otras formas de aportar seguridad a las contraseñas.
 
-**Aparte  de  que  las  podemos  encriptar  es  necesario  que  estas  contraseñas  contenga  letras mayúsculas, números o caracteres para así dificultar la contraseña.**
+`Aparte  de  que  las  podemos  encriptar  es  necesario  que  estas  contraseñas  contenga  letras mayúsculas, números o caracteres para así dificultar la contraseña.`
 
 f .  Asigne **cisco12345** como la contraseña cifrada del modo EXEC privilegiado.  
 
@@ -121,7 +123,7 @@ R1(config-line)#
 
 Para el comando **exec-timeout**, ¿qué representan el **5** y el **0**?  
 
-**Que la sesión expirará en 5 minutos y 0 segundos**
+``Que la sesión expirará en 5 minutos y 0 segundos``
 
 8. Asigne **ciscovtypass** como la contraseña de vty, establezca un tiempo de espera, habilite el inicio de sesión y agregue el comando **logging synchronous**.  
 
@@ -138,7 +140,6 @@ R1(config-line)# **exit** R1(config)#
 R1(config)# **service password-encryption**  
 
 10. Cree un aviso que advierta a todo aquel que acceda al dispositivo que el acceso no autorizado está prohibido.  
-
 
 ### Práctica de laboratorio: configuración de los parámetros básicos del router con la CLI del IOS!.
 
