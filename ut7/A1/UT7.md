@@ -204,9 +204,14 @@ R1#
 
 ``Si``
 
+![](https://github.com/AbyssC1/pni26-alejandro/blob/main/Imagenes/UT7-A1/3Haga%20ping%20a%20la%20PC-B%20en%20un%20s%C3%ADmbolo%20del%20sistema%20en%20la%20PC-A.png)
+
 Después de completar esta serie de comandos, ¿qué tipo de acceso remoto podría usarse para acceder al R1?
 
 ``Telnet``
+
+![](https://github.com/AbyssC1/pni26-alejandro/blob/main/Imagenes/UT7-A1/4%20entrar%20a%20telnel%20mediante%20consola.png)
+
 
 2. Acceda de forma remota al R1 desde la PC-A mediante el cliente de Telnet de Tera Term.  
 
@@ -214,7 +219,7 @@ Abra Tera Term e introduzca la dirección IP de la interfaz G0/1 del R1 en el ca
 
 ¿Pudo conectarse remotamente? 
 
-``Si``
+``Sí``
 
 ¿Por qué el protocolo Telnet es considerado un riesgo de seguridad?
 
@@ -242,6 +247,8 @@ R1(config)# **crypto key generate rsa modulus 1024**
 
 R1(config)# **exit**  
 
+![](https://github.com/AbyssC1/pni26-alejandro/blob/main/Imagenes/UT7-A1/5%20Configuracion%20ssh.png)
+
 2. Acceda remotamente al R1 desde la PC-A con el cliente SSH de Tera Term.  
 
 Abra Tera Term e introduzca la dirección IP de la interfaz G0/1 del R1 en el campo Host: de la ventana Tera Term: New Connection (Tera Term: nueva conexión). Asegúrese de que el botón de opción **SSH** esté seleccionado y después haga clic en **OK** para conectarse al router.  
@@ -258,6 +265,8 @@ En la parte 3, utilizará comandos **show** en una sesión SSH para recuperar in
 
 Mediante Tera Term en la PC-B, abra una sesión SSH para el R1 en la dirección IP 192.168.0.1 e inicie sesión como **admin** y use la contraseña **adminpass1**.
 
+![](https://github.com/AbyssC1/pni26-alejandro/blob/main/Imagenes/UT7-A1/5%205%20entrar%20al%20ssh.png)
+
 **Paso 2.  recuperar información importante del hardware y el software.**
 
 1. Use el comando **show version** para responder preguntas sobre el router. 
@@ -273,6 +282,12 @@ Mediante Tera Term en la PC-B, abra una sesión SSH para el R1 en la dirección 
 ¿Cuánta memoria flash tiene el router?  
 
 ``249856Kbytes``
+
+![](https://github.com/AbyssC1/pni26-alejandro/blob/main/Imagenes/UT7-A1/6%20toda%20configuracion1.png)
+
+![](https://github.com/AbyssC1/pni26-alejandro/blob/main/Imagenes/UT7-A1/7%20toda%20configuracion2.png)
+
+![](https://github.com/AbyssC1/pni26-alejandro/blob/main/Imagenes/UT7-A1/8%20toda%20configuracion3.png)
 
 2. Con frecuencia, los comandos **show** proporcionan varias pantallas de resultados. Filtrar el resultado permite que un usuario visualice determinadas secciones del resultado. Para habilitar el comando de filtrado, introduzca una barra vertical (**|**) después de un comando **show**, seguido de un parámetro de filtrado y una expresión de filtrado. Para que el resultado coincida con la instrucción de filtrado, puede usar la palabra clave **include** para ver todas las líneas del resultado que contienen la expresión de filtrado. Filtre el comando **show version** mediante **show version | include register** para responder la siguiente pregunta.  
 
@@ -306,6 +321,8 @@ Use el comando **show ip route** en el router para responder las siguientes preg
 
 ``2``
 
+![](https://github.com/AbyssC1/pni26-alejandro/blob/main/Imagenes/UT7-A1/9%20show%20ip%20route.png)
+
 **Paso 5.  mostrar una lista de resumen de las interfaces del router.**
 
 Use el comando **show ip interface brief** en el router para responder la siguiente pregunta.
@@ -313,6 +330,8 @@ Use el comando **show ip interface brief** en el router para responder la siguie
 ¿Qué comando cambió el estado de los puertos Gigabit Ethernet de administrativamente inactivo a activo?
 
 ``no shutdown``
+
+![](https://github.com/AbyssC1/pni26-alejandro/blob/main/Imagenes/UT7-A1/10show%20ip%20brief.png)
 
 ### Parte 4:  configurar IPv6 y verificar la conectividad
 
@@ -365,6 +384,9 @@ En la PC-B,
 ¿Tuvo éxito? 
 
 ``No``
+
+![](https://github.com/AbyssC1/pni26-alejandro/blob/main/Imagenes/UT7-A1/11%20configuracion%20ipv6.png)
+
 
 ### Reflexión
 
