@@ -489,6 +489,9 @@ Delete  flash:/vlan.dat?
 
 [confirm] Switch# 
 
+
+![](https://github.com/AbyssC1/pni26-alejandro/blob/main/Imagenes/UT7-A1/2s1%20show%20flash.png)
+
 6. Utilice el comando **erase startup-config** para eliminar el archivo de configuración de inicio de la NVRAM. Se le solicitará que confirme la eliminación del archivo de configuración. Presione Enter para confirmar que desea borrar este archivo. (Al pulsar cualquier otra tecla, se cancela la operación).  
 
 Switch# **erase startup-config**  
@@ -507,6 +510,8 @@ Proceed with reload? [confirm]
 
 **Nota:** es posible que reciba un mensaje para guardar la configuración en ejecución antes de volver a** cargar el switch. Escriba **no** y presione Enter.
 
+![](https://github.com/AbyssC1/pni26-alejandro/blob/main/Imagenes/UT7-A1/1s%20erease%20y%20reload.png)
+
 System configuration has been modified. Save? [yes/no]: 
 
 ``no``
@@ -516,5 +521,6 @@ System configuration has been modified. Save? [yes/no]:
 Would you like to enter the initial configuration dialog? [yes/no]: 
 
 ``no``
+
 
 
