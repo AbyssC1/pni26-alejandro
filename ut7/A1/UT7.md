@@ -345,7 +345,7 @@ R1# **configure terminal**
 
 R1(config)# **interface g0/0** 
 
-R1(config-if)#  **ipv6  address  2001:db8acad:a::1/64** 
+R1(config-if)#  **ipv6  address  2001:db8acada1/64** 
 
 R1(config-if)# **ipv6 address fe80::1 link-local** 
 
